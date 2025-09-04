@@ -8,8 +8,8 @@ Este laboratorio muestra cómo vectores aparentemente inofensivos, como un campo
 
 Solucion
 Aprovechandonos del la parte de comentarios podemos poner esto abusando del href javascript:alert(0)
-![[Pasted image 20250707161132.png]]
+![Pasted image 20250707161132.png](imagenes/Pasted image 20250707161132.png)
 Cuando nosotros le damos click al nombre nos redirige a otro hipervinculo
-![[Pasted image 20250707161221.png]]
+![Pasted image 20250707161221.png](imagenes/Pasted image 20250707161221.png)
 
 

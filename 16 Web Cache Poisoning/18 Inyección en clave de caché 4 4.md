@@ -6,8 +6,8 @@ Solucion
 entonce revisando el codigo solamente tenemos que spamear las 2 consultas
 tal que al final quedaria asi
 Login
-![[Pasted image 20250822204528.png]]
+![Pasted image 20250822204528.png](imagenes/Pasted image 20250822204528.png)
 localize
-![[Pasted image 20250822204552.png]]
+![Pasted image 20250822204552.png](imagenes/Pasted image 20250822204552.png)
 y en la pagina recargamos
-![[Pasted image 20250822204724.png]]
+![Pasted image 20250822204724.png](imagenes/Pasted image 20250822204724.png)

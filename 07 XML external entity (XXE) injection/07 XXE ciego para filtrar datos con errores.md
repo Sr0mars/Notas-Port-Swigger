@@ -12,5 +12,5 @@ Lo que se realizo como el anterior laboratorio fue poner esto en nuestro exploit
 %exfil;
 
 y lo que pusimos en el BS fue esto sin modificar nada dentro del xml
-![[Pasted image 20250730203420.png]]
+![Pasted image 20250730203420.png](imagenes/Pasted image 20250730203420.png)
 

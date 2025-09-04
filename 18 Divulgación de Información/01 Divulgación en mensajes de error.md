@@ -4,10 +4,10 @@ Esta excepción muestra una traza completa del error, lo que nos permite descubr
 
 Solucion
 La web:
-![[Pasted image 20250827221017.png]]
+![Pasted image 20250827221017.png](imagenes/Pasted image 20250827221017.png)
 le damos algun producto
-![[Pasted image 20250827221059.png]]
+![Pasted image 20250827221059.png](imagenes/Pasted image 20250827221059.png)
 y si en la url en ves de 2 ponemos test nos arroga un error que nos en lista la version
-![[Pasted image 20250827221140.png]]
+![Pasted image 20250827221140.png](imagenes/Pasted image 20250827221140.png)
 copiamos la version y la ponemos en el laboratorio
-![[Pasted image 20250827221226.png]]
+![Pasted image 20250827221226.png](imagenes/Pasted image 20250827221226.png)

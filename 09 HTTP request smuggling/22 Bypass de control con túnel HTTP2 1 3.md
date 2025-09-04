@@ -4,7 +4,7 @@ Esta prueba inicial demuestra que la infraestructura permite colapsar cabeceras 
 
 Solucion
 Vamos a interceptar pagina home pero en este caso no cambiaremos nada por que no es vulnerable a todas las pruebas que hemos hecho anteriormente asi que en esta ocacion vamos a probar poner una cabecera pero en el apartado de name para ver si es vulnerable
-![[Pasted image 20250811165856.png]]
+![Pasted image 20250811165856.png](imagenes/Pasted image 20250811165856.png)
 Le damos al add seguido de send y notamos un error
-![[Pasted image 20250811170021.png]]
+![Pasted image 20250811170021.png](imagenes/Pasted image 20250811170021.png)
 por lo cual nosotros podemos agregar una cabecera

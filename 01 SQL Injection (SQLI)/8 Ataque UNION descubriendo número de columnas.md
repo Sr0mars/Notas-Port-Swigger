@@ -14,4 +14,4 @@ Esto indica que el número de columnas del ‘**SELECT**‘ inyectado coincide c
 
 Solucion
 primero el order by y luego esto
-![[Pasted image 20250702165201.png]]
+![Pasted image 20250702165201.png](imagenes/Pasted image 20250702165201.png)

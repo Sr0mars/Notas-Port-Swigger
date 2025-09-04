@@ -15,10 +15,10 @@ Una vez obtenida la contraseña del administrador, podemos usarla para iniciar s
 **Quédate con esto**: Con técnicas de enumeración y ataques UNION bien estructurados, es posible reconstruir la estructura interna de una base de datos y acceder a información crítica como credenciales de usuarios.
 
 Solucion hacemos los mismo pasos que en el otro paso pero en este punto tenemos que tener cuidado con group ya que no funciona aveces por lo que solo podemos utilizar concat
-![[Pasted image 20250702161452.png]]
+![Pasted image 20250702161452.png](imagenes/Pasted image 20250702161452.png)
 tenemos que tener cuidado con las comillas
-![[Pasted image 20250702161741.png]]
+![Pasted image 20250702161741.png](imagenes/Pasted image 20250702161741.png)
 ya que tenemos identificada la tabla solo falta hacerle la consulta ' union select NULL,column_name from information_schema.columns where table_schema='public' and table_name='users_iyelfy'-- -
-![[Pasted image 20250702162102.png]]
-![[Pasted image 20250702162239.png]]
-![[Pasted image 20250702162323.png]]
+![Pasted image 20250702162102.png](imagenes/Pasted image 20250702162102.png)
+![Pasted image 20250702162239.png](imagenes/Pasted image 20250702162239.png)
+![Pasted image 20250702162323.png](imagenes/Pasted image 20250702162323.png)

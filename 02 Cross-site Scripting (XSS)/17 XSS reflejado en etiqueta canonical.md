@@ -9,12 +9,12 @@ Este laboratorio demuestra cómo atributos aparentemente inofensivos pueden ser 
 Solucion 
 Esto solo funciona en en chrome asi que no lo abrimos ahi ya estando por alli lo que vamos a hacer es checar el codigo fuente y vemos en la url se abrio unas comillas asi que lo ideal es poner un signo de interrogacion y despues de eso otra comiila ?'
 tal que no va mostrar esto
-![[Pasted image 20250714191931.png]]
+![Pasted image 20250714191931.png](imagenes/Pasted image 20250714191931.png)
 entonces ahora podemos injectar palabras
-![[Pasted image 20250714192023.png]]
+![Pasted image 20250714192023.png](imagenes/Pasted image 20250714192023.png)
 y con esto se puede poner un atajo que esto hace que hagamos que pase "algo"  ?'accesskey='x'onclick='alert(0)'
 esto lo que hace que al momento de darle Ctrl+x o alt+ctrl+x o alt+x ya dependera del sistema operativo nos muestre el mensaje
-![[Pasted image 20250714192835.png]]
+![Pasted image 20250714192835.png](imagenes/Pasted image 20250714192835.png)
 
 
 

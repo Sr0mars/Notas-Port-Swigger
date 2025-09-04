@@ -8,5 +8,5 @@ Esta técnica destaca cómo incluso con filtros activos como DOMPurify, ciertos 
 
 Solucion
 en esta ocacion en la seccion de comentarios si nos fijamos en el codigo fuente nos encontramos con 2 scripts
-![[Pasted image 20250727210540.png]]
-![[Pasted image 20250727210405.png]]
+![Pasted image 20250727210540.png](imagenes/Pasted image 20250727210540.png)
+![Pasted image 20250727210405.png](imagenes/Pasted image 20250727210405.png)

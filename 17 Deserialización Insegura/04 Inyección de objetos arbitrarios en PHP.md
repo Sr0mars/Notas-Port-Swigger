@@ -6,13 +6,13 @@ Este ejercicio ilustra perfectamente cómo un atacante puede ejecutar acciones p
 
 Solucion
 interceptamos despues de logearnos
-![[Pasted image 20250826212118.png]]
+![Pasted image 20250826212118.png](imagenes/Pasted image 20250826212118.png)
 y en este caso el codigo fuente del login nos da una ruta donde se encuentra un archivo php
-![[Pasted image 20250826212324.png]]
+![Pasted image 20250826212324.png](imagenes/Pasted image 20250826212324.png)
 sin embargo al momento de poner esa direccion no encontramos nada
-![[Pasted image 20250826212703.png]]
+![Pasted image 20250826212703.png](imagenes/Pasted image 20250826212703.png)
 sin embargo hay veces que se alamacena copias bin con tan solo poner (~)
-![[Pasted image 20250826212835.png]]
+![Pasted image 20250826212835.png](imagenes/Pasted image 20250826212835.png)
 
 que hace este codigo?
 Gestiona un archivo de plantilla con un sistema de bloqueo para evitar que se sobrescriba mientras está en uso.
@@ -40,7 +40,7 @@ Este tipo de cadena se usa cuando quieres guardar el estado de un objeto para re
 En este caso, el objeto  tiene su propiedad  configurada con la ruta .
 
 por lo cual ahora vamos a modificar la coockie pegando este nuevo objeto que acabamos de hacer
-![[Pasted image 20250826213826.png]]
+![Pasted image 20250826213826.png](imagenes/Pasted image 20250826213826.png)
 aplicamos cambios y copiamos la cookie y la pegamos en la pagina
 y recargamos
-![[Pasted image 20250826214052.png]]
+![Pasted image 20250826214052.png](imagenes/Pasted image 20250826214052.png)

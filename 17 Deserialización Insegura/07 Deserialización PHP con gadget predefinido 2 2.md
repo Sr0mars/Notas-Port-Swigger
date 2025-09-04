@@ -6,7 +6,7 @@ Finalmente, esta cookie maliciosa se inyecta en la sesión y, al ser deserializa
 
 Solucion
 tal que quedaria asi
-![[Pasted image 20250826230500.png]]
+![Pasted image 20250826230500.png](imagenes/Pasted image 20250826230500.png)
 entonce ahora nos creamos un archivo php
 tal que quedaria asi
 esto se llamaria generate.php
@@ -21,8 +21,8 @@ esto se llamaria generate.php
     echo $cookie;
 ?>)
 entonces ahora si lo vemos copiamos y pegamos
-![[Pasted image 20250826231902.png]]
+![Pasted image 20250826231902.png](imagenes/Pasted image 20250826231902.png)
 el codigo que nos ah arrojado en la coockie de session en la pagina
-![[Pasted image 20250826231955.png]]
+![Pasted image 20250826231955.png](imagenes/Pasted image 20250826231955.png)
 
 

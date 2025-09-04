@@ -14,5 +14,5 @@ Un LLM puede interpretar este tipo de texto para:
 • 	Filtrar o validar: asegurarse de que el usuario realmente quiere eliminar su cuenta y que tiene permisos para hacerlo.
 
 asi que ponemos esta info
-![[Pasted image 20250902122736.png]]
-![[Pasted image 20250902123117.png]]
+![Pasted image 20250902122736.png](imagenes/Pasted image 20250902122736.png)
+![Pasted image 20250902123117.png](imagenes/Pasted image 20250902123117.png)

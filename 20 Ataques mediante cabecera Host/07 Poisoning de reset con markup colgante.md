@@ -13,28 +13,28 @@ Esta clase muestra cómo errores sutiles en el manejo del HTML en correos electr
 Solucion
 
 nos comparten un exploit server en la web
-![[Pasted image 20250829221022.png]]
+![Pasted image 20250829221022.png](imagenes/Pasted image 20250829221022.png)
 vamos acceder al login y ya estando en el login vamos a dar forget password
-![[Pasted image 20250829221342.png]]
+![Pasted image 20250829221342.png](imagenes/Pasted image 20250829221342.png)
 aqui vamos a introducir el usuario wiener
-![[Pasted image 20250829221410.png]]
+![Pasted image 20250829221410.png](imagenes/Pasted image 20250829221410.png)
 y vemos en el email nos llega una estructura un poco diferente
-![[Pasted image 20250829221547.png]]
+![Pasted image 20250829221547.png](imagenes/Pasted image 20250829221547.png)
 y vamos a historico y la intercepcion por post del correo la mandamos al repeater
-![[Pasted image 20250829222000.png]]
+![Pasted image 20250829222000.png](imagenes/Pasted image 20250829222000.png)
 tal que si le damos send se mandara una nueva contraseña pero vamos a darle a raw wiev
-![[Pasted image 20250829222100.png]]
+![Pasted image 20250829222100.png](imagenes/Pasted image 20250829222100.png)
 vemos que en el formato se tramita una etica href
-![[Pasted image 20250829222137.png]]
+![Pasted image 20250829222137.png](imagenes/Pasted image 20250829222137.png)
 que podemos hacer en este punto pues en el repeater ademas de añadir cabeceras nosotro podemos señalar puertos esto se hace en el host
-![[Pasted image 20250829222446.png]]
+![Pasted image 20250829222446.png](imagenes/Pasted image 20250829222446.png)
 y lo vemos reflejado aqui
-![[Pasted image 20250829222526.png]]
+![Pasted image 20250829222526.png](imagenes/Pasted image 20250829222526.png)
 pero que pasa si nosotros ponemos unas etiquetas que vallan dirigidas al exploit server y tratamos de obtener la contraseña de carlos
-![[Pasted image 20250829223019.png]]
+![Pasted image 20250829223019.png](imagenes/Pasted image 20250829223019.png)
 y esto lo podemos ver en los acces logs
-![[Pasted image 20250829223147.png]]
+![Pasted image 20250829223147.png](imagenes/Pasted image 20250829223147.png)
 probamos la contraseña
-![[Pasted image 20250829223327.png]]
+![Pasted image 20250829223327.png](imagenes/Pasted image 20250829223327.png)
 y hemos tenido exito
-![[Pasted image 20250829223353.png]]
+![Pasted image 20250829223353.png](imagenes/Pasted image 20250829223353.png)

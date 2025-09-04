@@ -3,7 +3,7 @@ En esta segunda parte del laboratorio aprovechamos la contaminación del prototi
 Finalmente, usamos una URL ‘**data:’** como payload para ejecutar ‘**alert(1)**‘, demostrando la ejecución de código arbitrario. Esta clase muestra cómo una mala implementación de protección puede ser fácilmente eludida cuando se combinan técnicas como prototype pollution y DOM-based XSS.
 
 Solucion
-y bueno buscando en la web encontramos 2 archivos uno de ellos contiene informacion![[Pasted image 20250831191500.png]]
+y bueno buscando en la web encontramos 2 archivos uno de ellos contiene informacion![Pasted image 20250831191500.png](imagenes/Pasted image 20250831191500.png)
 que contiene este codigo
  ¿Qué hace ?
 Esta función intenta enviar datos a un servidor usando .
@@ -18,13 +18,13 @@ Esta función intenta enviar datos a un servidor usando .
 Este código sirve para registrar búsquedas realizadas en la URL de una página web. Si el usuario busca algo (por ejemplo, ?search=libros), esa información se envía al servidor para ser almacenada o analizada. También tiene la capacidad de cargar un script externo si se proporciona una URL de transporte.
 
 por lo cual nosotros nos podemos aprovechar de value para poder verificar si se hace una consulta a bar de esta forma
-![[Pasted image 20250831192556.png]]
+![Pasted image 20250831192556.png](imagenes/Pasted image 20250831192556.png)
 y esto lo podemos ver en el inspector
-![[Pasted image 20250831192656.png]]
+![Pasted image 20250831192656.png](imagenes/Pasted image 20250831192656.png)
 entonces para injectar con un XSS podemos jugar con data un ejemplo seria una imagen
-![[Pasted image 20250831192746.png]]
+![Pasted image 20250831192746.png](imagenes/Pasted image 20250831192746.png)
 entonces en la url podemos poner esto
 data:,alert(1)
-tal que me lo va interpretar ![[Pasted image 20250831193016.png]]
+tal que me lo va interpretar ![Pasted image 20250831193016.png](imagenes/Pasted image 20250831193016.png)
 y con esto hemos resuelto el lab
-![[Pasted image 20250831193105.png]]
+![Pasted image 20250831193105.png](imagenes/Pasted image 20250831193105.png)

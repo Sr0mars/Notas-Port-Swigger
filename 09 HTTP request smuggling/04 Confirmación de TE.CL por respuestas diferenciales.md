@@ -5,7 +5,7 @@ A través de dos envíos consecutivos desde Burp Repeater, provocamos una situac
 Solucion
 entonces con BS vamos a interceptar la web y vamos a cambiar el metodo get a post y lo ponemos en http:1.1
 ponemos el payload
-![[Pasted image 20250807210152.png]]
+![Pasted image 20250807210152.png](imagenes/Pasted image 20250807210152.png)
 POST / HTTP/1.1
 
 Host: 0a2700a704a32a8f82dc6a1d00bb004a.web-security-academy.net

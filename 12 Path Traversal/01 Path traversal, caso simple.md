@@ -4,10 +4,10 @@ De esta forma, conseguimos acceder a archivos sensibles del sistema, como ‘**/
 
 Solucion
 La web:
-![[Pasted image 20250814215729.png]]
+![Pasted image 20250814215729.png](imagenes/Pasted image 20250814215729.png)
 vamos a copiar el link de la imagen y eso lo vamos a interceptar
-![[Pasted image 20250814215809.png]]
+![Pasted image 20250814215809.png](imagenes/Pasted image 20250814215809.png)
 una ves interceptado vamos a regresar unos directorios antes
 ../../../etc/passwd
-![[Pasted image 20250814220250.png]]
+![Pasted image 20250814220250.png](imagenes/Pasted image 20250814220250.png)
 y vemos la informacion

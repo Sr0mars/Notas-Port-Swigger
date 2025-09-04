@@ -4,19 +4,19 @@ Al explotar esta lógica insegura, logramos acceder al panel como admin y resolv
 
 Solucion
 interceptamos el login pero dropeamos
-![[Pasted image 20250902003130.png]]
+![Pasted image 20250902003130.png](imagenes/Pasted image 20250902003130.png)
 vemos que cuando le damos send nos manda un estado 302
-![[Pasted image 20250902003221.png]]
+![Pasted image 20250902003221.png](imagenes/Pasted image 20250902003221.png)
 si la contraseña es incorrecta y le damos send el estado es 200
-![[Pasted image 20250902003330.png]]y como es mongo db podemos modificar el request dado que es posible que por medio de regex nos interpreta la consulta
-![[Pasted image 20250902003636.png]]
-![[Pasted image 20250902004231.png]]
-![[Pasted image 20250902004249.png]]
-![[Pasted image 20250902004310.png]]
+![Pasted image 20250902003330.png](imagenes/Pasted image 20250902003330.png)y como es mongo db podemos modificar el request dado que es posible que por medio de regex nos interpreta la consulta
+![Pasted image 20250902003636.png](imagenes/Pasted image 20250902003636.png)
+![Pasted image 20250902004231.png](imagenes/Pasted image 20250902004231.png)
+![Pasted image 20250902004249.png](imagenes/Pasted image 20250902004249.png)
+![Pasted image 20250902004310.png](imagenes/Pasted image 20250902004310.png)
 ¿Por qué es importante?
 Este tipo de consulta es común en pruebas de seguridad, especialmente en ataques de NoSQL Injection, donde se intenta manipular la lógica de autenticación enviando estructuras como esta en campos de formularios.
 Por ejemplo, si una aplicación no valida correctamente los datos enviados, un atacante podría enviar esta estructura como parte del login para intentar acceder sin conocer la contraseña real.
 
 ya solo
 le damos click derecho request in browser in original session nos copiamos lo que nos da y lo pegamos en una nueva ventana
-![[Pasted image 20250902004534.png]]
+![Pasted image 20250902004534.png](imagenes/Pasted image 20250902004534.png)

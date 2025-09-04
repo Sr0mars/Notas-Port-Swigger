@@ -4,18 +4,18 @@ Verificamos primero que el comando se ejecuta usando ‘**whoami’**, y finalme
 
 Solucion
 bueno entramos a la web y vemos que nuevamente tenemos acceso a un live chat
-![[Pasted image 20250902113914.png]]
+![Pasted image 20250902113914.png](imagenes/Pasted image 20250902113914.png)
 vamos a pedirle mas informacion
-![[Pasted image 20250902114359.png]]
+![Pasted image 20250902114359.png](imagenes/Pasted image 20250902114359.png)
 y bueno en subscribe_to_newsletter podemos pasarle nuestro emailclient
-![[Pasted image 20250902114833.png]]
+![Pasted image 20250902114833.png](imagenes/Pasted image 20250902114833.png)
 vemos que nos ah registrado
-![[Pasted image 20250902114853.png]]
+![Pasted image 20250902114853.png](imagenes/Pasted image 20250902114853.png)
 entonces algo que podemos hacer es injectar un comando a nivel de linux para ver si me da respuesta en este caso seria asi
-![[Pasted image 20250902115224.png]]
+![Pasted image 20250902115224.png](imagenes/Pasted image 20250902115224.png)
 y si volvemos a recargar el correo
-![[Pasted image 20250902115252.png]]
+![Pasted image 20250902115252.png](imagenes/Pasted image 20250902115252.png)
 vemos que somos carlos asi que lo que podemos hacer es eliminar el archivo
-![[Pasted image 20250902115358.png]]
+![Pasted image 20250902115358.png](imagenes/Pasted image 20250902115358.png)
 por lo cual si vamos arriba vemos que el lab se ah resuelto
-![[Pasted image 20250902115438.png]]
+![Pasted image 20250902115438.png](imagenes/Pasted image 20250902115438.png)

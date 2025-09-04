@@ -6,14 +6,14 @@ Esta clase es útil para practicar técnicas no destructivas de detección en en
 
 Solucion
 de igual manera nos logeamos e intercetamos esto
-![[Pasted image 20250901002130.png]]
+![Pasted image 20250901002130.png](imagenes/Pasted image 20250901002130.png)
 obtenemos esto
-![[Pasted image 20250901002209.png]]
+![Pasted image 20250901002209.png](imagenes/Pasted image 20250901002209.png)
 y la idea en este laboratorio es contaminar el objeto global vamos a primero hacer creando un error
-![[Pasted image 20250901002818.png]]
+![Pasted image 20250901002818.png](imagenes/Pasted image 20250901002818.png)
 por lo cual vamos a cambiar la propiedad status ,"__proto__":{"status":405}
-![[Pasted image 20250901002953.png]]
+![Pasted image 20250901002953.png](imagenes/Pasted image 20250901002953.png)
 no vemos nada pero si de igual forma forzamos un error
-![[Pasted image 20250901003026.png]]
+![Pasted image 20250901003026.png](imagenes/Pasted image 20250901003026.png)
 y vemos que se hereda el error que nosotros pusimos
-![[Pasted image 20250901003102.png]]
+![Pasted image 20250901003102.png](imagenes/Pasted image 20250901003102.png)

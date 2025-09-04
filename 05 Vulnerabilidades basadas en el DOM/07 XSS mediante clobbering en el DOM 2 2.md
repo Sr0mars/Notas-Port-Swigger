@@ -8,7 +8,7 @@ Este ejemplo sirve como advertencia sobre el uso de patrones de inicialización 
 
 Solucion
 Viendo el codigo fuente checamos esto
-![[Pasted image 20250727212002.png]]
+![Pasted image 20250727212002.png](imagenes/Pasted image 20250727212002.png)
 Este código HTML está diseñado como un **payload de DOM Clobbering para provocar un XSS indirecto**. Se basa en que un script vulnerable utilice `document.avatar.href` (esperando que `avatar` sea un objeto `img` o `a` legítimo), pero el atacante inyecta su propio `<a name="avatar">` con un `href` malicioso que termina inyectando un evento `onerror` en un contexto HTML.
 y bueno para esto aplicamos este payload
 (<a id=defaultAvatar>
@@ -25,5 +25,5 @@ Este payload explota una combinación de:
 👉 Por sí solo no hace daño, pero en una aplicación vulnerable puede permitir **ejecución arbitraria de JavaScript (XSS)**.
 
 
-![[Pasted image 20250727213522.png]]
+![Pasted image 20250727213522.png](imagenes/Pasted image 20250727213522.png)
 

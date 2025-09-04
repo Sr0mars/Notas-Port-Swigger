@@ -4,10 +4,10 @@ Debido a cómo ciertos lenguajes o configuraciones interpretan el null byte, el 
 
 Solucion
 nos logeamos tratamos de subir nuestra shell y nos sale esto
-![[Pasted image 20250830205001.png]]
+![Pasted image 20250830205001.png](imagenes/Pasted image 20250830205001.png)
 ahora nos vamos al historico
-![[Pasted image 20250830205053.png]]
+![Pasted image 20250830205053.png](imagenes/Pasted image 20250830205053.png)
 entonces lo que podemos hacer es poner un %00.php que basicamente se supone que ignora la extencion de tal manera que nos permite subir el archivo (esto se debe la version de php que es vieja)
-![[Pasted image 20250830205551.png]]
+![Pasted image 20250830205551.png](imagenes/Pasted image 20250830205551.png)
 y ya solo copiamos y pegamos
-![[Pasted image 20250830205751.png]]
+![Pasted image 20250830205751.png](imagenes/Pasted image 20250830205751.png)

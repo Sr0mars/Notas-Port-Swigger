@@ -8,22 +8,22 @@ Este paso es fundamental para poder realizar un ataque por fuerza bruta de forma
 
 Solucion
 en esta ocacion si tenemos credenciales
-![[Pasted image 20250820230521.png]]
+![Pasted image 20250820230521.png](imagenes/Pasted image 20250820230521.png)
 el problema se presenta cuando nos pide un codigo de 4 digitos
-![[Pasted image 20250820230556.png]]
+![Pasted image 20250820230556.png](imagenes/Pasted image 20250820230556.png)
 el cual nosotros no tenemos
 y esto lo vamos interceptando y viendo en http history
-![[Pasted image 20250820230808.png]]
+![Pasted image 20250820230808.png](imagenes/Pasted image 20250820230808.png)
 el cual vamos a mandar al repeater
 pero si lo volvemos a dar 2 veces podemos ver que en efecto ya no se emplea lo cual tendremos que repetir el mismo proceso de nuevo para seguir haciendo pruebas
-![[Pasted image 20250820230932.png]]entonces la idea seria automatizar las respestas que en este caso seria la del primer login, ya logeados, y el codigo de authenticacion 
+![Pasted image 20250820230932.png](imagenes/Pasted image 20250820230932.png)entonces la idea seria automatizar las respestas que en este caso seria la del primer login, ya logeados, y el codigo de authenticacion 
 esto lo requerimos para poder tomar el csrf que contiene
-![[Pasted image 20250820231419.png]]asi que esto lo vamos automatizar con BS le damos en settings le damos add le ponemos un nombre
-![[Pasted image 20250820231624.png]]
+![Pasted image 20250820231419.png](imagenes/Pasted image 20250820231419.png)asi que esto lo vamos automatizar con BS le damos en settings le damos add le ponemos un nombre
+![Pasted image 20250820231624.png](imagenes/Pasted image 20250820231624.png)
 en la parte de Scope le ponemos todas las urls
-![[Pasted image 20250820231732.png]]
+![Pasted image 20250820231732.png](imagenes/Pasted image 20250820231732.png)
 regresa,ps a details le damos add le de damos RUN a Macro una vez en la macro le damos add y se nos abren las solicitudes
-![[Pasted image 20250820231855.png]]
+![Pasted image 20250820231855.png](imagenes/Pasted image 20250820231855.png)
 y seleccionamos las que mencionamos anteriormente
-![[Pasted image 20250820232004.png]]
+![Pasted image 20250820232004.png](imagenes/Pasted image 20250820232004.png)
 

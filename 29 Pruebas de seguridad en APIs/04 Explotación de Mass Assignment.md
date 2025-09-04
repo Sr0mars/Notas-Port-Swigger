@@ -4,17 +4,17 @@ Aprovechando la falta de validación, añadimos este parámetro manualmente al c
 
 Solucion
 nos logeamos
-![[Pasted image 20250902030727.png]]
+![Pasted image 20250902030727.png](imagenes/Pasted image 20250902030727.png)
 y intentamos comprar la chaqueta
-![[Pasted image 20250902030806.png]]
+![Pasted image 20250902030806.png](imagenes/Pasted image 20250902030806.png)
 y bueno si miramos en el historico podemos ver una peticion get y post hacia api esto lo mandamos al repeater
-![[Pasted image 20250902030857.png]]
-![[Pasted image 20250902031018.png]]
-![[Pasted image 20250902031052.png]]
+![Pasted image 20250902030857.png](imagenes/Pasted image 20250902030857.png)
+![Pasted image 20250902031018.png](imagenes/Pasted image 20250902031018.png)
+![Pasted image 20250902031052.png](imagenes/Pasted image 20250902031052.png)
 vemos que la tab 1 tiene el mismo formato que la tab2
 vamos a copiar la cabecera que esta en la tab1 y la ponemos en la tab2
-![[Pasted image 20250902031412.png]]
+![Pasted image 20250902031412.png](imagenes/Pasted image 20250902031412.png)
 tal que no nos da ningun error vemos que se esta presenta un porcentaje de descuento vamos a meterle el 100
-![[Pasted image 20250902031530.png]]
+![Pasted image 20250902031530.png](imagenes/Pasted image 20250902031530.png)
 y si recargamos la pagina veremos que se a resuelto el lab
-![[Pasted image 20250902031606.png]]
+![Pasted image 20250902031606.png](imagenes/Pasted image 20250902031606.png)

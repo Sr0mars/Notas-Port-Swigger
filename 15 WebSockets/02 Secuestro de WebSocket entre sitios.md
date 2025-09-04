@@ -31,12 +31,12 @@ Este script es un **payload de exfiltración de datos**:
 💡 **En resumen:** este script roba información que fluye por la conexión WebSocket y la envía a otro servidor externo. Es el tipo de cosa que se usa en pruebas de seguridad (o ataques) para **capturar información confidencial en tiempo real**.
 
 lo copiamos y pegamos en nuestro exploit
-![[Pasted image 20250821001949.png]]
+![Pasted image 20250821001949.png](imagenes/Pasted image 20250821001949.png)
 vemos los logs
-![[Pasted image 20250821002012.png]]
+![Pasted image 20250821002012.png](imagenes/Pasted image 20250821002012.png)
 tenemos info lo vamos a copiar y pegar en un archivo
-![[Pasted image 20250821002231.png]]
+![Pasted image 20250821002231.png](imagenes/Pasted image 20250821002231.png)
 y esto es lo que miramos
-![[Pasted image 20250821002321.png]]
+![Pasted image 20250821002321.png](imagenes/Pasted image 20250821002321.png)
 ya solo nos logeamos
-![[Pasted image 20250821002414.png]]
+![Pasted image 20250821002414.png](imagenes/Pasted image 20250821002414.png)

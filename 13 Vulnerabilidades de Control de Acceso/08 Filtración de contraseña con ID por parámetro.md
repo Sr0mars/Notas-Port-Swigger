@@ -4,13 +4,13 @@ En la respuesta del servidor, se filtra su contraseña dentro de un campo oculto
 
 Solucion
 cuando nos logeamos obtenemos este campo
-![[Pasted image 20250815184254.png]]
+![Pasted image 20250815184254.png](imagenes/Pasted image 20250815184254.png)
 le picamos inspeccionar y si nosotros apuntamos hacia el campo password
-![[Pasted image 20250815184359.png]]
+![Pasted image 20250815184359.png](imagenes/Pasted image 20250815184359.png)
 y tambiamos password a text nos muestra la contraseña
-![[Pasted image 20250815184440.png]]
+![Pasted image 20250815184440.png](imagenes/Pasted image 20250815184440.png)
 y si nosotros en este caso nos dirigimos a administrator
-![[Pasted image 20250815184625.png]]
+![Pasted image 20250815184625.png](imagenes/Pasted image 20250815184625.png)
 podemos ver la contraseña
 entonces nos logeamos de nuevo y nos vamos al admin panel para eliminar al usuario carlos
-![[Pasted image 20250815184750.png]]![[Pasted image 20250815184818.png]]
+![Pasted image 20250815184750.png](imagenes/Pasted image 20250815184750.png)![Pasted image 20250815184818.png](imagenes/Pasted image 20250815184818.png)

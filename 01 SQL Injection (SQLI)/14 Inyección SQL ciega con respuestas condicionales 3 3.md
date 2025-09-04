@@ -4,8 +4,8 @@ Utilizamos Burp Intruder para automatizar el proceso, iterando sobre posiciones 
 
 Una vez extraída la contraseña, accedemos con ella como administrador para completar el laboratorio.
 
-![[Pasted image 20250702183649.png]]
-![[Pasted image 20250702184020.png]]
+![Pasted image 20250702183649.png](imagenes/Pasted image 20250702183649.png)
+![Pasted image 20250702184020.png](imagenes/Pasted image 20250702184020.png)
 codigo llamado sqli.py
 #!/usr/bin/env python3
 from pwn import *
@@ -57,5 +57,5 @@ if __name__ == '__main__':
     makeSQLI()
 
 Resultado
-![[Pasted image 20250702190437.png]]
-![[Pasted image 20250702190536.png]]
+![Pasted image 20250702190437.png](imagenes/Pasted image 20250702190437.png)
+![Pasted image 20250702190536.png](imagenes/Pasted image 20250702190536.png)

@@ -8,7 +8,7 @@ Esta fase requiere paciencia y precisión, ya que dependemos del momento en que 
 
 Solucion
 Entonces aqui lo que queremos es forzar un estado de error 302 (se necesita poner varios sends)
-![[Pasted image 20250809210616.png]]oQWrcEUugh4yROOhI52xKkdpQukn3SCJ
+![Pasted image 20250809210616.png](imagenes/Pasted image 20250809210616.png)oQWrcEUugh4yROOhI52xKkdpQukn3SCJ
 y nos copiamos la coockie del admin
-![[Pasted image 20250809211248.png]]
+![Pasted image 20250809211248.png](imagenes/Pasted image 20250809211248.png)
 la pegamos y eliminamos el usuario carlos en el admin panel

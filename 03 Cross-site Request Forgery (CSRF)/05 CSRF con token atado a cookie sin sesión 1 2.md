@@ -13,10 +13,10 @@ Este tipo de fallo es un buen ejemplo de validaciones CSRF mal implementadas, do
 
 Solucion
 Pues lo primero seria logearnos con el correo que nos dan lo siguiente seria hacer cambio de correo pero interceptarlo con BS y mandarlo al repeater, vemos primero que existe una keycsrf
-![[Pasted image 20250723195200.png]]
+![Pasted image 20250723195200.png](imagenes/Pasted image 20250723195200.png)
 ahora tocaria interceptar un cambio a la otro correo aqui lo que podemos ver es que el hay una similitud en los csrf
-![[Pasted image 20250723200035.png]]
+![Pasted image 20250723200035.png](imagenes/Pasted image 20250723200035.png)
 asi que tocaria buscar donde encontramos eso o por donde podriamos mandar los csrf el uno del otro para ello vamos a interceptar en wiener la barra de busquedad
 asi que lo que hacemos aqui es es darle a send antes lo enviamos por el repeater y bueno que obtenemos
-![[Pasted image 20250723200431.png]]
+![Pasted image 20250723200431.png](imagenes/Pasted image 20250723200431.png)
 vemos aqui que se esta mandando o setiando una cookie lo cual deriva en 

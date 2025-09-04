@@ -7,9 +7,9 @@ Utilizamos una expresión construida con métodos internos del framework para fo
 Este laboratorio destaca cómo los entornos con frameworks modernos pueden presentar vectores de ataque muy diferentes a los clásicos, y cómo conocer las particularidades de cada tecnología es clave para su explotación y protección.
 
 Solucion
-Gracias al wapalizer podemos ver que tecnologias utiliza ![[Pasted image 20250708174644.png]]
+Gracias al wapalizer podemos ver que tecnologias utiliza ![Pasted image 20250708174644.png](imagenes/Pasted image 20250708174644.png)
 Por lo cual no podemos utilizar las etiquetas vulnerables por lo cual se recomienda este repo de Gity HUB
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XSS%20Injection/5%20-%20XSS%20in%20Angular.md
-![[Pasted image 20250708175334.png]]
-![[Pasted image 20250708175542.png]]
-![[Pasted image 20250708175641.png]]
+![Pasted image 20250708175334.png](imagenes/Pasted image 20250708175334.png)
+![Pasted image 20250708175542.png](imagenes/Pasted image 20250708175542.png)
+![Pasted image 20250708175641.png](imagenes/Pasted image 20250708175641.png)

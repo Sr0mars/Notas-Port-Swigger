@@ -8,16 +8,16 @@ Este ejercicio demuestra cómo una mala validación en el establecimiento de con
 
 Solucion
 si nosotros intentamos hacer un ataque nos pondra en una lista negra
-![[Pasted image 20250821003111.png]]
-![[Pasted image 20250821003129.png]]
-![[Pasted image 20250821003159.png]]
+![Pasted image 20250821003111.png](imagenes/Pasted image 20250821003111.png)
+![Pasted image 20250821003129.png](imagenes/Pasted image 20250821003129.png)
+![Pasted image 20250821003159.png](imagenes/Pasted image 20250821003159.png)
 esto lo vamos a interceptar
 y vamos a crear una nueva regla en settings
-![[Pasted image 20250821003808.png]]
+![Pasted image 20250821003808.png](imagenes/Pasted image 20250821003808.png)
 tal que quede asi
-![[Pasted image 20250821003915.png]]
+![Pasted image 20250821003915.png](imagenes/Pasted image 20250821003915.png)
 e interceptamos y lo dejamos fluir tal que ya se me queda la cabecera
-![[Pasted image 20250821004035.png]]
+![Pasted image 20250821004035.png](imagenes/Pasted image 20250821004035.png)
 ahora desde el webscokets mandamos una peticion al repeter y ejecutamos el codigo
-![[Pasted image 20250821004344.png]]
-![[Pasted image 20250821004359.png]]
+![Pasted image 20250821004344.png](imagenes/Pasted image 20250821004344.png)
+![Pasted image 20250821004359.png](imagenes/Pasted image 20250821004359.png)

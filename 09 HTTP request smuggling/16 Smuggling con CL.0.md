@@ -5,12 +5,12 @@ Tras identificar un endpoint vulnerable (por ejemplo, /resources/images/blog.svg
 Solucion
 primero vamos a interceptar cualquier post
 y configuramos el primer payload attack
-![[Pasted image 20250809230302.png]]
+![Pasted image 20250809230302.png](imagenes/Pasted image 20250809230302.png)
 (importante poner en automatico la opcion de conten length)
 Lo siguiente seria interceptar el home pero sin modificar nada
-![[Pasted image 20250809230421.png]]
+![Pasted image 20250809230421.png](imagenes/Pasted image 20250809230421.png)
 entonces vamos a ser un grupo con los 2
-![[Pasted image 20250809230505.png]]
-![[Pasted image 20250809230738.png]]
+![Pasted image 20250809230505.png](imagenes/Pasted image 20250809230505.png)
+![Pasted image 20250809230738.png](imagenes/Pasted image 20250809230738.png)
 y ya que tenemos el grupo pasamos hace un ataque multiple
-![[Pasted image 20250809230836.png]]
+![Pasted image 20250809230836.png](imagenes/Pasted image 20250809230836.png)

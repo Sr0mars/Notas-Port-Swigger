@@ -4,13 +4,13 @@ Este ataque requiere sincronizarse con las peticiones del usuario víctima y pue
 
 Solucion
 Entonces vamos a interceptar la el home a la raiz y hacemos las configuracion del method y el http 1.1
-![[Pasted image 20250810200456.png]]
+![Pasted image 20250810200456.png](imagenes/Pasted image 20250810200456.png)
 bueno buscando en la pagina podemos ver que nos el post nos lleva hacia otra direccion que es next (se esta aplicando un redirect)
-![[Pasted image 20250810194228.png]]
+![Pasted image 20250810194228.png](imagenes/Pasted image 20250810194228.png)
 Entonces ahora nosotros podemos cachear algun recurso como este
-![[Pasted image 20250810200618.png]]
+![Pasted image 20250810200618.png](imagenes/Pasted image 20250810200618.png)
 y esto nos podemos aprovechar de para pornerlo en el payload
-![[Pasted image 20250810200434.png]]
+![Pasted image 20250810200434.png](imagenes/Pasted image 20250810200434.png)
 ### Qué está pasando aquí
 
 - **Transfer-Encoding: chunked** y **Content-Length** en la misma petición generan ambigüedad.

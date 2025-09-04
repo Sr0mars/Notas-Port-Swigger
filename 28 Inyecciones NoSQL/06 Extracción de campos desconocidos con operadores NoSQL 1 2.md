@@ -4,5 +4,5 @@ Este enfoque revela cómo se puede mapear el esquema interno de la base de datos
 
 Solucion
 no nos dan credenciales asi que vamos a interceptar el login y lo mandamos al repeater
-![[Pasted image 20250902013444.png]]
-![[Pasted image 20250902014123.png]]
+![Pasted image 20250902013444.png](imagenes/Pasted image 20250902013444.png)
+![Pasted image 20250902014123.png](imagenes/Pasted image 20250902014123.png)

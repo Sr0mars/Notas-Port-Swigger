@@ -8,7 +8,7 @@ Este laboratorio introduce uno de los contextos más comunes y peligrosos en los
 
 Solucion
 de nuevo lo que estamos haciendo es identificar en el codigo fuente que vulnerabilidad tiene script
-![[Pasted image 20250707161919.png]]testing'; alert(0); var testing='probando
-![[Pasted image 20250707162440.png]]
+![Pasted image 20250707161919.png](imagenes/Pasted image 20250707161919.png)testing'; alert(0); var testing='probando
+![Pasted image 20250707162440.png](imagenes/Pasted image 20250707162440.png)
 otra forma el chiste es encontrar el error de la comilla y cerrarlo
-![[Pasted image 20250707162607.png]]
+![Pasted image 20250707162607.png](imagenes/Pasted image 20250707162607.png)

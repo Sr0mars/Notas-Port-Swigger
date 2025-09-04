@@ -4,13 +4,13 @@ Creamos un pequeño programa en Java (o usamos la plantilla proporcionada) que s
 
 Solucion
 nos logeamos e interceptamos
-![[Pasted image 20250827000628.png]]
+![Pasted image 20250827000628.png](imagenes/Pasted image 20250827000628.png)
 vamos a la termina para ver que es
-![[Pasted image 20250827000810.png]]
+![Pasted image 20250827000810.png](imagenes/Pasted image 20250827000810.png)
 vamos a ver el codigo fuente para ver si encontramos algo
-![[Pasted image 20250827000852.png]]
+![Pasted image 20250827000852.png](imagenes/Pasted image 20250827000852.png)
 obtenemos una ruta vamos a ver que contiene
-![[Pasted image 20250827000946.png]]
+![Pasted image 20250827000946.png](imagenes/Pasted image 20250827000946.png)
 ¿Para qué sirve?
 Este tipo de clase se usa para:
 • 	Representar al usuario autenticado en una sesión.
@@ -18,9 +18,9 @@ Este tipo de clase se usa para:
 • 	Guardar el estado del usuario en memoria, archivos o bases de datos.
 
 hacemos directory listing
-![[Pasted image 20250827002446.png]]
+![Pasted image 20250827002446.png](imagenes/Pasted image 20250827002446.png)
 y en el otro archivo encontramos esto
-![[Pasted image 20250827002617.png]]
+![Pasted image 20250827002617.png](imagenes/Pasted image 20250827002617.png)
 Resumen 
 • 	Representa un producto por su ID.
 • 	Al deserializarse, se conecta a una base de datos PostgreSQL.

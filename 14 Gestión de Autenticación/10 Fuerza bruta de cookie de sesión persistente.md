@@ -6,17 +6,17 @@ El ataque se lanza con Burp Intruder, configurando reglas de procesamiento de pa
 
 Solucion
 bueno hacemos el mismo procedimiento de siempre y como podemos ver en una de las peticiones vemos que tenemos un cadena en base64 que una vez la decodificamos vemos que se trata de la contraseña de peter
-![[Pasted image 20250820210430.png]]
-![[Pasted image 20250820210541.png]]
+![Pasted image 20250820210430.png](imagenes/Pasted image 20250820210430.png)
+![Pasted image 20250820210541.png](imagenes/Pasted image 20250820210541.png)
 asi que esto lo vamos a mandar al intruder
 ya estando en el intruder vamos a configurar en la parte de payload processing uno que sea (HASH, MD5)
-![[Pasted image 20250820211213.png]]
+![Pasted image 20250820211213.png](imagenes/Pasted image 20250820211213.png)
 otro que seria carlos:
-![[Pasted image 20250820211349.png]]
+![Pasted image 20250820211349.png](imagenes/Pasted image 20250820211349.png)
 y una configuracion por que necesita estar todo en base64
-![[Pasted image 20250820211501.png]]
+![Pasted image 20250820211501.png](imagenes/Pasted image 20250820211501.png)
 y le damos starattack
 y bueno una ves termine vemos que tenemo una respuesta 200
-![[Pasted image 20250820212340.png]]
+![Pasted image 20250820212340.png](imagenes/Pasted image 20250820212340.png)
 y obtenemos la cookie en este caso en la RESPUESTA y aplicamos
-![[Pasted image 20250820212507.png]]
+![Pasted image 20250820212507.png](imagenes/Pasted image 20250820212507.png)

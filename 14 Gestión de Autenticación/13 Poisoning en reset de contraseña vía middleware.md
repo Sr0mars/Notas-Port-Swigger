@@ -6,22 +6,22 @@ Una vez obtenido ese token, lo usamos para construir una URL de reseteo válida,
 
 Solucion
 viendo un poco la web vemos que como anteriores labarotorios podemos ver que tenemos un apartado de olvido su contraseña y todo ese proceso lo vamos a interceptar
-![[Pasted image 20250820221835.png]]
+![Pasted image 20250820221835.png](imagenes/Pasted image 20250820221835.png)
 la peticion por post la mandamos al repeter
 y en nuestro exploit server en el apartado de email podemos ver claramente que nos llega un link para cambiar la contraseña
-![[Pasted image 20250820222125.png]]
+![Pasted image 20250820222125.png](imagenes/Pasted image 20250820222125.png)
 asi que en este punto vamos a jugar con otra cabecera (**X-Forwarded-Host**) que nos permite por medio de la url cambiar la url
-![[Pasted image 20250820222456.png]]
+![Pasted image 20250820222456.png](imagenes/Pasted image 20250820222456.png)
 como nos llegaria al correo
-![[Pasted image 20250820222522.png]]
+![Pasted image 20250820222522.png](imagenes/Pasted image 20250820222522.png)
 entonces lo que podemos hacer es configurar en el BS estos parametros y se lo enviamos a carlos y de nuestra parte solo seria esperar y mirar los logs
-![[Pasted image 20250820222832.png]]
+![Pasted image 20250820222832.png](imagenes/Pasted image 20250820222832.png)
 le damos send
 recargamos
-![[Pasted image 20250820222906.png]]
+![Pasted image 20250820222906.png](imagenes/Pasted image 20250820222906.png)
 y lo reemplazamos de una peticion vieja de correo
-![[Pasted image 20250820223010.png]]
+![Pasted image 20250820223010.png](imagenes/Pasted image 20250820223010.png)
 cambiamos la contraseña
-![[Pasted image 20250820223043.png]]
+![Pasted image 20250820223043.png](imagenes/Pasted image 20250820223043.png)
 y ya solo nos logeamos
-![[Pasted image 20250820223129.png]]
+![Pasted image 20250820223129.png](imagenes/Pasted image 20250820223129.png)

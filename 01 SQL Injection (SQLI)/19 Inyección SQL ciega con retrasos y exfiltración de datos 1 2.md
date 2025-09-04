@@ -12,15 +12,15 @@ Solucion
 En este caso no funciona ni el order by nada por lo que estamos a ciegas
 lo primero seria identificar que tipo de base de datos es
 tal y como parece es Postgres por lo el tiempo de espera que tenemos
-![[Pasted image 20250704121358.png]]
+![Pasted image 20250704121358.png](imagenes/Pasted image 20250704121358.png)
 y lo que podemos hacer es meter otra querry utilizando(;) por lo que la querry va seguir funcionando esta querry lo que hace es validar si 1=1 es verdadero va tardar a cambia en caso si lo cambiamos a 2=1 recargara rapido, (1=1) es el correcto
-![[Pasted image 20250704122057.png]]
+![Pasted image 20250704122057.png](imagenes/Pasted image 20250704122057.png)
 esto para validar si el usuario administrator es valido
-![[Pasted image 20250704122401.png]]
+![Pasted image 20250704122401.png](imagenes/Pasted image 20250704122401.png)
 para validar el tamaño de la contraseña
-![[Pasted image 20250704122452.png]]
+![Pasted image 20250704122452.png](imagenes/Pasted image 20250704122452.png)
 en este caso resulto ser 20
-![[Pasted image 20250704122520.png]]
+![Pasted image 20250704122520.png](imagenes/Pasted image 20250704122520.png)
 para validar el primer caracter de la contraseña en esta caso es m
-![[Pasted image 20250704122645.png]]
+![Pasted image 20250704122645.png](imagenes/Pasted image 20250704122645.png)
 para ello vamos a realizar un scrpit para facilitar la explotacion

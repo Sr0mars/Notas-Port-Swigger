@@ -6,11 +6,11 @@ Este ejercicio demuestra cómo una cookie mal gestionada puede abrir la puerta a
 
 Solucion
 y bueno repetimos los pasos mandamos la pagina principal al repeter
-![[Pasted image 20250821202921.png]]
+![Pasted image 20250821202921.png](imagenes/Pasted image 20250821202921.png)
 si nosotro queremos que se reinicie la cache basta con poner en la parte del directorio ?test=1
 asi que en este punto nosotro podemos controlar en la parte de javascript el codigo con la opcion de fehost
-![[Pasted image 20250821203325.png]]
+![Pasted image 20250821203325.png](imagenes/Pasted image 20250821203325.png)
 asi que para manipular esto nosotro lo que podemos hacer es cerrar con doble " por que es codigo javascript (mandamos una alerta) hacia la raiz
-![[Pasted image 20250821203534.png]]
+![Pasted image 20250821203534.png](imagenes/Pasted image 20250821203534.png)
 y ya recargamos la pagina
-![[Pasted image 20250821203630.png]]
+![Pasted image 20250821203630.png](imagenes/Pasted image 20250821203630.png)

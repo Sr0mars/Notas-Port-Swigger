@@ -4,11 +4,11 @@ Finalmente, tras 61 segundos de espera, confirmamos que la acción fue procesada
 
 Solucion
 Entonces viendo que ya funciono lo podriamos probar con el panel de admin/ y esto es lo que vemos
-![[Pasted image 20250813202152.png]]
+![Pasted image 20250813202152.png](imagenes/Pasted image 20250813202152.png)
 entonces en este punto lo que podemos realizar es en el parametro smuggled en ves de redirigirilo al host lo redirigimos al localhost y realizamos el ataque de nuevo
-![[Pasted image 20250813202350.png]]
+![Pasted image 20250813202350.png](imagenes/Pasted image 20250813202350.png)
 rebuscando en el codigo podemos ver un formulario
-![[Pasted image 20250813202523.png]]
+![Pasted image 20250813202523.png](imagenes/Pasted image 20250813202523.png)
 codigo (<form style='margin-top: 1em' class='login-form' action='/admin/delete' method='POST'>
                         <input required type="hidden" name="csrf" value="k1lfCf2LEICJD5p15RKbU1gzEJExYqkk">
                         <label>Username</label>
@@ -19,8 +19,8 @@ codigo (<form style='margin-top: 1em' class='login-form' action='/admin/delete' 
 📌 **En resumen:** Este formulario sirve para que un administrador ingrese el nombre de un usuario y lo elimine, enviando la petición al servidor con un token de seguridad.
 
 ⚠️ **Nota de seguridad**: Si este formulario está en una página accesible sin restricciones, podría permitir que cualquiera elimine usuarios. La ruta `/admin/delete` debe estar protegida con autenticación y validación.
-![[Pasted image 20250813202834.png]]
+![Pasted image 20250813202834.png](imagenes/Pasted image 20250813202834.png)
 entonces ahora podemos modificar nuestro payload para que podamos elimianar al usuario
-![[Pasted image 20250813203524.png]]
+![Pasted image 20250813203524.png](imagenes/Pasted image 20250813203524.png)
 y esperamos y en efecto se a realizado el ataque
-![[Pasted image 20250813203503.png]]
+![Pasted image 20250813203503.png](imagenes/Pasted image 20250813203503.png)

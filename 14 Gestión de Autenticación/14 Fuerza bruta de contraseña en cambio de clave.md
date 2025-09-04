@@ -8,17 +8,17 @@ Una vez identificada la contraseña correcta, simplemente iniciamos sesión como
 
 Solucion
 tenemos un apartado modificable
-![[Pasted image 20250820223542.png]]
+![Pasted image 20250820223542.png](imagenes/Pasted image 20250820223542.png)
 asi que vamos  a interceptarlo poniendo contraseñas incorrectas
-![[Pasted image 20250820223959.png]]bueno vemos que tenemos diferentes campos podemos hacer que username cambie lo cual es malo
-![[Pasted image 20250820224101.png]]
+![Pasted image 20250820223959.png](imagenes/Pasted image 20250820223959.png)bueno vemos que tenemos diferentes campos podemos hacer que username cambie lo cual es malo
+![Pasted image 20250820224101.png](imagenes/Pasted image 20250820224101.png)
 asi que esto lo mandamos al intruder cual campo de current-password vamos a usarlo de payload, agregamos el diccionario y en grep extract ponemos el error que nos sale
-![[Pasted image 20250820224509.png]]
+![Pasted image 20250820224509.png](imagenes/Pasted image 20250820224509.png)
 y empezamos el ataque
-![[Pasted image 20250820224801.png]]
+![Pasted image 20250820224801.png](imagenes/Pasted image 20250820224801.png)
 parece ser que tenemos una nueva contraseña
 ahora nos logeamos como carlos y un nuevo usuario
-![[Pasted image 20250820224919.png]]
+![Pasted image 20250820224919.png](imagenes/Pasted image 20250820224919.png)
 
 
 

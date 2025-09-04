@@ -10,4 +10,4 @@ Segimos con el script
 </script>
 
 el apikey me lo dio asi con los logs
-![[Pasted image 20250728225235.png]]
+![Pasted image 20250728225235.png](imagenes/Pasted image 20250728225235.png)

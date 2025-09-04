@@ -8,10 +8,10 @@ Este laboratorio muestra cómo es posible evadir filtros mixtos —HTML y JavaSc
 
 Solucion
 Empezamos con lo mismo asi que lo que podemos hacer es saltar las comillas 
-![[Pasted image 20250714195019.png]]
+![Pasted image 20250714195019.png](imagenes/Pasted image 20250714195019.png)
 Vemos que tiene filtro de sanitizacion
 asi que en este caso vamos a probar con la aritmetica osea una operacion sencilla escapando de las comillas
 'test'\'+alert(0);//
-![[Pasted image 20250714195802.png]]
+![Pasted image 20250714195802.png](imagenes/Pasted image 20250714195802.png)
 Lo que muestra la ventana emergente
 

@@ -2,14 +2,14 @@ La aplicación diferencia los permisos según el método HTTP. Observamos que un
 
 Solucion
 si nosotros nos logeamos como admin podemos darle o quitarle privilegios al los usuarios
-![[Pasted image 20250815191148.png]]
+![Pasted image 20250815191148.png](imagenes/Pasted image 20250815191148.png)
 asi que vamos a interceptarlo el upgrade
-![[Pasted image 20250815191344.png]]
+![Pasted image 20250815191344.png](imagenes/Pasted image 20250815191344.png)
 Asi que ahora nos logeamos como wiener
-![[Pasted image 20250815191445.png]]
+![Pasted image 20250815191445.png](imagenes/Pasted image 20250815191445.png)
 y ahora vamos a tomar nuestra cookie de session y la vamos a pegar en la peticion de admin pero vemos que no podemos autorizar privilegios
-![[Pasted image 20250815191640.png]]
+![Pasted image 20250815191640.png](imagenes/Pasted image 20250815191640.png)
 entonces ahora vamos a cambiar el metodo
 y cambiamos el usuario que estaba por wiener y cambiamos el downgrade por upgrade
-![[Pasted image 20250815191750.png]]
-![[Pasted image 20250815191848.png]]
+![Pasted image 20250815191750.png](imagenes/Pasted image 20250815191750.png)
+![Pasted image 20250815191848.png](imagenes/Pasted image 20250815191848.png)

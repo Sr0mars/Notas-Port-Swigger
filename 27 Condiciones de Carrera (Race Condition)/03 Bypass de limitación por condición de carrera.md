@@ -6,28 +6,28 @@ Esta técnica demuestra cómo pequeñas ventanas de tiempo pueden ser suficiente
 
 Solucion
 nos comparten una lista de contraseñas
-![[Pasted image 20250901183347.png]]
+![Pasted image 20250901183347.png](imagenes/Pasted image 20250901183347.png)
 la contraseña que nos dan es la siguiente
 wiener -peter
 tenemos que forzar un error en el login para que nos salga este mensaje
-![[Pasted image 20250901183523.png]]
+![Pasted image 20250901183523.png](imagenes/Pasted image 20250901183523.png)
 esto se hace poniendo mal la contraseña de wiener probando con test u otra unas 3 veces aprox, esto lo mandamos al repeater
 y realizamos un grupo
-![[Pasted image 20250901183846.png]]
+![Pasted image 20250901183846.png](imagenes/Pasted image 20250901183846.png)
 tal que la idea es realizar varias solicitudes pero con diferentes contraseñas
-![[Pasted image 20250901183921.png]]
+![Pasted image 20250901183921.png](imagenes/Pasted image 20250901183921.png)
 y con la extencion la turbo intruder seleccionamos la contraseña damos click derecho y send to turbo intruder
-![[Pasted image 20250901184129.png]]
+![Pasted image 20250901184129.png](imagenes/Pasted image 20250901184129.png)
 y vamos a seleccionar el siguiente payload
-![[Pasted image 20250901184215.png]]
+![Pasted image 20250901184215.png](imagenes/Pasted image 20250901184215.png)
 y lo modificamos tal que queda asi
 nos copiamos en la clipboard la lista de contraseñas
-![[Pasted image 20250901184825.png]]
+![Pasted image 20250901184825.png](imagenes/Pasted image 20250901184825.png)
 e iniciamos el ataque
 tal que al finalizar nos dara la unica contraseña con estado 302
-![[Pasted image 20250901190713.png]]
+![Pasted image 20250901190713.png](imagenes/Pasted image 20250901190713.png)
 y ya solo ingresamos al lab nos logeamos y eliminamos al usario carlos
-![[Pasted image 20250901190750.png]]
+![Pasted image 20250901190750.png](imagenes/Pasted image 20250901190750.png)
 importante antes de mandar el ataque se tiene que configurar en el repeater el usuario carlos
-![[Pasted image 20250901190839.png]]
+![Pasted image 20250901190839.png](imagenes/Pasted image 20250901190839.png)
 

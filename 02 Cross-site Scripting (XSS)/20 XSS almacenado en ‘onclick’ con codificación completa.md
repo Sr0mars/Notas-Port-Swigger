@@ -9,14 +9,14 @@ Este laboratorio enseña cómo incluso con múltiples capas de filtrado, pueden 
 Solucion
 igual que otras veces la vulnerabilidad esta en la seccion de comentarios es una vulnerabilidad onclick
 podemos ver aqui el var tracker
-![[Pasted image 20250714200530.png]]
+![Pasted image 20250714200530.png](imagenes/Pasted image 20250714200530.png)
 
 y podemos ver la comilla al final del callate asi que podemos intentar escaparla pero no funciona asi lo que podemos hacer es 
 utilizar otro truquillo &apos que significa que es esto es una comilla
 asi quedaria la sentencia
 &apos;+alert(0)+&apos;
-![[Pasted image 20250714203202.png]]
+![Pasted image 20250714203202.png](imagenes/Pasted image 20250714203202.png)
 
 eh aqui el resultado 
-![[Pasted image 20250714203231.png]]
+![Pasted image 20250714203231.png](imagenes/Pasted image 20250714203231.png)
 

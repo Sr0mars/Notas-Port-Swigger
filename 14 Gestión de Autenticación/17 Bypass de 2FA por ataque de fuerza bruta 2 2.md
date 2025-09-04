@@ -8,16 +8,16 @@ Al identificar esta respuesta, cargamos dicha solicitud en el navegador y accede
 
 Solucion
 si le damos a test macro podemos ver como se automatiza este procedimiendo que realizamos
-![[Pasted image 20250820232240.png]]
+![Pasted image 20250820232240.png](imagenes/Pasted image 20250820232240.png)
 entonces le damos a todo OK
 podemos ver que en session hemos creado una regla
-![[Pasted image 20250820232356.png]]
+![Pasted image 20250820232356.png](imagenes/Pasted image 20250820232356.png)
 bueno una ves que lo tenemos ahora vamos a interceptar esto
-![[Pasted image 20250820232553.png]]
+![Pasted image 20250820232553.png](imagenes/Pasted image 20250820232553.png)
 y lo mandamos al intruder
-![[Pasted image 20250820232855.png]]
+![Pasted image 20250820232855.png](imagenes/Pasted image 20250820232855.png)
 lo modificamos de esta manera
-![[Pasted image 20250820233051.png]]
+![Pasted image 20250820233051.png](imagenes/Pasted image 20250820233051.png)
 y le damos start attack
 y tenemos que esperar bastante para poder ver es codigo de estado de error 302 para asi obtener la cookie y pegarla
-![[Pasted image 20250820233331.png]]
+![Pasted image 20250820233331.png](imagenes/Pasted image 20250820233331.png)

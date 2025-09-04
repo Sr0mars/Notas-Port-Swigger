@@ -10,4 +10,4 @@ Solucion
 
 en este caso vamos a crear una etiqueta nueva que me permita animar el href
 <svg><a><animate attributeName=href values=javascript:alert(0) /><text x=30 y=30>Click me!</text></a>
-![[Pasted image 20250718174753.png]]
+![Pasted image 20250718174753.png](imagenes/Pasted image 20250718174753.png)

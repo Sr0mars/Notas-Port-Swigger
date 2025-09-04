@@ -5,8 +5,8 @@ Sin embargo, al usar la opción personalizada ‘**Trigger race condition**‘ d
 Esta clase demuestra cómo el tiempo y la concurrencia pueden ser vectores de explotación efectivos en operaciones aparentemente seguras.
 
 Solucion
-![[Pasted image 20250901180621.png]]
+![Pasted image 20250901180621.png](imagenes/Pasted image 20250901180621.png)
 La web:
-![[Pasted image 20250901180712.png]]
+![Pasted image 20250901180712.png](imagenes/Pasted image 20250901180712.png)
 nos logeamos
-![[Pasted image 20250901180810.png]]
+![Pasted image 20250901180810.png](imagenes/Pasted image 20250901180810.png)

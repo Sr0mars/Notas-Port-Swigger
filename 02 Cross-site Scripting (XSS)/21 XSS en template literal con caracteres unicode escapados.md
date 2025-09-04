@@ -8,7 +8,7 @@ Este laboratorio demuestra cómo las cadenas de plantilla pueden ser un punto cr
 
 Solucion 
 En esta ocacion tiene bastantes brechas de seguridad por lo cual a la hora de realizar un pequeño vistazo no escontramos con esto(`)
-![[Pasted image 20250717164835.png]]
+![Pasted image 20250717164835.png](imagenes/Pasted image 20250717164835.png)
 pero en este caso cuando se utilizan este tipo de comillas [`]
 se puede realizar lo siguiente
 ${alert(0)}

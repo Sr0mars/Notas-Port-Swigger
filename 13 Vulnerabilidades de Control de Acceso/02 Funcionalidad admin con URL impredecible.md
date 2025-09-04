@@ -4,6 +4,6 @@ Una vez localizada la URL oculta, accedemos al panel, el cual carece de autentic
 
 Solucion
 si nosotros vemos el codigo fuente podemos ver que nos muestra una ruta
-![[Pasted image 20250815172506.png]]
+![Pasted image 20250815172506.png](imagenes/Pasted image 20250815172506.png)
 entonces por medio del archio href podemos ve rla ruta asi que copiamos y pegamos
-![[Pasted image 20250815172602.png]]
+![Pasted image 20250815172602.png](imagenes/Pasted image 20250815172602.png)

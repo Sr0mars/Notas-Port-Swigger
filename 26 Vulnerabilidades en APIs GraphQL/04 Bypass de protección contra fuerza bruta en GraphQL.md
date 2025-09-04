@@ -6,20 +6,20 @@ Esta clase demuestra cómo el conocimiento del comportamiento interno de GraphQL
 
 Solucion
 lo primero es que nos comparten unas contraseñas
-![[Pasted image 20250901022349.png]]
+![Pasted image 20250901022349.png](imagenes/Pasted image 20250901022349.png)
 asi que no nos dan credenciales por lo que navegamos en la web checamos en el historico
-![[Pasted image 20250901022515.png]]
+![Pasted image 20250901022515.png](imagenes/Pasted image 20250901022515.png)
 vemos un graphql lo mandamos al repeater
 vamos a darle click derecho y ponemos el set introspection
-![[Pasted image 20250901022632.png]]ahora lo mandamos al site map
-![[Pasted image 20250901022740.png]]
+![Pasted image 20250901022632.png](imagenes/Pasted image 20250901022632.png)ahora lo mandamos al site map
+![Pasted image 20250901022740.png](imagenes/Pasted image 20250901022740.png)
 y de lo que vemos algo que nos podria interesar es el login que se muestra lo mandamos al repeater
-![[Pasted image 20250901022902.png]]
+![Pasted image 20250901022902.png](imagenes/Pasted image 20250901022902.png)
 y bueno probamos el usuario carlos con x contraseña pero no nos da respuesta (false)
-![[Pasted image 20250901023119.png]]
+![Pasted image 20250901023119.png](imagenes/Pasted image 20250901023119.png)
 asi que algo que podemos hacer es dentro de la query modificarla
 de tal manera que podemos ir probando de es manera las contraseñas
-![[Pasted image 20250901023754.png]]
+![Pasted image 20250901023754.png](imagenes/Pasted image 20250901023754.png)
 asi que como tenemos un diccionario vamos a crearnos un payload en bash llamado generator.sh
 (#!/bin/bash
 
@@ -37,8 +37,8 @@ cat passwords | while read password; do
 done)
 
 nos entrega esto
-![[Pasted image 20250901025537.png]]
+![Pasted image 20250901025537.png](imagenes/Pasted image 20250901025537.png)
 y ya solo copiamos y pegamos en la query y filtramos por true vemos que es el intento 53 lo buscamos en el  request y vemos que es ranger
-![[Pasted image 20250901025655.png]]
+![Pasted image 20250901025655.png](imagenes/Pasted image 20250901025655.png)
 y ya solo nos logeamos
-![[Pasted image 20250901025803.png]]
+![Pasted image 20250901025803.png](imagenes/Pasted image 20250901025803.png)

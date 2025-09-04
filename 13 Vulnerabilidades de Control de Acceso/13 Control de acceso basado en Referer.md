@@ -6,10 +6,10 @@ Un ejemplo clásico de por qué confiar en encabezados del cliente es una mala p
 
 Solucion
 de igual manera nos logeamos como admin e interceptamos el admin panel
-![[Pasted image 20250815194208.png]]
+![Pasted image 20250815194208.png](imagenes/Pasted image 20250815194208.png)
 modificamos de carlos por wiener
-![[Pasted image 20250815194513.png]]
+![Pasted image 20250815194513.png](imagenes/Pasted image 20250815194513.png)
 nos logeamos ahora con wiener
 y eso lo interceptamos (para copiarnos la cookie de session)
-![[Pasted image 20250815194702.png]]
-![[Pasted image 20250815194759.png]]
+![Pasted image 20250815194702.png](imagenes/Pasted image 20250815194702.png)
+![Pasted image 20250815194759.png](imagenes/Pasted image 20250815194759.png)

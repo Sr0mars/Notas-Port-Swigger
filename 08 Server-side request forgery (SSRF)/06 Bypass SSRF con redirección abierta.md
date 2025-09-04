@@ -5,15 +5,15 @@ Aprovechamos esta redirección para hacer que el stock checker acceda de forma i
 Solucion
 De igual manera vamos a interceptar el check stock
 y bueno aqui nosotros no tenemos acceso al localhost por lo cual no tenemos ni domios ni subdominos
-![[Pasted image 20250804201223.png]]
+![Pasted image 20250804201223.png](imagenes/Pasted image 20250804201223.png)
 pero si notros vemos tenemos una opcion de next product la cual me lleva hacia otra otro producto pero contenpla el path
-![[Pasted image 20250804201558.png]]
+![Pasted image 20250804201558.png](imagenes/Pasted image 20250804201558.png)
 asi que si le damos click derecho y copiamos el link nosotros podemos redirigirlo hacia el servidor tercero en donde se encuentra la pagina
-![[Pasted image 20250804201957.png]]
+![Pasted image 20250804201957.png](imagenes/Pasted image 20250804201957.png)
 https://0a210045039739cc8215387a00360045.web-security-academy.net/product/nextProduct?currentProductId=1&path=/product?productId=2
 
 asi que  nosotros contemplanos en donde empieza el path para poder redirigir
-![[Pasted image 20250804202544.png]]
+![Pasted image 20250804202544.png](imagenes/Pasted image 20250804202544.png)
 y ya solo seria poder eliminar el usuario carlos con la url
-![[Pasted image 20250804202717.png]]
+![Pasted image 20250804202717.png](imagenes/Pasted image 20250804202717.png)
 

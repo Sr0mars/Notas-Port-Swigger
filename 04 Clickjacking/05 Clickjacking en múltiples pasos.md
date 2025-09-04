@@ -6,7 +6,7 @@ Una vez que la víctima interactúa con los dos elementos señuelo, el proceso c
 
 Solucion
 Aqui es donde se va ver el Click me First y el Click me Second
-![[Pasted image 20250724235114.png]]
+![Pasted image 20250724235114.png](imagenes/Pasted image 20250724235114.png)
 e aqui el payload 
 
 <style>

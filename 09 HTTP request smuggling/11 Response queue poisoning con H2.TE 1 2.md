@@ -8,7 +8,7 @@ Este escenario combina el downgrade de HTTP/2, el envenenamiento de la cola de r
 
 Solucion
 entonces para empezar vmaos a interceptar la pagina principal y vamos hacer los cambios pero en este caso no es necesario el http 1.1 por que ya conoce las proporciones del size por lo cual solo ponemos el method
-![[Pasted image 20250809205856.png]]
+![Pasted image 20250809205856.png](imagenes/Pasted image 20250809205856.png)
 
 
 

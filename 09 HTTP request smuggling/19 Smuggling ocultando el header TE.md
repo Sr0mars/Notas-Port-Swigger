@@ -2,7 +2,7 @@ En esta clase llevamos a cabo un ataque avanzado de HTTP request smuggling para 
 
 Solucion
 Interceptamos y ponemos el payload
-![[Pasted image 20250809233545.png]]
+![Pasted image 20250809233545.png](imagenes/Pasted image 20250809233545.png)
 ### **Objetivo del payload**
 
 Este tipo de payload se usa para:

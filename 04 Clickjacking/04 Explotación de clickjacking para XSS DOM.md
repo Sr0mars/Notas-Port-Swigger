@@ -8,8 +8,8 @@ Cuando la víctima hace clic en el botón señuelo, en realidad está interactua
 
 Solucion
 Este es un laboratorio que es vulnerable a xss en la parte de la seccion de comentarios
-![[Pasted image 20250724234055.png]]
-![[Pasted image 20250724234107.png]]
+![Pasted image 20250724234055.png](imagenes/Pasted image 20250724234055.png)
+![Pasted image 20250724234107.png](imagenes/Pasted image 20250724234107.png)
 una vez localizado la vulnerabilidad pues vamos a disfrazar el boton en esta ocacion pero poniendo los campos que tenemos en el formulario
 <style>
 	iframe {

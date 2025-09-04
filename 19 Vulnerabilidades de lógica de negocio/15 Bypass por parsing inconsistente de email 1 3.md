@@ -5,5 +5,5 @@ Sin embargo, observamos que **UTF-7** no es bloqueado, lo que nos indica que p
 Solucion
 Importante Leer este post (https://portswigger.net/research/splitting-the-email-atom)
 empezamos entrando a la web y registrandonos
-![[Pasted image 20250829020059.png]]
+![Pasted image 20250829020059.png](imagenes/Pasted image 20250829020059.png)
 pero vemos que tiene una limitante la cual nos pide que si no tenemos ese correo no nos podemos registrar

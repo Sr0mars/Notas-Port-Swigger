@@ -4,4 +4,4 @@ Este carácter indica el final de cadena para muchas funciones en lenguajes como
 
 Solucion
 lo mismo 
-![[Pasted image 20250814223857.png]]
+![Pasted image 20250814223857.png](imagenes/Pasted image 20250814223857.png)

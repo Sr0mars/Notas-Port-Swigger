@@ -9,8 +9,8 @@ Para ello, se intercepta la solicitud de inicio de sesión con Burp Suite y se m
 Esto cierra prematuramente la cadena del nombre de usuario y comenta el resto de la consulta, incluyendo la comprobación de la contraseña. El resultado es que el sistema nos deja pasar como si hubiéramos introducido credenciales válidas.
 
 **Quédate con esto**: Las entradas del usuario nunca deben insertarse directamente en consultas SQL. Si lo hacen, pueden ser manipuladas para saltarse controles críticos como la autenticación.
-![[Pasted image 20250701144400.png]]
+![Pasted image 20250701144400.png](imagenes/Pasted image 20250701144400.png)
 Solucion
 'test' or 1=1-- -
 
-![[Pasted image 20250701144653.png]]
+![Pasted image 20250701144653.png](imagenes/Pasted image 20250701144653.png)

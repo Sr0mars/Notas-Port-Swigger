@@ -11,4 +11,4 @@ Usamos esta técnica para:
 Este tipo de ataque requiere paciencia y precisión, ya que no vemos los datos directamente, pero con herramientas como Burp Repeater e Intruder, es posible automatizar gran parte del proceso.
 
 **Quédate con esto**: Las inyecciones ciegas permiten obtener datos críticos incluso sin mensajes de error ni respuestas visibles, solo interpretando pequeños cambios en el comportamiento de la aplicación.
-![[Pasted image 20250702173215.png]]
+![Pasted image 20250702173215.png](imagenes/Pasted image 20250702173215.png)

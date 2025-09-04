@@ -7,8 +7,8 @@ Se configura un ataque por cada posición de la contraseña, adaptando la consul
 Repetimos el proceso hasta reconstruir completamente la contraseña, cerrando el ejercicio con el acceso exitoso a la cuenta del administrador.
 
 Script
-![[Pasted image 20250704124641.png]]
-![[Pasted image 20250704125451.png]]
+![Pasted image 20250704124641.png](imagenes/Pasted image 20250704124641.png)
+![Pasted image 20250704125451.png](imagenes/Pasted image 20250704125451.png)
 Script
 
 #!/usr/bin/env python3 
@@ -64,6 +64,6 @@ if __name__ == '__main__':
 
     makeSQLI()
 
-![[Pasted image 20250704131955.png]]
+![Pasted image 20250704131955.png](imagenes/Pasted image 20250704131955.png)
 En mysql
-![[Pasted image 20250704132254.png]]
+![Pasted image 20250704132254.png](imagenes/Pasted image 20250704132254.png)

@@ -5,4 +5,4 @@ Usamos esto como campo de pruebas para validar el ataque sin afectar a otros usu
 Solucion
 asi que vamos a probar en algun producto en la seccion de comentarios
 poniendo algo asi
-![[Pasted image 20250902121847.png]]
+![Pasted image 20250902121847.png](imagenes/Pasted image 20250902121847.png)

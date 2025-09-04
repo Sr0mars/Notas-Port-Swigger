@@ -6,18 +6,18 @@ Esta técnica ilustra los peligros de confiar ciegamente en datos controlados po
 
 Solucion
 no logeamos verificamos si tenemos acceso al admin
-![[Pasted image 20250830235358.png]]
+![Pasted image 20250830235358.png](imagenes/Pasted image 20250830235358.png)
 vemos que no podemos interceptamos esto
 nos vamos a la pestaña del JWT para ver si es asimetrico
-![[Pasted image 20250830235500.png]]
+![Pasted image 20250830235500.png](imagenes/Pasted image 20250830235500.png)
 vemos que si por el RS256
 entonces ahora nos vamos ala extencion de JWT le damos a new RSA key le damos generate y le damos ok
-![[Pasted image 20250830235733.png]]
+![Pasted image 20250830235733.png](imagenes/Pasted image 20250830235733.png)
 ahora nos regresamos otra vez al intercep le damos attack y en Embedded JWK
-![[Pasted image 20250830235856.png]]
-![[Pasted image 20250831000025.png]]
+![Pasted image 20250830235856.png](imagenes/Pasted image 20250830235856.png)
+![Pasted image 20250831000025.png](imagenes/Pasted image 20250831000025.png)
 le damos ok y vemos que se an agregado mas cosas en la cabecera
-![[Pasted image 20250831000045.png]]
+![Pasted image 20250831000045.png](imagenes/Pasted image 20250831000045.png)
 y ahora nos copiamos la cookie
 la pegamos en la cookie de la pagina
-![[Pasted image 20250831000246.png]]
+![Pasted image 20250831000246.png](imagenes/Pasted image 20250831000246.png)

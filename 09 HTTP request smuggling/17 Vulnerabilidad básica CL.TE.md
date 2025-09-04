@@ -2,4 +2,4 @@ En esta clase abordamos un ataque de HTTP request smuggling CL.TE en su forma m√
 
 Solucion
 Vamos a interceptar el home y modificamos el payload
-![[Pasted image 20250809232526.png]]
+![Pasted image 20250809232526.png](imagenes/Pasted image 20250809232526.png)

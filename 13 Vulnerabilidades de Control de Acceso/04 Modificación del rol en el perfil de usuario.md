@@ -4,6 +4,6 @@ Esto modifica nuestro rol a administrador, permitiéndonos acceder al panel /adm
 
 Solucion
 vamos a interceptar el my account
-![[Pasted image 20250815180100.png]]
+![Pasted image 20250815180100.png](imagenes/Pasted image 20250815180100.png)
 en la intercepcion podemos ver que el roleid es 1 pero nosotros necesitamos ser el 2
-![[Pasted image 20250815180136.png]]
+![Pasted image 20250815180136.png](imagenes/Pasted image 20250815180136.png)
