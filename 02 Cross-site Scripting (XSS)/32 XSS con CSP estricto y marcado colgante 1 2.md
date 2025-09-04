@@ -1,0 +1,7 @@
+En esta clase trabajamos con un entorno altamente restringido, donde una política CSP muy estricta impide la ejecución de código externo y bloquea las solicitudes a dominios no autorizados. A pesar de esto, existe una vulnerabilidad de XSS reflejado que podemos aprovechar mediante una técnica conocida como ataque de marcado colgante.
+
+La estrategia se divide en dos fases. En la primera, construimos un vector que, al ser activado por la víctima, redirige el navegador a una URL que contiene una etiqueta HTML rota. Esta etiqueta induce al navegador a reinterpretar la estructura del documento, permitiendo la ejecución de un segundo script alojado en un servidor de explotación autorizado. Dicho script envía información sensible (como el token CSRF) al servidor de Burp Collaborator utilizando métodos que no violan las restricciones de la política CSP.
+
+En la segunda fase, usamos ese token capturado para construir un formulario HTML malicioso que realiza una petición autenticada a la funcionalidad de cambio de correo del usuario. Este formulario es configurado con el token legítimo robado y se autoenvía cuando la víctima lo carga, cambiando su dirección a hacker@evil-user.net sin que lo note.
+
+Este laboratorio muestra cómo una combinación de XSS, manipulación de estructura HTML y técnicas de evasión de CSP puede conducir a una toma de control de cuenta incluso en entornos con múltiples capas de protección.

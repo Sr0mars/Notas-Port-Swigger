@@ -1,0 +1,14 @@
+En esta clase abordamos un XSS almacenado, una variante más peligrosa que el reflejado, ya que el código malicioso no se ejecuta solo al enviar una petición directa, sino que queda guardado en el sistema y se activa cada vez que otro usuario accede al contenido afectado.
+
+La vulnerabilidad se encuentra en la funcionalidad de comentarios de una entrada de blog. El sistema acepta entradas de texto —como nombre, email, sitio web y comentario— sin realizar ninguna codificación, validación o filtrado. Esto permite inyectar código que se guarda en el servidor y se ejecuta automáticamente cuando la página del blog vuelve a ser cargada por cualquier visitante.
+
+En esta clase demostramos cómo insertar un fragmento de código que, al visualizarse en el blog, desencadena una acción en el navegador como mostrar una alerta, confirmando que el entorno es vulnerable.
+
+Este laboratorio sienta las bases para comprender cómo el XSS almacenado puede ser utilizado para comprometer a múltiples usuarios, incluso sin interacción directa entre atacante y víctima.
+
+Solucion
+
+debemos de verificar en la seccion de post o comentarios
+<script>alert("comentario");</script>
+![[Pasted image 20250704160341.png]]
+![[Pasted image 20250704160526.png]]
