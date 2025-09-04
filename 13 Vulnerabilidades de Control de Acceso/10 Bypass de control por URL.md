@@ -4,14 +4,14 @@ Esta clase muestra cómo una mala configuración de cabeceras puede comprometer 
 
 Solucion
 entonces lo primero que debemos hacer es tratar de ver si nos podemos ir al la seccion de admin
-![Pasted_image_20250815185957.png](Imagenes/Pasted_image_20250815185957.png)
+![Pasted_image_20250815185957.png](/Imagenes/Pasted_image_20250815185957.png)
 obiamente nos va salir que acceso denegado
-![Pasted_image_20250815190038.png](Imagenes/Pasted_image_20250815190038.png)
+![Pasted_image_20250815190038.png](/Imagenes/Pasted_image_20250815190038.png)
 por lo cual vamos a interceptarlo
-![Pasted_image_20250815190151.png](Imagenes/Pasted_image_20250815190151.png)
+![Pasted_image_20250815190151.png](/Imagenes/Pasted_image_20250815190151.png)
 lo que podemos hacer es irnos a la raiz y jugar con la cabecera X-Original-URL
-![Pasted_image_20250815190613.png](Imagenes/Pasted_image_20250815190613.png)
+![Pasted_image_20250815190613.png](/Imagenes/Pasted_image_20250815190613.png)
 entonces ya solo seria copiar la url pero antes tenemos que partir eso
-![Pasted_image_20250815190809.png](Imagenes/Pasted_image_20250815190809.png)
+![Pasted_image_20250815190809.png](/Imagenes/Pasted_image_20250815190809.png)
 por que si no da problema
 

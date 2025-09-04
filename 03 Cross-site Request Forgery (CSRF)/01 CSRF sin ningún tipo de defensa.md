@@ -7,9 +7,9 @@ Este laboratorio representa el escenario más sencillo de explotación CSRF, y s
 Solucion
 bueno para emepzar lo que seria lo ideal seria copiar el codigo fuente o el formulario en esta ocacion de la pagina que queremos vulnerar
 en este caso le vamos a dar click derecho y editar como html
-![Pasted_image_20250722165509.png](Imagenes/Pasted_image_20250722165509.png)
+![Pasted_image_20250722165509.png](/Imagenes/Pasted_image_20250722165509.png)
 para ello tenemos que modificar el codigo eliminando algunas cosas y checando cuales son los formularios en este caso solo tenemos uno y lo podemos ver de esta manera
-![Pasted_image_20250722170136.png](Imagenes/Pasted_image_20250722170136.png)
+![Pasted_image_20250722170136.png](/Imagenes/Pasted_image_20250722170136.png)
 document.forms[0]
 y para mandarlo seria asi document.forms[0].submit()
 

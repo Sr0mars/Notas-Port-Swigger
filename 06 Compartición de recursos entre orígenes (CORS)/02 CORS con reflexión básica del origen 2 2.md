@@ -4,7 +4,7 @@ Este enfoque demuestra cómo una validación incorrecta del origen puede dejar e
 
 Solucion
 si nosotro agregamos origin y una direccion X si le damos a send vemos que nos esta redirigiendo a la pagina web que nosotros pusimos
-![Pasted_image_20250728202600.png](Imagenes/Pasted_image_20250728202600.png)
+![Pasted_image_20250728202600.png](/Imagenes/Pasted_image_20250728202600.png)
 y esto se presenta como un riesgo ya que esto se puede utilizar para cambiar informacion de modo que si el usuario visita account Details que en realidad es nuestra pagina web nos mande la informacion de apikey
 entonces para ello vamos a realizar un script el cual nos de informacion sobre el usuario que queremos obtener su apikey
 <script>
@@ -18,6 +18,6 @@ entonces para ello vamos a realizar un script el cual nos de informacion sobre e
 </script>
 
 Entonces en nuesto exploit server ejecutamos este codigo y nos vamos a los logs
-![Pasted_image_20250728204549.png](Imagenes/Pasted_image_20250728204549.png)
+![Pasted_image_20250728204549.png](/Imagenes/Pasted_image_20250728204549.png)
 obtuvimos la apikey como lo visualizamos
-![Pasted_image_20250728204710.png](Imagenes/Pasted_image_20250728204710.png)
+![Pasted_image_20250728204710.png](/Imagenes/Pasted_image_20250728204710.png)

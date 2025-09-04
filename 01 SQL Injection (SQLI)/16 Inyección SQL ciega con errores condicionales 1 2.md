@@ -7,10 +7,10 @@ Es una continuación directa de la clase anterior, donde verás en práctica có
 Solucion
 Se pueden hacer los mismos pasos que la anterior laboratorio pero en este caso vamos a hacer un script para que automatize todo lo anterior
 Esto en Burp suite obiamente ya con la intervencion de foxy proxy y ya haciendo los pasos de order by
-![Pasted_image_20250703143528.png](Imagenes/Pasted_image_20250703143528.png)
+![Pasted_image_20250703143528.png](/Imagenes/Pasted_image_20250703143528.png)
 codigo
-![Pasted_image_20250703143230.png](Imagenes/Pasted_image_20250703143230.png)
-![Pasted_image_20250703143151.png](Imagenes/Pasted_image_20250703143151.png)
+![Pasted_image_20250703143230.png](/Imagenes/Pasted_image_20250703143230.png)
+![Pasted_image_20250703143151.png](/Imagenes/Pasted_image_20250703143151.png)
 lo llamaremos (Solo tenemos que modificar el trackingid, session y la url dando ctrl+shift+c nos vamos a storage o almacenamiento y ahi lo veremos todo)sqli.py
 #!/usr/bin/env python3 
 
@@ -62,5 +62,5 @@ if __name__ == '__main__':
     makeSQLI()
 
 resultado
-![Pasted_image_20250703152727.png](Imagenes/Pasted_image_20250703152727.png)
-![Pasted_image_20250703152658.png](Imagenes/Pasted_image_20250703152658.png)
+![Pasted_image_20250703152727.png](/Imagenes/Pasted_image_20250703152727.png)
+![Pasted_image_20250703152658.png](/Imagenes/Pasted_image_20250703152658.png)

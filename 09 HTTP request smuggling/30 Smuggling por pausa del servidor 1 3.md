@@ -6,8 +6,8 @@ Solucion
 /opt/BurpSuiteCommunity/BurpSuiteCommunity
 
 Lo primero sera interceptar un endpoint de la pagina para esto nos vamos al http history e interceptamos el resources lo hacemos post
-![Pasted_image_20250812230602.png](Imagenes/Pasted_image_20250812230602.png)
+![Pasted_image_20250812230602.png](/Imagenes/Pasted_image_20250812230602.png)
 asi que vamos a empezar a probar cosas para ver si nos salen errores pero de igual forma vamos a interceptar una peticion hacia la raiz
 la cual va ser nuestro normal request y lo hacemos http 1
-![Pasted_image_20250812231308.png](Imagenes/Pasted_image_20250812231308.png)
+![Pasted_image_20250812231308.png](/Imagenes/Pasted_image_20250812231308.png)
 

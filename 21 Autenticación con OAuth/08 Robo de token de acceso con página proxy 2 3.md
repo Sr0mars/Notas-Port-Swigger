@@ -6,8 +6,8 @@ Este comportamiento convierte al formulario de comentarios en una herramienta pe
 
 Solucion
 verificamos que es lo que hace el script del historico
-![Pasted_image_20250830193701.png](Imagenes/Pasted_image_20250830193701.png)
+![Pasted_image_20250830193701.png](/Imagenes/Pasted_image_20250830193701.png)
 Que hace ?
 Este script se utiliza para comunicar información desde un iframe hacia su página padre (es decir, el documento que contiene el iframe). Envía datos cuando la página se carga y cuando se envía un formulario.
 ejemplo
-![Pasted_image_20250830193818.png](Imagenes/Pasted_image_20250830193818.png)
+![Pasted_image_20250830193818.png](/Imagenes/Pasted_image_20250830193818.png)

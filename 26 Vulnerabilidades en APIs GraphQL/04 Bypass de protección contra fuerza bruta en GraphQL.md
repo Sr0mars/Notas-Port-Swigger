@@ -6,20 +6,20 @@ Esta clase demuestra cómo el conocimiento del comportamiento interno de GraphQL
 
 Solucion
 lo primero es que nos comparten unas contraseñas
-![Pasted_image_20250901022349.png](Imagenes/Pasted_image_20250901022349.png)
+![Pasted_image_20250901022349.png](/Imagenes/Pasted_image_20250901022349.png)
 asi que no nos dan credenciales por lo que navegamos en la web checamos en el historico
-![Pasted_image_20250901022515.png](Imagenes/Pasted_image_20250901022515.png)
+![Pasted_image_20250901022515.png](/Imagenes/Pasted_image_20250901022515.png)
 vemos un graphql lo mandamos al repeater
 vamos a darle click derecho y ponemos el set introspection
-![Pasted_image_20250901022632.png](Imagenes/Pasted_image_20250901022632.png)ahora lo mandamos al site map
-![Pasted_image_20250901022740.png](Imagenes/Pasted_image_20250901022740.png)
+![Pasted_image_20250901022632.png](/Imagenes/Pasted_image_20250901022632.png)ahora lo mandamos al site map
+![Pasted_image_20250901022740.png](/Imagenes/Pasted_image_20250901022740.png)
 y de lo que vemos algo que nos podria interesar es el login que se muestra lo mandamos al repeater
-![Pasted_image_20250901022902.png](Imagenes/Pasted_image_20250901022902.png)
+![Pasted_image_20250901022902.png](/Imagenes/Pasted_image_20250901022902.png)
 y bueno probamos el usuario carlos con x contraseña pero no nos da respuesta (false)
-![Pasted_image_20250901023119.png](Imagenes/Pasted_image_20250901023119.png)
+![Pasted_image_20250901023119.png](/Imagenes/Pasted_image_20250901023119.png)
 asi que algo que podemos hacer es dentro de la query modificarla
 de tal manera que podemos ir probando de es manera las contraseñas
-![Pasted_image_20250901023754.png](Imagenes/Pasted_image_20250901023754.png)
+![Pasted_image_20250901023754.png](/Imagenes/Pasted_image_20250901023754.png)
 asi que como tenemos un diccionario vamos a crearnos un payload en bash llamado generator.sh
 (#!/bin/bash
 
@@ -37,8 +37,8 @@ cat passwords | while read password; do
 done)
 
 nos entrega esto
-![Pasted_image_20250901025537.png](Imagenes/Pasted_image_20250901025537.png)
+![Pasted_image_20250901025537.png](/Imagenes/Pasted_image_20250901025537.png)
 y ya solo copiamos y pegamos en la query y filtramos por true vemos que es el intento 53 lo buscamos en el  request y vemos que es ranger
-![Pasted_image_20250901025655.png](Imagenes/Pasted_image_20250901025655.png)
+![Pasted_image_20250901025655.png](/Imagenes/Pasted_image_20250901025655.png)
 y ya solo nos logeamos
-![Pasted_image_20250901025803.png](Imagenes/Pasted_image_20250901025803.png)
+![Pasted_image_20250901025803.png](/Imagenes/Pasted_image_20250901025803.png)

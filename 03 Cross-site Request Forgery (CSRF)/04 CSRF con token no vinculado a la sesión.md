@@ -10,26 +10,26 @@ Esta vulnerabilidad demuestra la importancia de vincular los tokens CSRF al cont
 
 Solucion
 lo primero seria interceptar el cambio de correo por BS por lo que ahora los tokens son unicos
-![Pasted_image_20250722215152.png](Imagenes/Pasted_image_20250722215152.png)
+![Pasted_image_20250722215152.png](/Imagenes/Pasted_image_20250722215152.png)
 
 sin encambio podemos cambiarlo por medio de carlos que es el otro correo que nos dieron
-![Pasted_image_20250722215609.png](Imagenes/Pasted_image_20250722215609.png)
+![Pasted_image_20250722215609.png](/Imagenes/Pasted_image_20250722215609.png)
 (pero antes vamos a instalar una extenxion llamada notes)
 por lo cual en las notas vamos a copiarnos el CSRF TOKEN  y luego le vamos a dar drop para eliminar la solicitud
-![Pasted_image_20250722215816.png](Imagenes/Pasted_image_20250722215816.png)
+![Pasted_image_20250722215816.png](/Imagenes/Pasted_image_20250722215816.png)
 le damos en drop en el proxy le de damos intercept off
-![Pasted_image_20250722215937.png](Imagenes/Pasted_image_20250722215937.png)
+![Pasted_image_20250722215937.png](/Imagenes/Pasted_image_20250722215937.png)
 por lo cual ahora pasamos a cambiarle el correo nuevamente
 entonces desde el historial buscamos la primerita csrf que pusimos y esto lo mandamos al repeater
-![Pasted_image_20250722220454.png](Imagenes/Pasted_image_20250722220454.png)
+![Pasted_image_20250722220454.png](/Imagenes/Pasted_image_20250722220454.png)
 asi que desde el reapaeter cambiamos el correo y no lo ponemos el csrf token de carlos le damos send
-![Pasted_image_20250722220710.png](Imagenes/Pasted_image_20250722220710.png)
+![Pasted_image_20250722220710.png](/Imagenes/Pasted_image_20250722220710.png)
 
 asi que lo que podemos hacer es primero no vamos al usuario wiener y nos cambiamos el correo y vamos a interceptarlo
 me copio el csrf token
-![Pasted_image_20250722221101.png](Imagenes/Pasted_image_20250722221101.png)
+![Pasted_image_20250722221101.png](/Imagenes/Pasted_image_20250722221101.png)
 ahora dejamos de interceptar y vamos a copiarnos la plantilla para crear el script
-![Pasted_image_20250722221631.png](Imagenes/Pasted_image_20250722221631.png)
+![Pasted_image_20250722221631.png](/Imagenes/Pasted_image_20250722221631.png)
 Basicamente lo que hacemos aqui es suplantar el antiguo CSRF por el que copiamos anteriormente para que con esto nos de entrada al cambio de correo
 
 <form class="login-form" name="change-email-form" action="https://0a4700c703792b9e805a354800920091.web-security-academy.net/my-account/change-email" method="POST">

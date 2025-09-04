@@ -8,6 +8,6 @@ Este ataque demuestra cómo una simple manipulación en la entrada del usuario p
 
 **Quédate con esto**: Una inyección SQL bien colocada en una cláusula WHERE permite acceder a datos que deberían estar ocultos. Es una de las formas más básicas y efectivas de explotación.
 
-![Pasted_image_20250701142912.png](Imagenes/Pasted_image_20250701142912.png)
+![Pasted_image_20250701142912.png](/Imagenes/Pasted_image_20250701142912.png)
 Solucion
-![Pasted_image_20250701143553.png](Imagenes/Pasted_image_20250701143553.png)
+![Pasted_image_20250701143553.png](/Imagenes/Pasted_image_20250701143553.png)

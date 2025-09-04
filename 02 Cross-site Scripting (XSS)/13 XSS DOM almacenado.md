@@ -10,18 +10,18 @@ Solucion
 
 En la seccion de comentarios es donde esta la vulnerabilidad
 <script>alert(0)</script>
-![Pasted_image_20250708205012.png](Imagenes/Pasted_image_20250708205012.png)
+![Pasted_image_20250708205012.png](/Imagenes/Pasted_image_20250708205012.png)
 y podemos ver en este punto que no podemos ver el cierre
-![Pasted_image_20250710154110.png](Imagenes/Pasted_image_20250710154110.png)
+![Pasted_image_20250710154110.png](/Imagenes/Pasted_image_20250710154110.png)
 podemos ver que en la seccion no cierra la equiqueta pasamos aver el por que y parece que entoncramos una sanitizacion
-![Pasted_image_20250710154334.png](Imagenes/Pasted_image_20250710154334.png)
+![Pasted_image_20250710154334.png](/Imagenes/Pasted_image_20250710154334.png)
 pasamos a verla en curl y podemos ver una pequeña sanitizacion en esta parte 
-![Pasted_image_20250710154839.png](Imagenes/Pasted_image_20250710154839.png)
+![Pasted_image_20250710154839.png](/Imagenes/Pasted_image_20250710154839.png)
 lo podemos ver en la consola convierte los menor que y mas en otra cadena
-![Pasted_image_20250710154910.png](Imagenes/Pasted_image_20250710154910.png)
+![Pasted_image_20250710154910.png](/Imagenes/Pasted_image_20250710154910.png)
 y esto parece que solo funciona en la primera cadena de script pero si ponemos o cerramos nuevamente la etiqueta parece que la evade
-![Pasted_image_20250710155433.png](Imagenes/Pasted_image_20250710155433.png)
+![Pasted_image_20250710155433.png](/Imagenes/Pasted_image_20250710155433.png)
 y en caso que no agarra la etiqueta script podemos usar el img <><image src=0 onerror=alert(0)>
 
-![Pasted_image_20250710155651.png](Imagenes/Pasted_image_20250710155651.png)
+![Pasted_image_20250710155651.png](/Imagenes/Pasted_image_20250710155651.png)
 

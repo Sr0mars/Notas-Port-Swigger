@@ -3,6 +3,6 @@ En esta última parte del laboratorio aprovechamos el gadget identificado para c
 Al cargar la página, el navegador ejecuta el código inyectado y revela las cookies del usuario. Esta clase demuestra cómo los vectores de prototype pollution pueden aprovecharse en entornos reales para llevar a cabo ataques de robo de información en el lado cliente, incluso a través de bibliotecas de terceros aparentemente confiables.
 
 de modo que nuestro exploit server quedaria algo asi
-![Pasted_image_20250901000125.png](Imagenes/Pasted_image_20250901000125.png)
+![Pasted_image_20250901000125.png](/Imagenes/Pasted_image_20250901000125.png)
 y con esto lo resolvemos
-![Pasted_image_20250901000201.png](Imagenes/Pasted_image_20250901000201.png)
+![Pasted_image_20250901000201.png](/Imagenes/Pasted_image_20250901000201.png)

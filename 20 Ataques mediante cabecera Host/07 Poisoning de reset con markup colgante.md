@@ -13,28 +13,28 @@ Esta clase muestra cómo errores sutiles en el manejo del HTML en correos electr
 Solucion
 
 nos comparten un exploit server en la web
-![Pasted_image_20250829221022.png](Imagenes/Pasted_image_20250829221022.png)
+![Pasted_image_20250829221022.png](/Imagenes/Pasted_image_20250829221022.png)
 vamos acceder al login y ya estando en el login vamos a dar forget password
-![Pasted_image_20250829221342.png](Imagenes/Pasted_image_20250829221342.png)
+![Pasted_image_20250829221342.png](/Imagenes/Pasted_image_20250829221342.png)
 aqui vamos a introducir el usuario wiener
-![Pasted_image_20250829221410.png](Imagenes/Pasted_image_20250829221410.png)
+![Pasted_image_20250829221410.png](/Imagenes/Pasted_image_20250829221410.png)
 y vemos en el email nos llega una estructura un poco diferente
-![Pasted_image_20250829221547.png](Imagenes/Pasted_image_20250829221547.png)
+![Pasted_image_20250829221547.png](/Imagenes/Pasted_image_20250829221547.png)
 y vamos a historico y la intercepcion por post del correo la mandamos al repeater
-![Pasted_image_20250829222000.png](Imagenes/Pasted_image_20250829222000.png)
+![Pasted_image_20250829222000.png](/Imagenes/Pasted_image_20250829222000.png)
 tal que si le damos send se mandara una nueva contraseña pero vamos a darle a raw wiev
-![Pasted_image_20250829222100.png](Imagenes/Pasted_image_20250829222100.png)
+![Pasted_image_20250829222100.png](/Imagenes/Pasted_image_20250829222100.png)
 vemos que en el formato se tramita una etica href
-![Pasted_image_20250829222137.png](Imagenes/Pasted_image_20250829222137.png)
+![Pasted_image_20250829222137.png](/Imagenes/Pasted_image_20250829222137.png)
 que podemos hacer en este punto pues en el repeater ademas de añadir cabeceras nosotro podemos señalar puertos esto se hace en el host
-![Pasted_image_20250829222446.png](Imagenes/Pasted_image_20250829222446.png)
+![Pasted_image_20250829222446.png](/Imagenes/Pasted_image_20250829222446.png)
 y lo vemos reflejado aqui
-![Pasted_image_20250829222526.png](Imagenes/Pasted_image_20250829222526.png)
+![Pasted_image_20250829222526.png](/Imagenes/Pasted_image_20250829222526.png)
 pero que pasa si nosotros ponemos unas etiquetas que vallan dirigidas al exploit server y tratamos de obtener la contraseña de carlos
-![Pasted_image_20250829223019.png](Imagenes/Pasted_image_20250829223019.png)
+![Pasted_image_20250829223019.png](/Imagenes/Pasted_image_20250829223019.png)
 y esto lo podemos ver en los acces logs
-![Pasted_image_20250829223147.png](Imagenes/Pasted_image_20250829223147.png)
+![Pasted_image_20250829223147.png](/Imagenes/Pasted_image_20250829223147.png)
 probamos la contraseña
-![Pasted_image_20250829223327.png](Imagenes/Pasted_image_20250829223327.png)
+![Pasted_image_20250829223327.png](/Imagenes/Pasted_image_20250829223327.png)
 y hemos tenido exito
-![Pasted_image_20250829223353.png](Imagenes/Pasted_image_20250829223353.png)
+![Pasted_image_20250829223353.png](/Imagenes/Pasted_image_20250829223353.png)

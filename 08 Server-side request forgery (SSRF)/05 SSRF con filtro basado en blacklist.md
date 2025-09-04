@@ -5,20 +5,20 @@ Utilizamos técnicas de evasión como redirecciones a direcciones IP alternativa
 Solucion
 vamos a interceptar check stock u hacemos el urlcode y ctrl+u para el &
 si nosotros vamos al grano veremos que no se acontece la solucion por lo cual no tenemos ninguna referencia al localhost
-![Pasted_image_20250804194937.png](Imagenes/Pasted_image_20250804194937.png)
+![Pasted_image_20250804194937.png](/Imagenes/Pasted_image_20250804194937.png)
 una solucion seria que nosotros podemos probar con hexadecimal
-![Pasted_image_20250804195341.png](Imagenes/Pasted_image_20250804195341.png)
+![Pasted_image_20250804195341.png](/Imagenes/Pasted_image_20250804195341.png)
 otra opcion es a decimal
-![Pasted_image_20250804195542.png](Imagenes/Pasted_image_20250804195542.png)
-![Pasted_image_20250804195734.png](Imagenes/Pasted_image_20250804195734.png)
+![Pasted_image_20250804195542.png](/Imagenes/Pasted_image_20250804195542.png)
+![Pasted_image_20250804195734.png](/Imagenes/Pasted_image_20250804195734.png)
 pero de igual manera no podemos entrar pero y si quitamos admin nos sale invalid host
-![Pasted_image_20250804195836.png](Imagenes/Pasted_image_20250804195836.png)
+![Pasted_image_20250804195836.png](/Imagenes/Pasted_image_20250804195836.png)
 asi que es posible que el problema sea el admin por lo que podemos hacer es pasar 2 veces el urlcode allcaracters a la a
 (1.- lo primero seria la a
 2.- lo segun seria el porcentaje que deja la a)
-![Pasted_image_20250804200226.png](Imagenes/Pasted_image_20250804200226.png)
+![Pasted_image_20250804200226.png](/Imagenes/Pasted_image_20250804200226.png)
 
 pero en este caso no lo vamos a dejar en decimal si no que en el normal del localhost
-![Pasted_image_20250804200746.png](Imagenes/Pasted_image_20250804200746.png)
+![Pasted_image_20250804200746.png](/Imagenes/Pasted_image_20250804200746.png)
 y ya solo seria buscar el usuario copiar y eliminarlo
-![Pasted_image_20250804200923.png](Imagenes/Pasted_image_20250804200923.png)
+![Pasted_image_20250804200923.png](/Imagenes/Pasted_image_20250804200923.png)

@@ -4,12 +4,12 @@ Desde el exploit server, se carga la página vulnerable dentro de un iframe y se
 
 Solucion 
 Un poco igual que el anterior laboratorio toca revisar el codigo fuente
-![Pasted_image_20250727164851.png](Imagenes/Pasted_image_20250727164851.png)
+![Pasted_image_20250727164851.png](/Imagenes/Pasted_image_20250727164851.png)
 Codigo Fuente
-![Pasted_image_20250727164910.png](Imagenes/Pasted_image_20250727164910.png)
+![Pasted_image_20250727164910.png](/Imagenes/Pasted_image_20250727164910.png)
 Este script permite **redireccionar el navegador a una URL externa mediante un mensaje postMessage**. Sin validación del origen, es **una vulnerabilidad seria** que puede ser explotada para ataques de phishing, redirección maliciosa o robo de usuarios.
 por lo cual esto se ve reflejado de esta manera
-![Pasted_image_20250727165902.png](Imagenes/Pasted_image_20250727165902.png)
+![Pasted_image_20250727165902.png](/Imagenes/Pasted_image_20250727165902.png)
 ahora tocaria pasarlo a payload
 (<iframe src="https://0a4d00e903ba3cbe81dfa75600f0004c.web-security-academy.net/" onload="this.contentWindow.postMessage('javascript:print()//http:','*')">)
 Es un intento de **ataque basado en redirección abierta (open redirect) o ejecución de JavaScript** mediante `postMessage`, aprovechando un script vulnerable que redirige usando `location.href = e.data` sin validación adecuada.

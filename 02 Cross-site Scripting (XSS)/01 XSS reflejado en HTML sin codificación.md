@@ -3,12 +3,12 @@ En esta clase damos los primeros pasos en el mundo del Cross-Site Scripting (XSS
 Aprovechamos esta falta de protección para inyectar código que se ejecuta en el navegador de la víctima al interactuar con la funcionalidad vulnerable. En este caso, demostramos la ejecución de un fragmento de código que invoca una alerta en pantalla, lo cual confirma que la inyección es posible y activa.
 
 Esta lección marca el inicio de una nueva sección dedicada a la explotación de XSS, explorando cómo los datos del usuario, si no son tratados correctamente, pueden convertirse en vectores de ataque dentro del navegador.
-![Pasted_image_20250704154503.png](Imagenes/Pasted_image_20250704154503.png)
+![Pasted_image_20250704154503.png](/Imagenes/Pasted_image_20250704154503.png)
 
 Solucion
 
 <script>alert(0)</script>
-![Pasted_image_20250704154817.png](Imagenes/Pasted_image_20250704154817.png)
+![Pasted_image_20250704154817.png](/Imagenes/Pasted_image_20250704154817.png)
 <script>alert(document.cookie)</script>
-![Pasted_image_20250704155300.png](Imagenes/Pasted_image_20250704155300.png)
-![Pasted_image_20250704155320.png](Imagenes/Pasted_image_20250704155320.png)
+![Pasted_image_20250704155300.png](/Imagenes/Pasted_image_20250704155300.png)
+![Pasted_image_20250704155320.png](/Imagenes/Pasted_image_20250704155320.png)

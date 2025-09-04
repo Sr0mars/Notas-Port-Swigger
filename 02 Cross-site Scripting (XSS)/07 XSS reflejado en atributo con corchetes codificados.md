@@ -8,10 +8,10 @@ Este laboratorio destaca la importancia de validar correctamente no solo el cont
 
 Solucion 
 Basicamente nos aprovechamos de las comillas que hacen falta y probamos codigo
-![Pasted_image_20250707155745.png](Imagenes/Pasted_image_20250707155745.png)
+![Pasted_image_20250707155745.png](/Imagenes/Pasted_image_20250707155745.png)
 Lo que aqui pasa es que sierra la doble comilla que en un principio estaba abierta esto hace que podamos probar codigo xss
 "test=probando"
-![Pasted_image_20250707160034.png](Imagenes/Pasted_image_20250707160034.png)
+![Pasted_image_20250707160034.png](/Imagenes/Pasted_image_20250707160034.png)
 ahora podemos utilizar esta sentencia para poder ver el mensaje "onmouseover="alert(0)
-![Pasted_image_20250707160256.png](Imagenes/Pasted_image_20250707160256.png)
+![Pasted_image_20250707160256.png](/Imagenes/Pasted_image_20250707160256.png)
 Lo que hace es que al pasar el mouse nos muestra la pantalla de mensaje

@@ -8,9 +8,9 @@ Tras recibir una respuesta con redirección (302), accedemos al navegador desde 
 
 Solucion
 em este caso vamos a interceptar el login
-![Pasted_image_20250820225400.png](Imagenes/Pasted_image_20250820225400.png)
+![Pasted_image_20250820225400.png](/Imagenes/Pasted_image_20250820225400.png)
 entonce la idea aqui es poner todo el diccionario en la parte de password
-![Pasted_image_20250820225852.png](Imagenes/Pasted_image_20250820225852.png)
-![Pasted_image_20250820230001.png](Imagenes/Pasted_image_20250820230001.png)
+![Pasted_image_20250820225852.png](/Imagenes/Pasted_image_20250820225852.png)
+![Pasted_image_20250820230001.png](/Imagenes/Pasted_image_20250820230001.png)
 ya solo copiamos la cookie y la pegamos
-![Pasted_image_20250820230051.png](Imagenes/Pasted_image_20250820230051.png)
+![Pasted_image_20250820230051.png](/Imagenes/Pasted_image_20250820230051.png)

@@ -5,29 +5,29 @@ Al recargar el post, comprobamos que la petición ha sido reflejada parcialmente
 Solucion
 aqui mandamos una tipica consulta pero vemos que no da resultado como seria en una RS (Request Smuggling)
 la diferencia en este payload es que si vemos en la parte de arriba podemos ver que le metimos 100 en CL pero abajo no se ve reflejado
-![Pasted_image_20250812205026.png](Imagenes/Pasted_image_20250812205026.png)
+![Pasted_image_20250812205026.png](/Imagenes/Pasted_image_20250812205026.png)
 asi que para que se puede ejecutar una consulta se deberia aplicar en diferentes sockets asi que en esta caso vamos a intecerpar el apartado /en que era el redirect
-![Pasted_image_20250812205255.png](Imagenes/Pasted_image_20250812205255.png)
+![Pasted_image_20250812205255.png](/Imagenes/Pasted_image_20250812205255.png)
 y como sabemos que estamos en un CSD pues normalmente si nosotro le dabamos send en el Attacker Request esperamos un error 400 pero aqui no se refleja
-![Pasted_image_20250812205517.png](Imagenes/Pasted_image_20250812205517.png)
+![Pasted_image_20250812205517.png](/Imagenes/Pasted_image_20250812205517.png)
 asi que nosotros necesitamos hacer una coneccion TCP para que se puede ejecutar el payload para ello vamos a crear un grupo en el BS y lo configuramos a send group
-![Pasted_image_20250812205721.png](Imagenes/Pasted_image_20250812205721.png)
+![Pasted_image_20250812205721.png](/Imagenes/Pasted_image_20250812205721.png)
 Cuando le damos a send aqui si podemos ver el error
-![Pasted_image_20250812205817.png](Imagenes/Pasted_image_20250812205817.png)
+![Pasted_image_20250812205817.png](/Imagenes/Pasted_image_20250812205817.png)
 entonces para complementar el ataque vamos a interceptar un post y vamos a configurarlo en el BS
-![Pasted_image_20250812210134.png](Imagenes/Pasted_image_20250812210134.png)
+![Pasted_image_20250812210134.png](/Imagenes/Pasted_image_20250812210134.png)
 lo configuramos tal que quede asi
-![Pasted_image_20250812210301.png](Imagenes/Pasted_image_20250812210301.png)
+![Pasted_image_20250812210301.png](/Imagenes/Pasted_image_20250812210301.png)
 Entonces todo esto no lo podemos copiar y pasarlo al attacker
-![Pasted_image_20250812210545.png](Imagenes/Pasted_image_20250812210545.png)
+![Pasted_image_20250812210545.png](/Imagenes/Pasted_image_20250812210545.png)
 ahora vamos a configurarlo
 1.- (el comment lo pasamos hasta el final)
 2.- (configurar la longitud real para no tener problemas)
-![Pasted_image_20250812210757.png](Imagenes/Pasted_image_20250812210757.png)
+![Pasted_image_20250812210757.png](/Imagenes/Pasted_image_20250812210757.png)
 tal que quedaria asi
-![Pasted_image_20250812211038.png](Imagenes/Pasted_image_20250812211038.png)
+![Pasted_image_20250812211038.png](/Imagenes/Pasted_image_20250812211038.png)
 donde lo vemos reflejado si nos vamos a la pagina donde esta el post lo veremos reflejado
-![Pasted_image_20250812211123.png](Imagenes/Pasted_image_20250812211123.png)
+![Pasted_image_20250812211123.png](/Imagenes/Pasted_image_20250812211123.png)
 pero como podemos hacer para que la victima no vea este tipo de post donde muestre la infomacion para eso nos vamos a montar un script en JS donde me automatize esto
 
 payload (

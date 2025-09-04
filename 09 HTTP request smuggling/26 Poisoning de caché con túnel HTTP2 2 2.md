@@ -4,10 +4,10 @@ Una vez envenenada la caché, mantenemos el estado enviando solicitudes periódi
 
 Solucion
 por locual nos devuelve 2 estados 200
-![Pasted_image_20250811194157.png](Imagenes/Pasted_image_20250811194157.png)
+![Pasted_image_20250811194157.png](/Imagenes/Pasted_image_20250811194157.png)
 entonces para resolver el laboratorio nosotros debemos poner mas cantidad de bytes que tiene la raiz 
-![Pasted_image_20250812203210.png](Imagenes/Pasted_image_20250812203210.png)
+![Pasted_image_20250812203210.png](/Imagenes/Pasted_image_20250812203210.png)
 asi que nostros metemos la etique script y rellenamos los demas bytes con "A" de esta manera forzamos el error
-![Pasted_image_20250812203315.png](Imagenes/Pasted_image_20250812203315.png)
+![Pasted_image_20250812203315.png](/Imagenes/Pasted_image_20250812203315.png)
 lo pegamos en el payload
-![Pasted_image_20250812203353.png](Imagenes/Pasted_image_20250812203353.png)
+![Pasted_image_20250812203353.png](/Imagenes/Pasted_image_20250812203353.png)

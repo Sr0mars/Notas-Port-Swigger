@@ -4,9 +4,9 @@ Aprovechando esta lógica, realizarás un ataque tipo pitchfork en Burp Intruder
 
 Solucion
 entonces esto que significa que tenemos 3 intentos asi que si en 2 fallamos y en ultimo ponemos bien las credenciales se reinicia por asi decirlo el contador de intentos
-![Pasted_image_20250819211057.png](Imagenes/Pasted_image_20250819211057.png)
+![Pasted_image_20250819211057.png](/Imagenes/Pasted_image_20250819211057.png)
 por lo caul con las credenciales de password y user vamos a crearnos un script que nos permita automatizar esto
-![Pasted_image_20250819211153.png](Imagenes/Pasted_image_20250819211153.png)
-![Pasted_image_20250819211216.png](Imagenes/Pasted_image_20250819211216.png)
+![Pasted_image_20250819211153.png](/Imagenes/Pasted_image_20250819211153.png)
+![Pasted_image_20250819211216.png](/Imagenes/Pasted_image_20250819211216.png)
 entonces ahora vamos a interceptar una solicitud de login normal y la mandamos al intruder
-![Pasted_image_20250819211344.png](Imagenes/Pasted_image_20250819211344.png)
+![Pasted_image_20250819211344.png](/Imagenes/Pasted_image_20250819211344.png)

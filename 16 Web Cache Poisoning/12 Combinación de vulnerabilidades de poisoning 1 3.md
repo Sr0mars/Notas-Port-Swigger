@@ -4,21 +4,21 @@ Aunque la víctima utiliza el idioma inglés, esta primera parte del ataque perm
 
 Solucion
 De primeras vamos a interceptar con bs lel flujo de la pagina
-![Pasted_image_20250822183412.png](Imagenes/Pasted_image_20250822183412.png)
+![Pasted_image_20250822183412.png](/Imagenes/Pasted_image_20250822183412.png)
 podemos ver que se hacen varias peticiones
-![Pasted_image_20250822183634.png](Imagenes/Pasted_image_20250822183634.png)
+![Pasted_image_20250822183634.png](/Imagenes/Pasted_image_20250822183634.png)
 vamos a intertar cambiar de idioma al español para ver que peticion nos da
-![Pasted_image_20250822183741.png](Imagenes/Pasted_image_20250822183741.png)
+![Pasted_image_20250822183741.png](/Imagenes/Pasted_image_20250822183741.png)
 vemos que en la propia web tenemos un localized que puede ir aumentando
 nos vamos al BS y podemos ver que se hace una peticion a setlang
-![Pasted_image_20250822184106.png](Imagenes/Pasted_image_20250822184106.png)
+![Pasted_image_20250822184106.png](/Imagenes/Pasted_image_20250822184106.png)
 que si ponemos antencion se esta enviando hacia localized
 entonces ya analizando un poco si nosotro por medio de la cache podemos envenear el boton de ver detalles con el exploit server es posible que nosotros podamos tener el control
-![Pasted_image_20250822184303.png](Imagenes/Pasted_image_20250822184303.png)
+![Pasted_image_20250822184303.png](/Imagenes/Pasted_image_20250822184303.png)
 asi que esto lo vamos a mandar al repeater
 de igual forma se visualizamos el pagina principal podemos ver como en laboratorios anteriores vemos que se aplica una data
-![Pasted_image_20250822184855.png](Imagenes/Pasted_image_20250822184855.png)
+![Pasted_image_20250822184855.png](/Imagenes/Pasted_image_20250822184855.png)
 si filtramos podemos ver que tiene una variable
-![Pasted_image_20250822185019.png](Imagenes/Pasted_image_20250822185019.png)
+![Pasted_image_20250822185019.png](/Imagenes/Pasted_image_20250822185019.png)
 la cual su buscamos en el historico se aplica aqui la cual nos lleva a una url de tipo json
-![Pasted_image_20250822185128.png](Imagenes/Pasted_image_20250822185128.png)
+![Pasted_image_20250822185128.png](/Imagenes/Pasted_image_20250822185128.png)

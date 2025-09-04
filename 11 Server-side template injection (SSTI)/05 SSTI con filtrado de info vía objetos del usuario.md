@@ -4,8 +4,8 @@ Esta clase demuestra cómo una inyección de plantillas puede convertirse en una
 
 Solucion
 en este caso el error se ejectua dejando el campo sin nada
-![Pasted_image_20250814202313.png](Imagenes/Pasted_image_20250814202313.png)
-![Pasted_image_20250814202332.png](Imagenes/Pasted_image_20250814202332.png)
-![Pasted_image_20250814202615.png](Imagenes/Pasted_image_20250814202615.png)
+![Pasted_image_20250814202313.png](/Imagenes/Pasted_image_20250814202313.png)
+![Pasted_image_20250814202332.png](/Imagenes/Pasted_image_20250814202332.png)
+![Pasted_image_20250814202615.png](/Imagenes/Pasted_image_20250814202615.png)
 pero investigando un poco nos encontramos con este payload que devuelve la secret key 
-![Pasted_image_20250814203231.png](Imagenes/Pasted_image_20250814203231.png)
+![Pasted_image_20250814203231.png](/Imagenes/Pasted_image_20250814203231.png)

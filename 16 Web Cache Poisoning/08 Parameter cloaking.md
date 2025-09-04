@@ -4,11 +4,11 @@ La aplicación carga un script que ejecuta una función definida por el parámet
 
 Solucion
 interceptamos el home y podemos ver que tiene algo en la cookie vamos a buscar en el historico
-![Pasted_image_20250821220459.png](Imagenes/Pasted_image_20250821220459.png)
+![Pasted_image_20250821220459.png](/Imagenes/Pasted_image_20250821220459.png)
 y bueno esto lo mandamos al repeater
-![Pasted_image_20250821220830.png](Imagenes/Pasted_image_20250821220830.png)
+![Pasted_image_20250821220830.png](/Imagenes/Pasted_image_20250821220830.png)
 resumiendo un poco pues realmente no es de mucha importancia a pesar que se dirige hacia esto no se puede hacer mucho por que la ruta no se puede modificar por lo cual es algo dificil de vulnerar pero sin embargo se puede agregar parametros que ignorar el servidor como puede ser el utm (&utm_content=foo;callback=alert(1))
-![Pasted_image_20250821221110.png](Imagenes/Pasted_image_20250821221110.png)de esta manera lo modificamos le damos a send
-![Pasted_image_20250821221636.png](Imagenes/Pasted_image_20250821221636.png)
+![Pasted_image_20250821221110.png](/Imagenes/Pasted_image_20250821221110.png)de esta manera lo modificamos le damos a send
+![Pasted_image_20250821221636.png](/Imagenes/Pasted_image_20250821221636.png)
 y miramos la alerta
-![Pasted_image_20250821221619.png](Imagenes/Pasted_image_20250821221619.png)
+![Pasted_image_20250821221619.png](/Imagenes/Pasted_image_20250821221619.png)

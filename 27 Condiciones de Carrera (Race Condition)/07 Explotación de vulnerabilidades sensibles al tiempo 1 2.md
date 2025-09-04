@@ -6,22 +6,22 @@ El foco de esta clase está en identificar el patrón de generación de tokens y
 
 Solucion
 nos vamos al login y le vamos a dar forget password vemos que tenemos un email client
-![Pasted_image_20250901205421.png](Imagenes/Pasted_image_20250901205421.png)
+![Pasted_image_20250901205421.png](/Imagenes/Pasted_image_20250901205421.png)
 seguido ponemos nuestro usuario y lo revisamos en el email client
-![Pasted_image_20250901205450.png](Imagenes/Pasted_image_20250901205450.png)
+![Pasted_image_20250901205450.png](/Imagenes/Pasted_image_20250901205450.png)
 una vez que le damos click podemos ver en la url como se acontece data en el token que parece ser que es SHA-1
-![Pasted_image_20250901205516.png](Imagenes/Pasted_image_20250901205516.png)
+![Pasted_image_20250901205516.png](/Imagenes/Pasted_image_20250901205516.png)
 y bueno nos vamos al historico vemos una peticion post de forgot password lo mandamos al repeater y si le damos a send
 vemos que recibimos otro email y otro valor en el token
-![Pasted_image_20250901205602.png](Imagenes/Pasted_image_20250901205602.png)
-![Pasted_image_20250901205624.png](Imagenes/Pasted_image_20250901205624.png)
+![Pasted_image_20250901205602.png](/Imagenes/Pasted_image_20250901205602.png)
+![Pasted_image_20250901205624.png](/Imagenes/Pasted_image_20250901205624.png)
 asi que lo que tenemos en el repeater lo vamos a mandar al repeater osea duplicar y vamos a crear un grupo y vamos a mandar las solicitudes de forma paralela
-![Pasted_image_20250901205729.png](Imagenes/Pasted_image_20250901205729.png)
+![Pasted_image_20250901205729.png](/Imagenes/Pasted_image_20250901205729.png)
 y vemos que el tiempo de estas cuando se envian es de bastante tiempo por lo cual no se estan enviando de forma paralela
 tab1
-![Pasted_image_20250901205750.png](Imagenes/Pasted_image_20250901205750.png)
+![Pasted_image_20250901205750.png](/Imagenes/Pasted_image_20250901205750.png)
 tab2
-![Pasted_image_20250901205807.png](Imagenes/Pasted_image_20250901205807.png)
+![Pasted_image_20250901205807.png](/Imagenes/Pasted_image_20250901205807.png)
 entonces lo que podemos hacer mandar una solicitud por get al forgot password lo vamos a interceptar
-![Pasted_image_20250901205843.png](Imagenes/Pasted_image_20250901205843.png)
-![Pasted_image_20250901210003.png](Imagenes/Pasted_image_20250901210003.png)
+![Pasted_image_20250901205843.png](/Imagenes/Pasted_image_20250901205843.png)
+![Pasted_image_20250901210003.png](/Imagenes/Pasted_image_20250901210003.png)

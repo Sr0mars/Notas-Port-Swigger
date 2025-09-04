@@ -43,12 +43,12 @@ def handleResponse(req, interesting):
 
 me sirvio el payload el otro payload
 
-![Pasted_image_20250901230643.png](Imagenes/Pasted_image_20250901230643.png)
+![Pasted_image_20250901230643.png](/Imagenes/Pasted_image_20250901230643.png)
 asi que probamos logearnos
-![Pasted_image_20250901230835.png](Imagenes/Pasted_image_20250901230835.png)
+![Pasted_image_20250901230835.png](/Imagenes/Pasted_image_20250901230835.png)
 y eliminamos al carlos
-![Pasted_image_20250901230905.png](Imagenes/Pasted_image_20250901230905.png)
+![Pasted_image_20250901230905.png](/Imagenes/Pasted_image_20250901230905.png)
 asi quedo
-![Pasted_image_20250901230936.png](Imagenes/Pasted_image_20250901230936.png)
-![Pasted_image_20250901230959.png](Imagenes/Pasted_image_20250901230959.png)
-![Pasted_image_20250901231017.png](Imagenes/Pasted_image_20250901231017.png)
+![Pasted_image_20250901230936.png](/Imagenes/Pasted_image_20250901230936.png)
+![Pasted_image_20250901230959.png](/Imagenes/Pasted_image_20250901230959.png)
+![Pasted_image_20250901231017.png](/Imagenes/Pasted_image_20250901231017.png)

@@ -5,9 +5,9 @@ El proceso consiste en añadir un parámetro con un valor que se refleje en la r
 Solucion
 seguimos los mismo pasos que anterior mente pero en este laboratorio
 se aplica una injeccion en la url
-![Pasted_image_20250821215156.png](Imagenes/Pasted_image_20250821215156.png)
+![Pasted_image_20250821215156.png](/Imagenes/Pasted_image_20250821215156.png)
 recargamos la pagina y aqui el resultado
-![Pasted_image_20250821215137.png](Imagenes/Pasted_image_20250821215137.png)esto por que ?
+![Pasted_image_20250821215137.png](/Imagenes/Pasted_image_20250821215137.png)esto por que ?
 ### 1. `GET`
 
 Es el método HTTP. Aquí estás diciendo: “haz una petición GET” (es decir, solicita un recurso al servidor).

@@ -6,16 +6,16 @@ Desde ahí, se puede ejecutar la acción de eliminar al usuario carlos, demostra
 
 Solucion
 La web:
-![Pasted_image_20250829201753.png](Imagenes/Pasted_image_20250829201753.png)
+![Pasted_image_20250829201753.png](/Imagenes/Pasted_image_20250829201753.png)
 visializamos que otras rutas existen en esta pagina con la ayuda de robots.txt
-![Pasted_image_20250829201940.png](Imagenes/Pasted_image_20250829201940.png)
+![Pasted_image_20250829201940.png](/Imagenes/Pasted_image_20250829201940.png)
 vemos que tenemos un panel de admin y que solo esta disponible para usuario locales
-![Pasted_image_20250829202000.png](Imagenes/Pasted_image_20250829202000.png)
+![Pasted_image_20250829202000.png](/Imagenes/Pasted_image_20250829202000.png)
 vamos a interceptar esto y lo que vamos hacer es modificar la cabecera host por un local host
 tal que quedaria asi
-![Pasted_image_20250829202226.png](Imagenes/Pasted_image_20250829202226.png)
+![Pasted_image_20250829202226.png](/Imagenes/Pasted_image_20250829202226.png)
 y pues obviamente en la respuesta tenemos lo que seria el codigo fuente y podremos eliminar el usuario carlos
-![Pasted_image_20250829202314.png](Imagenes/Pasted_image_20250829202314.png)
-![Pasted_image_20250829202338.png](Imagenes/Pasted_image_20250829202338.png)
-![Pasted_image_20250829202351.png](Imagenes/Pasted_image_20250829202351.png)
+![Pasted_image_20250829202314.png](/Imagenes/Pasted_image_20250829202314.png)
+![Pasted_image_20250829202338.png](/Imagenes/Pasted_image_20250829202338.png)
+![Pasted_image_20250829202351.png](/Imagenes/Pasted_image_20250829202351.png)
 

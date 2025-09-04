@@ -1,23 +1,23 @@
 En esta clase descubrimos cómo algunas rutas dinámicas, como ‘**/my-account**‘, siguen funcionando incluso si se les añade una extensión como ‘**.js**‘. El servidor las interpreta correctamente, pero la caché las trata como contenido estático y almacena la respuesta. Aprovechamos esto para forzar a la víctima (carlos) a acceder a una ruta modificada que luego cacheamos con su información, permitiéndonos recuperar su clave API desde el navegador.
 
 Solucion
-![Pasted_image_20250902125916.png](Imagenes/Pasted_image_20250902125916.png)
-![Pasted_image_20250902130027.png](Imagenes/Pasted_image_20250902130027.png)
+![Pasted_image_20250902125916.png](/Imagenes/Pasted_image_20250902125916.png)
+![Pasted_image_20250902130027.png](/Imagenes/Pasted_image_20250902130027.png)
 La web:
-![Pasted_image_20250902130204.png](Imagenes/Pasted_image_20250902130204.png)
+![Pasted_image_20250902130204.png](/Imagenes/Pasted_image_20250902130204.png)
 nos comparten un exploit server nos logeamos
-![Pasted_image_20250902130244.png](Imagenes/Pasted_image_20250902130244.png)
+![Pasted_image_20250902130244.png](/Imagenes/Pasted_image_20250902130244.png)
 vamos a interceptar esto y lo mandamos al repeater
-![Pasted_image_20250902130321.png](Imagenes/Pasted_image_20250902130321.png)
+![Pasted_image_20250902130321.png](/Imagenes/Pasted_image_20250902130321.png)
 si nosotro pasamos a pones cualquiero cosa en le get vemos que nos lo sigue interprentando
-![Pasted_image_20250902130426.png](Imagenes/Pasted_image_20250902130426.png)
+![Pasted_image_20250902130426.png](/Imagenes/Pasted_image_20250902130426.png)
 de igual forma si ponemos una extencion
-![Pasted_image_20250902130700.png](Imagenes/Pasted_image_20250902130700.png)
+![Pasted_image_20250902130700.png](/Imagenes/Pasted_image_20250902130700.png)
 vemos que se reinicia la cache lo cual juega a favor de nosotros
 asi que algo que podemos hacer en el exploit server es esto
-![Pasted_image_20250902130741.png](Imagenes/Pasted_image_20250902130741.png)
+![Pasted_image_20250902130741.png](/Imagenes/Pasted_image_20250902130741.png)
 nota: me falto poner el ; alfinal del las comillas
 ahora si visitamos la url con la extencion my-account/ejemplo.js
 podemos ver que nos entrega la apy key de carlos
-![Pasted_image_20250902131012.png](Imagenes/Pasted_image_20250902131012.png)
-![Pasted_image_20250902131123.png](Imagenes/Pasted_image_20250902131123.png)
+![Pasted_image_20250902131012.png](/Imagenes/Pasted_image_20250902131012.png)
+![Pasted_image_20250902131123.png](/Imagenes/Pasted_image_20250902131123.png)

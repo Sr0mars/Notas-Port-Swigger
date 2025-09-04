@@ -8,18 +8,18 @@ Cuando el usuario víctima accede a la home, el navegador carga el script desde 
 
 Solucion
 vamos a interceptar el home y lo mandamos al repeater de igual manera nos comparten un exploit server
-![Pasted_image_20250829202656.png](Imagenes/Pasted_image_20250829202656.png)
+![Pasted_image_20250829202656.png](/Imagenes/Pasted_image_20250829202656.png)
 lo primero seria revisar si se puede refrescar la cache de la pagina
-![Pasted_image_20250829202827.png](Imagenes/Pasted_image_20250829202827.png)
+![Pasted_image_20250829202827.png](/Imagenes/Pasted_image_20250829202827.png)
 podemos notar que si por que en el age se mantiene a 0
 entonces lo que podemos hacer es meter otro host y poner un test para ver si en la respuesta vemos algo
-![Pasted_image_20250829203218.png](Imagenes/Pasted_image_20250829203218.png)
+![Pasted_image_20250829203218.png](/Imagenes/Pasted_image_20250829203218.png)
 y esto si lo vemos y podemos ver el recurso de js/tracking
 por lo cual en el exploit server tocaria modificarlo
-![Pasted_image_20250829203545.png](Imagenes/Pasted_image_20250829203545.png)
+![Pasted_image_20250829203545.png](/Imagenes/Pasted_image_20250829203545.png)
 y en BS quedaria asi
-![Pasted_image_20250829203617.png](Imagenes/Pasted_image_20250829203617.png)
+![Pasted_image_20250829203617.png](/Imagenes/Pasted_image_20250829203617.png)
 y cuando recargamos la pagina podemos ver que sea resuelto
-![Pasted_image_20250829203808.png](Imagenes/Pasted_image_20250829203808.png)
+![Pasted_image_20250829203808.png](/Imagenes/Pasted_image_20250829203808.png)
 
 

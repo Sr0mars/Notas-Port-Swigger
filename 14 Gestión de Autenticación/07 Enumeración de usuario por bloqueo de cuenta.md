@@ -5,6 +5,6 @@ Usarás un ataque tipo cluster bomb en Burp Intruder para enviar varias solicitu
 Solucion
 vamos a interceptar un peticion de login en BS
 asi que vamos a hacer un ataque de cluster bomb
-![Pasted_image_20250819222006.png](Imagenes/Pasted_image_20250819222006.png)
+![Pasted_image_20250819222006.png](/Imagenes/Pasted_image_20250819222006.png)
 cargamos los payload y en settings hacemos la configuracion del grep extract
-![Pasted_image_20250819222157.png](Imagenes/Pasted_image_20250819222157.png)
+![Pasted_image_20250819222157.png](/Imagenes/Pasted_image_20250819222157.png)

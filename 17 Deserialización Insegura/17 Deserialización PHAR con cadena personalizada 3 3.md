@@ -16,23 +16,23 @@ entonces una vez acabo el payload que daria asi
 
 entonces para que funcione este codigo nosotro vamos a utilizar una herramienta en github que se llama polyglot (https://github.com/kunte0/phar-jpg-polyglot)
 Este repositorio es una herramienta para generar archivos JPG que también contienen código PHAR ejecutable. Está pensado para pruebas de seguridad y retos CTF, y demuestra cómo una imagen aparentemente inocente puede ocultar código PHP malicioso. Es una técnica avanzada usada en auditorías de seguridad para detectar vulnerabilidades en el manejo de archivos por parte de aplicaciones PHP.
-![Pasted_image_20250827214636.png](Imagenes/Pasted_image_20250827214636.png)
+![Pasted_image_20250827214636.png](/Imagenes/Pasted_image_20250827214636.png)
 entonces modificamos el codigo de esta imagen
-![Pasted_image_20250827214948.png](Imagenes/Pasted_image_20250827214948.png)
+![Pasted_image_20250827214948.png](/Imagenes/Pasted_image_20250827214948.png)
 tal que vamos a elminar el ejemplo y poner nuestro codigo de archivo malicioso
-![Pasted_image_20250827215132.png](Imagenes/Pasted_image_20250827215132.png)
+![Pasted_image_20250827215132.png](/Imagenes/Pasted_image_20250827215132.png)
 tal que queda asi
-![Pasted_image_20250827215341.png](Imagenes/Pasted_image_20250827215341.png)
+![Pasted_image_20250827215341.png](/Imagenes/Pasted_image_20250827215341.png)
 ejecutamos pasandole los archivos
-![Pasted_image_20250827215511.png](Imagenes/Pasted_image_20250827215511.png)
+![Pasted_image_20250827215511.png](/Imagenes/Pasted_image_20250827215511.png)
 podemos ver que ya nos realiza el objeto
 subimos el archivo out.jpg
-![Pasted_image_20250827215629.png](Imagenes/Pasted_image_20250827215629.png)
+![Pasted_image_20250827215629.png](/Imagenes/Pasted_image_20250827215629.png)
 vemos que la imagen se sube
-![Pasted_image_20250827215724.png](Imagenes/Pasted_image_20250827215724.png)
+![Pasted_image_20250827215724.png](/Imagenes/Pasted_image_20250827215724.png)
 si nosotros inspeccionamos la imagen vemos que tiene la misma ruta
-![Pasted_image_20250827215807.png](Imagenes/Pasted_image_20250827215807.png)
+![Pasted_image_20250827215807.png](/Imagenes/Pasted_image_20250827215807.png)
 copiamos solo que en este caso vamos agregar phar y le damos a enter
-![Pasted_image_20250827215906.png](Imagenes/Pasted_image_20250827215906.png)vemos que nos sale not found pero si vamos al home
-![Pasted_image_20250827215958.png](Imagenes/Pasted_image_20250827215958.png)
-![Pasted_image_20250827220025.png](Imagenes/Pasted_image_20250827220025.png)
+![Pasted_image_20250827215906.png](/Imagenes/Pasted_image_20250827215906.png)vemos que nos sale not found pero si vamos al home
+![Pasted_image_20250827215958.png](/Imagenes/Pasted_image_20250827215958.png)
+![Pasted_image_20250827220025.png](/Imagenes/Pasted_image_20250827220025.png)

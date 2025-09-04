@@ -3,20 +3,20 @@ En esta clase identificamos una vulnerabilidad de Server-Side Template Injection
 Esto nos permite borrar un archivo sensible de forma remota, demostrando el riesgo de interpolar entradas del usuario sin sanitización en contextos de código.
 
 Solucion
-![Pasted_image_20250814191402.png](Imagenes/Pasted_image_20250814191402.png)
+![Pasted_image_20250814191402.png](/Imagenes/Pasted_image_20250814191402.png)
 asi que para ello vamos a logearnos y despues vamos a interceptar el apartado de submit que se encuentra en la parte de my account
-![Pasted_image_20250814191145.png](Imagenes/Pasted_image_20250814191145.png)
+![Pasted_image_20250814191145.png](/Imagenes/Pasted_image_20250814191145.png)
 en este caso se esta empleando tornado como template y esto se sabe causando un error en la parte de la solicitud la cual se puede emplear por BS
-![Pasted_image_20250814192017.png](Imagenes/Pasted_image_20250814192017.png)
+![Pasted_image_20250814192017.png](/Imagenes/Pasted_image_20250814192017.png)
 se aplica aqui
-![Pasted_image_20250814192912.png](Imagenes/Pasted_image_20250814192912.png)
+![Pasted_image_20250814192912.png](/Imagenes/Pasted_image_20250814192912.png)
 entonces esto se vera reflejado en algun post en el cual nosotros hemos publicado alguna cosa
-![Pasted_image_20250814193053.png](Imagenes/Pasted_image_20250814193053.png)
+![Pasted_image_20250814193053.png](/Imagenes/Pasted_image_20250814193053.png)
 entonces nosotros si aplicmaos una consulta con tornado
-![Pasted_image_20250814193440.png](Imagenes/Pasted_image_20250814193440.png)
+![Pasted_image_20250814193440.png](/Imagenes/Pasted_image_20250814193440.png)
 la consulta la estamos sacando de aqui
-![Pasted_image_20250814193507.png](Imagenes/Pasted_image_20250814193507.png)
+![Pasted_image_20250814193507.png](/Imagenes/Pasted_image_20250814193507.png)
 y si nosotros le damos a send y checamos el post obtenemos el usuario
-![Pasted_image_20250814193551.png](Imagenes/Pasted_image_20250814193551.png)
+![Pasted_image_20250814193551.png](/Imagenes/Pasted_image_20250814193551.png)
 y ya solo miramos el archivo que queremos eliminar y aplicamos la consulta
-![Pasted_image_20250814193811.png](Imagenes/Pasted_image_20250814193811.png)
+![Pasted_image_20250814193811.png](/Imagenes/Pasted_image_20250814193811.png)

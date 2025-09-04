@@ -25,4 +25,4 @@ Aqui el payload
 <div>Click</div>
 <iframe src="https://0a8800b9034fe4b880dd9e3e0002001c.web-security-academy.net/my-account"></iframe>
 
-![Pasted_image_20250724215309.png](Imagenes/Pasted_image_20250724215309.png)
+![Pasted_image_20250724215309.png](/Imagenes/Pasted_image_20250724215309.png)

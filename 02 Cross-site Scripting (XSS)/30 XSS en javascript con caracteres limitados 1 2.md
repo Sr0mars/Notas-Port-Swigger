@@ -9,13 +9,13 @@ Este laboratorio muestra cómo, incluso con múltiples capas de restricción, es
 Solucion
 Lo primero en esta ocacion seria checar el codigo fuente en el apartado de comentarios
 vemos una etiqueta href
-![Pasted_image_20250718175710.png](Imagenes/Pasted_image_20250718175710.png)
+![Pasted_image_20250718175710.png](/Imagenes/Pasted_image_20250718175710.png)
 vamos a urlcondearlo
-![Pasted_image_20250718175813.png](Imagenes/Pasted_image_20250718175813.png)
+![Pasted_image_20250718175813.png](/Imagenes/Pasted_image_20250718175813.png)
 obtenemos una direccion y un id
-![Pasted_image_20250718175929.png](Imagenes/Pasted_image_20250718175929.png)
+![Pasted_image_20250718175929.png](/Imagenes/Pasted_image_20250718175929.png)
 esto que nos dice que ne back to blog existe una ruta que esta en analitycs lo vemos con Ctrl+shoft+c en red
-![Pasted_image_20250718180506.png](Imagenes/Pasted_image_20250718180506.png)
+![Pasted_image_20250718180506.png](/Imagenes/Pasted_image_20250718180506.png)
 para verlo mejor en BS
 pero lo importante que en la injeccion se le puede meter mas parametro cerrando las comillas y agragando una llave
 Entonces lo primero seria identificar que tenemos en post = id
@@ -23,7 +23,7 @@ entonces podemos utilizar fuzz para ver que existe algun parametro si no es de e
 /post?postId=1
 wfuzz -c -w /usr/share/SecLists/Fuzzing/special-chars.txt 'https://0a9c00890352857d821bec9b009c00dc.web-security-academy.net/post?postId=2FUZZ%27},{x:%27'
 
-![Pasted_image_20250718183148.png](Imagenes/Pasted_image_20250718183148.png)
+![Pasted_image_20250718183148.png](/Imagenes/Pasted_image_20250718183148.png)
 aqui podemos ver que obtenemos 2 caracteres especiales lo cual es una buena forma en este caso el que funciono fue el de &
 por lo cual si ponemos el puntero en el back podemos ver esto
-![Pasted_image_20250718183535.png](Imagenes/Pasted_image_20250718183535.png)
+![Pasted_image_20250718183535.png](/Imagenes/Pasted_image_20250718183535.png)

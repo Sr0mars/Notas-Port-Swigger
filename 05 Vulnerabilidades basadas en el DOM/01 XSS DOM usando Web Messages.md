@@ -5,9 +5,9 @@ Desde el servidor de explotación, se carga la página vulnerable dentro de un i
 Solucion
 Como sabemos en el caso del xss se tiene que checar en todas partes y en este caso verificamos el codigo fuente siempre buscando el script
 La pagina web
-![Pasted_image_20250727162908.png](Imagenes/Pasted_image_20250727162908.png)
+![Pasted_image_20250727162908.png](/Imagenes/Pasted_image_20250727162908.png)
 El codigo fuente
-![Pasted_image_20250727162936.png](Imagenes/Pasted_image_20250727162936.png)
+![Pasted_image_20250727162936.png](/Imagenes/Pasted_image_20250727162936.png)
 ### Explicación:
 
 1. **`window.addEventListener('message', ...)`**  
@@ -34,7 +34,7 @@ El codigo fuente
 
 Lo cual nos podemos aprovechar
 de esta manera
-![Pasted_image_20250727163556.png](Imagenes/Pasted_image_20250727163556.png)
+![Pasted_image_20250727163556.png](/Imagenes/Pasted_image_20250727163556.png)
 pero esto lo tendremos que hacerlo en payload 
 (<iframe src="https://0a92007a042f59288084039d00b9004d.web-security-academy.net/" onload="this.contentWindow.postMessage('<img src=1 onerror=print()>','*')">)
 

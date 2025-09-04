@@ -14,16 +14,16 @@ Object.defineProperty(Object.prototype, 'YOUR-PROPERTY', {
 Como lo hacemos manualmente
 nos vamos al BS en proxysetting 
 nos aseguramos que este palomeada
-![Pasted_image_20250831234148.png](Imagenes/Pasted_image_20250831234148.png)
+![Pasted_image_20250831234148.png](/Imagenes/Pasted_image_20250831234148.png)
 y ahora vamos a interceptar a la raiz le damos forward y veremos que nos sale el codigo en la otra respuesta
-![Pasted_image_20250831234302.png](Imagenes/Pasted_image_20250831234302.png)
+![Pasted_image_20250831234302.png](/Imagenes/Pasted_image_20250831234302.png)
 de tal menera que quedaria asi
 <script>
 
     debugger;
 
 </script>
-![Pasted_image_20250831234450.png](Imagenes/Pasted_image_20250831234450.png)
+![Pasted_image_20250831234450.png](/Imagenes/Pasted_image_20250831234450.png)
 le damos forward
 y en consola le pegamos esto
 Object.defineProperty(Object.prototype, 'hitCallback', {

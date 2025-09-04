@@ -4,13 +4,13 @@ En uno de los archivos encontramos la contraseña de carlos, que nos permite ini
 
 Solucion
 auqi podemos ver el live chat
-![Pasted_image_20250815185025.png](Imagenes/Pasted_image_20250815185025.png)
+![Pasted_image_20250815185025.png](/Imagenes/Pasted_image_20250815185025.png)
 si nosotros le damos a view transcript nos descarga un archivo por lo cual pasamos a interceptar
-![Pasted_image_20250815185201.png](Imagenes/Pasted_image_20250815185201.png)
+![Pasted_image_20250815185201.png](/Imagenes/Pasted_image_20250815185201.png)
 aqui esta aplicando una peticion get
-![Pasted_image_20250815185330.png](Imagenes/Pasted_image_20250815185330.png)
+![Pasted_image_20250815185330.png](/Imagenes/Pasted_image_20250815185330.png)
 asi que lo que podemos hacer es cambiar el numero de esta manera podemos ver si nos esta listando info
-![Pasted_image_20250815185548.png](Imagenes/Pasted_image_20250815185548.png)
+![Pasted_image_20250815185548.png](/Imagenes/Pasted_image_20250815185548.png)
 y solo nos logeamos como carlos
-![Pasted_image_20250815185651.png](Imagenes/Pasted_image_20250815185651.png)
+![Pasted_image_20250815185651.png](/Imagenes/Pasted_image_20250815185651.png)
 

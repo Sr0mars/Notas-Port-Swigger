@@ -9,14 +9,14 @@ Este escenario demuestra cómo una validación parcial y mal implementada del en
 Solucion
 Al igual que en los otros laboratorios lo que realizamos es lo mismo cambiamos el correo lo interceptamos
 y pues vemos que no obtenemos ninguna restriccion al csrf
-![Pasted_image_20250723232459.png](Imagenes/Pasted_image_20250723232459.png)
+![Pasted_image_20250723232459.png](/Imagenes/Pasted_image_20250723232459.png)
 de principio si enviamos un payload sencillo no nos dejara por la restriccion de referer uqe no esta proviniendo de la misma url
-![Pasted_image_20250723232745.png](Imagenes/Pasted_image_20250723232745.png)
+![Pasted_image_20250723232745.png](/Imagenes/Pasted_image_20250723232745.png)
 en este punto lo que podemos hacer es buscar como engañar al propio referer ya que esta es una politica que tiene los navegadores como mecanismo de seguridad asi que lo que podemos hacer es buscar otro ripo de sintaxis
-![Pasted_image_20250723233239.png](Imagenes/Pasted_image_20250723233239.png)
+![Pasted_image_20250723233239.png](/Imagenes/Pasted_image_20250723233239.png)
 
 Referrer-Policy: unsafe-url
 con esa politica burlamos ese proceso
-![Pasted_image_20250723235941.png](Imagenes/Pasted_image_20250723235941.png)
+![Pasted_image_20250723235941.png](/Imagenes/Pasted_image_20250723235941.png)
 
 por lo cual podemos cambiarle el correo

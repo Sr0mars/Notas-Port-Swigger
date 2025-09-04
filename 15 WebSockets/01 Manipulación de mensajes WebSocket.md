@@ -5,17 +5,17 @@ La aplicación cuenta con un chat en tiempo real gestionado por WebSockets. Al e
 Esta técnica pone de manifiesto la importancia de validar los mensajes en el servidor, ya que las protecciones del cliente pueden ser fácilmente eludidas. El laboratorio se completa cuando logramos que la carga manipulada sea procesada por el navegador del agente, confirmando la existencia de la vulnerabilidad.
 
 Solucion
-![Pasted_image_20250820234433.png](Imagenes/Pasted_image_20250820234433.png)
+![Pasted_image_20250820234433.png](/Imagenes/Pasted_image_20250820234433.png)
 La web:
-![Pasted_image_20250820234527.png](Imagenes/Pasted_image_20250820234527.png)
+![Pasted_image_20250820234527.png](/Imagenes/Pasted_image_20250820234527.png)
 y tenemos un chat en linea
-![Pasted_image_20250820234631.png](Imagenes/Pasted_image_20250820234631.png)
+![Pasted_image_20250820234631.png](/Imagenes/Pasted_image_20250820234631.png)
 esto es lo que vemos en el http history 
-![Pasted_image_20250820234736.png](Imagenes/Pasted_image_20250820234736.png)
+![Pasted_image_20250820234736.png](/Imagenes/Pasted_image_20250820234736.png)
 pero no es lo mismo si nos vamos en el websocket del propio BS podemos ver esto
-![Pasted_image_20250820234936.png](Imagenes/Pasted_image_20250820234936.png)
+![Pasted_image_20250820234936.png](/Imagenes/Pasted_image_20250820234936.png)
 si nosotros interceptmaos un hola en el live chat
-![Pasted_image_20250820235033.png](Imagenes/Pasted_image_20250820235033.png)
+![Pasted_image_20250820235033.png](/Imagenes/Pasted_image_20250820235033.png)
 y lo mandamos al repeter
 y lo modificamos por una alerta
-![Pasted_image_20250821000427.png](Imagenes/Pasted_image_20250821000427.png)
+![Pasted_image_20250821000427.png](/Imagenes/Pasted_image_20250821000427.png)

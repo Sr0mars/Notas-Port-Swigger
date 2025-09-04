@@ -6,18 +6,18 @@ Este laboratorio demuestra cómo una gestión insegura del parámetro **kid** 
 
 Solucion
 nos logeamos y aqui lo interceptamos
-![Pasted_image_20250831011358.png](Imagenes/Pasted_image_20250831011358.png)
+![Pasted_image_20250831011358.png](/Imagenes/Pasted_image_20250831011358.png)
 podemos ver que estamos ante una clave simetrica
-![Pasted_image_20250831011425.png](Imagenes/Pasted_image_20250831011425.png)
+![Pasted_image_20250831011425.png](/Imagenes/Pasted_image_20250831011425.png)
 nos vamos a la extencion del JWT y vamos acrear una key symetrica
-![Pasted_image_20250831011759.png](Imagenes/Pasted_image_20250831011759.png)
+![Pasted_image_20250831011759.png](/Imagenes/Pasted_image_20250831011759.png)
 y en la parte de la k vamos a poner un valor nulo
-![Pasted_image_20250831011826.png](Imagenes/Pasted_image_20250831011826.png)
-![Pasted_image_20250831011918.png](Imagenes/Pasted_image_20250831011918.png)
+![Pasted_image_20250831011826.png](/Imagenes/Pasted_image_20250831011826.png)
+![Pasted_image_20250831011918.png](/Imagenes/Pasted_image_20250831011918.png)
 le damos a ok
 y en la cabecera le vamos a quitar el kid y vamos a retroceder unos directores hasta y ponemos el dev null
-![Pasted_image_20250831012149.png](Imagenes/Pasted_image_20250831012149.png)
+![Pasted_image_20250831012149.png](/Imagenes/Pasted_image_20250831012149.png)
 seguido le damos a sign
-![Pasted_image_20250831012228.png](Imagenes/Pasted_image_20250831012228.png)
+![Pasted_image_20250831012228.png](/Imagenes/Pasted_image_20250831012228.png)
 copiamos la cookie y eliminamos al usuario carlos
-![Pasted_image_20250831012423.png](Imagenes/Pasted_image_20250831012423.png)
+![Pasted_image_20250831012423.png](/Imagenes/Pasted_image_20250831012423.png)

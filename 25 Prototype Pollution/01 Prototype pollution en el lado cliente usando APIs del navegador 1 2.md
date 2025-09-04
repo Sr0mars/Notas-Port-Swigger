@@ -6,14 +6,14 @@ Este enfoque nos introduce a una técnica moderna y poderosa que afecta directam
 
 Solucion
 La web:
-![Pasted_image_20250831190234.png](Imagenes/Pasted_image_20250831190234.png)
+![Pasted_image_20250831190234.png](/Imagenes/Pasted_image_20250831190234.png)
 la vulnerabilidad se puede presentar desde afuera por medio de un post o url
 y en la url vamos a poner esto (?__proto__[foo]=bar)
-![Pasted_image_20250831190404.png](Imagenes/Pasted_image_20250831190404.png)
+![Pasted_image_20250831190404.png](/Imagenes/Pasted_image_20250831190404.png)
 claramente no vamos a ver nada en la web pero si nosotro nos vamos a la consola y ponemos lo siguiente
-![Pasted_image_20250831190716.png](Imagenes/Pasted_image_20250831190716.png)
+![Pasted_image_20250831190716.png](/Imagenes/Pasted_image_20250831190716.png)
 esto significa que hemos agregado incorporar una nueva propiedad a todos los objetos incluido los objetos vacios
 esto lo interpreta asi algunos frameworks
-![Pasted_image_20250831191113.png](Imagenes/Pasted_image_20250831191113.png)
+![Pasted_image_20250831191113.png](/Imagenes/Pasted_image_20250831191113.png)
 
 

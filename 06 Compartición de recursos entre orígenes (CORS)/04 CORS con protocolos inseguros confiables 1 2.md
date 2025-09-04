@@ -4,27 +4,27 @@ Aprovechamos una funcionalidad vulnerable de la aplicación, donde una URL en HT
 
 Solucion
 aplicamos los pasos pero en este caso no va funcionar ni el null ni otra cosa
-![Pasted_image_20250728211958.png](Imagenes/Pasted_image_20250728211958.png)
+![Pasted_image_20250728211958.png](/Imagenes/Pasted_image_20250728211958.png)
 entonces aqui trabaja con subdominios
 la primera prueba sera con el propio dominio
-![Pasted_image_20250728212301.png](Imagenes/Pasted_image_20250728212301.png)
+![Pasted_image_20250728212301.png](/Imagenes/Pasted_image_20250728212301.png)
 probamos con otro diferente
-![Pasted_image_20250728212435.png](Imagenes/Pasted_image_20250728212435.png)
+![Pasted_image_20250728212435.png](/Imagenes/Pasted_image_20250728212435.png)
 y tambien funciona
 ahora toca buscar en la web aver que encontramos
 La web:
-![Pasted_image_20250728212612.png](Imagenes/Pasted_image_20250728212612.png)
+![Pasted_image_20250728212612.png](/Imagenes/Pasted_image_20250728212612.png)
 presionamos el del perro
-![Pasted_image_20250728212639.png](Imagenes/Pasted_image_20250728212639.png)
+![Pasted_image_20250728212639.png](/Imagenes/Pasted_image_20250728212639.png)
 le damos en check stock
 cuando le damos en check stock obtenemos esto
-![Pasted_image_20250728212726.png](Imagenes/Pasted_image_20250728212726.png)
+![Pasted_image_20250728212726.png](/Imagenes/Pasted_image_20250728212726.png)
 
 vamos a intestigar esa nueva ventana injectando codigo
-![Pasted_image_20250728212850.png](Imagenes/Pasted_image_20250728212850.png)
+![Pasted_image_20250728212850.png](/Imagenes/Pasted_image_20250728212850.png)
 y es vulnerable a xss
 y podemos ver que este subdomio no tiene problema en ser mandado al origin
-![Pasted_image_20250728213015.png](Imagenes/Pasted_image_20250728213015.png)
+![Pasted_image_20250728213015.png](/Imagenes/Pasted_image_20250728213015.png)
 asi que vamos a mandar exfiltrar informcion entonces para ello vamos a realizar un script
 
 <script>

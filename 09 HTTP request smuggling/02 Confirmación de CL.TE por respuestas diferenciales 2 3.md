@@ -3,14 +3,14 @@ En esta clase continuamos con el mismo laboratorio anterior, en el que identific
 El objetivo sigue siendo verificar que el ataque permite alterar la interpretación del contenido por parte del servidor de backend, forzando un error o manipulando las respuestas. Esta parte sirve como puente hacia la tercera y última sección del laboratorio, donde finalmente aprovecharemos este comportamiento para lograr el impacto deseado.
 
 Solucion
-![Pasted_image_20250805205008.png](Imagenes/Pasted_image_20250805205008.png)
-![Pasted_image_20250806191531.png](Imagenes/Pasted_image_20250806191531.png)
+![Pasted_image_20250805205008.png](/Imagenes/Pasted_image_20250805205008.png)
+![Pasted_image_20250806191531.png](/Imagenes/Pasted_image_20250806191531.png)
 La web:
-![Pasted_image_20250806191934.png](Imagenes/Pasted_image_20250806191934.png)
+![Pasted_image_20250806191934.png](/Imagenes/Pasted_image_20250806191934.png)
 Vamos a interceptarla con BS una ves dentro vmaos a cambiar el request atribut en la parte derecha a http 1 y cambiamos el metodo de GET a POST
-![Pasted_image_20250806192132.png](Imagenes/Pasted_image_20250806192132.png)
+![Pasted_image_20250806192132.png](/Imagenes/Pasted_image_20250806192132.png)
 una vez realizado esto vamos a limpiar y quedarnos solo lo que necesitamos
-![Pasted_image_20250806192331.png](Imagenes/Pasted_image_20250806192331.png)
+![Pasted_image_20250806192331.png](/Imagenes/Pasted_image_20250806192331.png)
 una breve explicacion del payload
 POST / HTTP/1.1
 Host: YOUR-LAB-ID.web-security-academy.net

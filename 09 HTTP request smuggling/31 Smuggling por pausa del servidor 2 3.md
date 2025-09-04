@@ -35,7 +35,7 @@ Host: 0ad5004303587aa0806d9ef000090092.web-security-academy.net
 
 def handleResponse(req, interesting):
     table.add(req))
-    ![Pasted_image_20250812234714.png](Imagenes/Pasted_image_20250812234714.png)
+    ![Pasted_image_20250812234714.png](/Imagenes/Pasted_image_20250812234714.png)
     pero este payload fue el que me funciono 
     (def queueRequests(target, wordlists):
     engine = RequestEngine(endpoint=target.endpoint,
@@ -68,4 +68,4 @@ def handleResponse(req, interesting):
     table.add(req)
 )
 
-![Pasted_image_20250812235400.png](Imagenes/Pasted_image_20250812235400.png)
+![Pasted_image_20250812235400.png](/Imagenes/Pasted_image_20250812235400.png)

@@ -4,11 +4,11 @@ Con este ataque, esperamos a que el usuario administrador inicie sesión. Captur
 
 Solucion
 vamos a interceptar la pagina principal e interpetamos hacemos solamente el change method y lo siguien es hacer pruebas pero vamos que no funcionan asi que vamos a probar lo mismo del laboratorio anterior con el tranfer
-![Pasted_image_20250809222828.png](Imagenes/Pasted_image_20250809222828.png)
+![Pasted_image_20250809222828.png](/Imagenes/Pasted_image_20250809222828.png)
 hacemos el mismo proceso y le damos add
-![Pasted_image_20250809223011.png](Imagenes/Pasted_image_20250809223011.png)
+![Pasted_image_20250809223011.png](/Imagenes/Pasted_image_20250809223011.png)
 y le damos send
-![Pasted_image_20250809223049.png](Imagenes/Pasted_image_20250809223049.png)
+![Pasted_image_20250809223049.png](/Imagenes/Pasted_image_20250809223049.png)
 pero vemos que no nos da ningun error asi que lo siguiente es borrar de nueva esa cabecera que metimos
 entonces lo hacemos por GET pero por GET nos sale otro error
 (value
@@ -18,16 +18,16 @@ entonces lo hacemos por GET pero por GET nos sale otro error
 GET /error HTTP/1.1
 
 Host: 0a6500b5035e9422806d26a800790066.web-security-academy.net)
-![Pasted_image_20250809223350.png](Imagenes/Pasted_image_20250809223350.png)
+![Pasted_image_20250809223350.png](/Imagenes/Pasted_image_20250809223350.png)
 asi que vamos a meter otra cabecera y vamos a modificar el raw
 asi quedaria el Raw
-![Pasted_image_20250809223952.png](Imagenes/Pasted_image_20250809223952.png)
+![Pasted_image_20250809223952.png](/Imagenes/Pasted_image_20250809223952.png)
 y asi quedaria el la cebezera que vamos a meter
-![Pasted_image_20250809224058.png](Imagenes/Pasted_image_20250809224058.png)
+![Pasted_image_20250809224058.png](/Imagenes/Pasted_image_20250809224058.png)
 entonces le damos a send unas 3 o 2 veces hasta que veamos el error
-![Pasted_image_20250809224212.png](Imagenes/Pasted_image_20250809224212.png)
+![Pasted_image_20250809224212.png](/Imagenes/Pasted_image_20250809224212.png)
 entonces nosotros necesitamos darle de nuevo a send hasta que nos salga el  error 302 y ahi obtenemos la cookie
-![Pasted_image_20250809224928.png](Imagenes/Pasted_image_20250809224928.png)
+![Pasted_image_20250809224928.png](/Imagenes/Pasted_image_20250809224928.png)
 nos copiamos la cookie y la pegamos  y eliminamos al usuario carlos
-![Pasted_image_20250809225002.png](Imagenes/Pasted_image_20250809225002.png)
+![Pasted_image_20250809225002.png](/Imagenes/Pasted_image_20250809225002.png)
 

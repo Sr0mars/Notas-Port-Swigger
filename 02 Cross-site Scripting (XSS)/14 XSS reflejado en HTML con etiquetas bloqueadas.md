@@ -13,29 +13,29 @@ https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
 Solucion
 Esto paso que cuando nosotros ponemos el script nos sale una ventana emergente por lo que tiene bastante filtros
-![Pasted_image_20250710160426.png](Imagenes/Pasted_image_20250710160426.png)
+![Pasted_image_20250710160426.png](/Imagenes/Pasted_image_20250710160426.png)
 entonces vamos a utilizar BS en el apartado de intruder priemero ponemos en el apartado de busquedad esto <script>alert(0)</script>
 u luego interceptamos esto en la url
-![Pasted_image_20250710161221.png](Imagenes/Pasted_image_20250710161221.png)
+![Pasted_image_20250710161221.png](/Imagenes/Pasted_image_20250710161221.png)
 abrimos el BS y mandamos esta peticion al intruder ponemos las rexpectivos <> en apartado de GET
 y vamos a seleccionar el apartado de test y le damos add para hacer un payload
-![Pasted_image_20250710161617.png](Imagenes/Pasted_image_20250710161617.png)
+![Pasted_image_20250710161617.png](/Imagenes/Pasted_image_20250710161617.png)
 entonces lo que sigue es copiar la lista del cheat para poder pegarla en el payload
-![Pasted_image_20250710161901.png](Imagenes/Pasted_image_20250710161901.png)
-![Pasted_image_20250710161927.png](Imagenes/Pasted_image_20250710161927.png)
+![Pasted_image_20250710161901.png](/Imagenes/Pasted_image_20250710161901.png)
+![Pasted_image_20250710161927.png](/Imagenes/Pasted_image_20250710161927.png)
 quitamos la casilla marcada que se esta mas abajo y le damos start attack
 y podemos ver que en ataque la etiqueta body le gusta
-![Pasted_image_20250710163256.png](Imagenes/Pasted_image_20250710163256.png)
+![Pasted_image_20250710163256.png](/Imagenes/Pasted_image_20250710163256.png)
 por lo cual en la url en ves de ponerlo en test podemos ponerle body e volverlo a interceptar pero esta ves lo mandamos al repeter y ponemos de nuevo las etiquetas <>
 entonces le agregamos una etiqueta mas para mandarlo a introduer y hacer un ataque con el payload pero esta ves de los evento en cheet
-![Pasted_image_20250710164612.png](Imagenes/Pasted_image_20250710164612.png)
+![Pasted_image_20250710164612.png](/Imagenes/Pasted_image_20250710164612.png)
 y el campo desconozco le damos add y pegamos la lista recordar que esta ves va hacer  el de los eventos
-![Pasted_image_20250710164743.png](Imagenes/Pasted_image_20250710164743.png)
+![Pasted_image_20250710164743.png](/Imagenes/Pasted_image_20250710164743.png)
 Desmarcamos nuevamente la casilla de hasta abajo y iniciamos ataque
-![Pasted_image_20250710164922.png](Imagenes/Pasted_image_20250710164922.png)
+![Pasted_image_20250710164922.png](/Imagenes/Pasted_image_20250710164922.png)
 
 Como podemos ver nosotros podemos ver en la cadena bastantes codigos 200 en este caso podemos utilizar onresize
-![Pasted_image_20250710170123.png](Imagenes/Pasted_image_20250710170123.png)
+![Pasted_image_20250710170123.png](/Imagenes/Pasted_image_20250710170123.png)
 y la url quedaria asi para mandarselo a nusetro objetivo
 <iframe src="https://0a59004c04e612a08323326800150063.web-security-academy.net/?search=<body onresize=print()>"></iframe>
 y el exploid quedaria asi

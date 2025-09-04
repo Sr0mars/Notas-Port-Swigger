@@ -5,5 +5,5 @@ También descubrimos que el LLM analiza parte del contenido malicioso, pero aún
 Solucion
 Lo primero es registrarnos no comparten un email client activamos la cuenta y nos logemamos
 una vez logeado probamos en e live chat si es vulnerable a XSS
-![Pasted_image_20250902123624.png](Imagenes/Pasted_image_20250902123624.png)
+![Pasted_image_20250902123624.png](/Imagenes/Pasted_image_20250902123624.png)
 vemos que nos sale la alerta

@@ -8,15 +8,15 @@ Este laboratorio enseña una técnica de evasión muy útil para entornos donde 
 
 Solucion
 aqui empezamos con lo de siempre vamos a poner testing en el buscador y vemos que trae el  codigo podemos ver que existe una variable que esta almacenando la cadena testing podemos probar con espacarla injectandole codigo
-![Pasted_image_20250714193626.png](Imagenes/Pasted_image_20250714193626.png)
-![Pasted_image_20250714193639.png](Imagenes/Pasted_image_20250714193639.png)
+![Pasted_image_20250714193626.png](/Imagenes/Pasted_image_20250714193626.png)
+![Pasted_image_20250714193639.png](/Imagenes/Pasted_image_20250714193639.png)
 pero vemos que no funciona con la camilla asi que podemos poner un slash invertida pero tampoco no funciona
-![Pasted_image_20250714193810.png](Imagenes/Pasted_image_20250714193810.png)
+![Pasted_image_20250714193810.png](/Imagenes/Pasted_image_20250714193810.png)
 pero nosotros podemos forzarlo con un simple </script> lo que hace esto es que salta la consulta que se esta realizando
-![Pasted_image_20250714194040.png](Imagenes/Pasted_image_20250714194040.png)
+![Pasted_image_20250714194040.png](/Imagenes/Pasted_image_20250714194040.png)
 asi que podemos probar con un solo hola
-![Pasted_image_20250714194231.png](Imagenes/Pasted_image_20250714194231.png)
+![Pasted_image_20250714194231.png](/Imagenes/Pasted_image_20250714194231.png)
 
 asi que podemos probar esto
 </script><script>alert(0)</script>
-![Pasted_image_20250714194549.png](Imagenes/Pasted_image_20250714194549.png)
+![Pasted_image_20250714194549.png](/Imagenes/Pasted_image_20250714194549.png)

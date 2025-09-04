@@ -4,14 +4,14 @@ Al alternar repetidamente los códigos **NEWCUST5** y **SIGNUP30**, logramos 
 
 Solucion
 y bueno al acceder a la web nos sale que tenemos un codigo de descuento
-![Pasted_image_20250827234513.png](Imagenes/Pasted_image_20250827234513.png)
+![Pasted_image_20250827234513.png](/Imagenes/Pasted_image_20250827234513.png)
 mos logeamos y en la parte de hasta abajo de la web nos sale esto
-![Pasted_image_20250827234638.png](Imagenes/Pasted_image_20250827234638.png)
+![Pasted_image_20250827234638.png](/Imagenes/Pasted_image_20250827234638.png)
 vamos a tratar de validar y nos sale otro codigo
-![Pasted_image_20250827234722.png](Imagenes/Pasted_image_20250827234722.png)
+![Pasted_image_20250827234722.png](/Imagenes/Pasted_image_20250827234722.png)
 bueno vamos a agregar la chaqueta y aplicamos los codigo de descuento
-![Pasted_image_20250827234942.png](Imagenes/Pasted_image_20250827234942.png)
+![Pasted_image_20250827234942.png](/Imagenes/Pasted_image_20250827234942.png)
 pero que pasa si vamos alternando los codigos
-![Pasted_image_20250827235116.png](Imagenes/Pasted_image_20250827235116.png)
+![Pasted_image_20250827235116.png](/Imagenes/Pasted_image_20250827235116.png)
 de tal manera que el precio se queda en 0
-![Pasted_image_20250827235140.png](Imagenes/Pasted_image_20250827235140.png)
+![Pasted_image_20250827235140.png](/Imagenes/Pasted_image_20250827235140.png)

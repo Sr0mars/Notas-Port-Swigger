@@ -5,9 +5,9 @@ Definimos una entidad que referencia este DTD y redefinimos una entidad existent
 Solucion
 Para este laboratorio lo primero seria probar todo lo que aprendimos en esta vulnerabilidad pero viendo que no funciona nosotros nos podemos aprovechar de los errores 
 La web:
-![Pasted_image_20250802191725.png](Imagenes/Pasted_image_20250802191725.png)
+![Pasted_image_20250802191725.png](/Imagenes/Pasted_image_20250802191725.png)
 Con BS vamos a interceptar el check stock
-![Pasted_image_20250802191900.png](Imagenes/Pasted_image_20250802191900.png)
+![Pasted_image_20250802191900.png](/Imagenes/Pasted_image_20250802191900.png)
 ya dentro del BS
-![Pasted_image_20250802191932.png](Imagenes/Pasted_image_20250802191932.png)
+![Pasted_image_20250802191932.png](/Imagenes/Pasted_image_20250802191932.png)
 

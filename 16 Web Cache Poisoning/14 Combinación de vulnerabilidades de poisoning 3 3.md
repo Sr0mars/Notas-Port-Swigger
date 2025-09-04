@@ -4,11 +4,11 @@ Cuando el usuario accede a la página principal, será redirigido al entorno en 
 
 Solucion
 asi que en otra direccion de raiz con el BS ponemos la cabecera
-![Pasted_image_20250822192142.png](Imagenes/Pasted_image_20250822192142.png)
+![Pasted_image_20250822192142.png](/Imagenes/Pasted_image_20250822192142.png)
 Asi que en resumen spameamos el send de las 2 consultas
 1.-
-![Pasted_image_20250822192219.png](Imagenes/Pasted_image_20250822192219.png)
+![Pasted_image_20250822192219.png](/Imagenes/Pasted_image_20250822192219.png)
 2.-
-![Pasted_image_20250822192236.png](Imagenes/Pasted_image_20250822192236.png)
+![Pasted_image_20250822192236.png](/Imagenes/Pasted_image_20250822192236.png)
 asi que una vez terminandolo solo recargamos la pagina
-![Pasted_image_20250822192323.png](Imagenes/Pasted_image_20250822192323.png)
+![Pasted_image_20250822192323.png](/Imagenes/Pasted_image_20250822192323.png)

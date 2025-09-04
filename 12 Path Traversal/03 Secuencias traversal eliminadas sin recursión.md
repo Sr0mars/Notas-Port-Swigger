@@ -4,4 +4,4 @@ Usando ‘**….//….//etc/passwd**‘, logramos acceder a archivos sensibles c
 
 Solucion
 seguimos con lo mismo interceptamos la imagen en el BS
-![Pasted_image_20250814222024.png](Imagenes/Pasted_image_20250814222024.png)
+![Pasted_image_20250814222024.png](/Imagenes/Pasted_image_20250814222024.png)

@@ -10,4 +10,4 @@ Solucion
 Para romper el sandbox de angular lo primero seria verificar en la pagina de cheet sheat y buscar lo de la version https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 asi que lo primero seria verificar el codigo fuente o el script en la busquedad 
 
-![Pasted_image_20250717185117.png](Imagenes/Pasted_image_20250717185117.png)
+![Pasted_image_20250717185117.png](/Imagenes/Pasted_image_20250717185117.png)

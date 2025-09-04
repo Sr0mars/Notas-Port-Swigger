@@ -7,6 +7,6 @@ Este tipo de técnica es fundamental cuando no tenemos mensajes de error ni resu
 Solucion
 
 Lo primero identificar el tipo de bases de datos a la cual nos estamos enfrentando
-![Pasted_image_20250704115850.png](Imagenes/Pasted_image_20250704115850.png)
+![Pasted_image_20250704115850.png](/Imagenes/Pasted_image_20250704115850.png)
 En este caso resulto ser PostgreSQL '||pg_sleep(2)-- -
-![Pasted_image_20250704120200.png](Imagenes/Pasted_image_20250704120200.png)
+![Pasted_image_20250704120200.png](/Imagenes/Pasted_image_20250704120200.png)

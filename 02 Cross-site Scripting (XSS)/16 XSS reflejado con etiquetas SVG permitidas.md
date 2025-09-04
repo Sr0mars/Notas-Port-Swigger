@@ -11,14 +11,14 @@ Este caso demuestra cómo incluso los entornos con filtros activos pueden ser vu
 Solucion
 Empesamos hacer lo mismo lo cual seria agarramos y ponemos una etique comun en el buscador lo interceptamos con BS nos vamos al intruder utilizamos las etiquetas y quitamos la casilla
 Entonces el primer paso es entontrar las etiquetas que nos deja
-![Pasted_image_20250711154502.png](Imagenes/Pasted_image_20250711154502.png)
+![Pasted_image_20250711154502.png](/Imagenes/Pasted_image_20250711154502.png)
 lo siguente es investigar que significa esa etiqueta en este caso ocupa que le pongamos otra etiqueta que es la svg
-![Pasted_image_20250711154624.png](Imagenes/Pasted_image_20250711154624.png)
+![Pasted_image_20250711154624.png](/Imagenes/Pasted_image_20250711154624.png)
 asi que ponemos la sintaxix en el repeter y despues lo mandamos de nuevo al intruder para ponfigurar el payload y este caso nusetro payload va ser la a (tenemos que poner el espacion por %20 ya que es una peticion por get)
-![Pasted_image_20250714190626.png](Imagenes/Pasted_image_20250714190626.png)
+![Pasted_image_20250714190626.png](/Imagenes/Pasted_image_20250714190626.png)
 lo siguente seria localizar el evento para poner las etiquetas
 En este caso vamos a utilizar en onbegin que es al comenzar asi que ponemos toda la url de esta manera
 <svg><animateTransform onbegin=alert(0)>
-![Pasted_image_20250714191013.png](Imagenes/Pasted_image_20250714191013.png)
+![Pasted_image_20250714191013.png](/Imagenes/Pasted_image_20250714191013.png)
 
 

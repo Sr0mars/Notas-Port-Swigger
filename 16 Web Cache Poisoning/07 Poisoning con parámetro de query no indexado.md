@@ -4,9 +4,9 @@ Se identifica un parámetro como ‘**utm_content**‘ usando herramientas como 
 
 Solucion
 de igual manera interceptamos la pagina principal
-![Pasted_image_20250821220002.png](Imagenes/Pasted_image_20250821220002.png)
+![Pasted_image_20250821220002.png](/Imagenes/Pasted_image_20250821220002.png)
 entonces con el parametro utm aplicamos la injeccion
-![Pasted_image_20250821220141.png](Imagenes/Pasted_image_20250821220141.png)
+![Pasted_image_20250821220141.png](/Imagenes/Pasted_image_20250821220141.png)
 y recargamos la pagina
-![Pasted_image_20250821220206.png](Imagenes/Pasted_image_20250821220206.png)
+![Pasted_image_20250821220206.png](/Imagenes/Pasted_image_20250821220206.png)
 

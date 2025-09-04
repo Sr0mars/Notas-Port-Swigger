@@ -7,8 +7,8 @@ Este escenario demuestra cómo una mala implementación del control de sesiones 
 Solucion
 En este laboratorio vemos que tiene un refresh de cookies por lo cual se actualizan
 un ejemplo seria que cuando nos logeamos y despues nos vamos a la pagina principal nos deslogeamos  y le damos my account en ese momento podemos ver que nos lleva a social-login
-![Pasted_image_20250723225130.png](Imagenes/Pasted_image_20250723225130.png)y despues de esperar unos cuantos segundos nos lleva a otra direccion
-![Pasted_image_20250723225307.png](Imagenes/Pasted_image_20250723225307.png)
+![Pasted_image_20250723225130.png](/Imagenes/Pasted_image_20250723225130.png)y despues de esperar unos cuantos segundos nos lleva a otra direccion
+![Pasted_image_20250723225307.png](/Imagenes/Pasted_image_20250723225307.png)
 Por lo cual podemos realizar un nuevo payload
 
 (

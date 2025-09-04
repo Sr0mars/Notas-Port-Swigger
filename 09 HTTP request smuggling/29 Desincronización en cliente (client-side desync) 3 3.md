@@ -23,9 +23,9 @@ el script bueno es este
     credentials: "include"
   });
 </script>)
-![Pasted_image_20250812221322.png](Imagenes/Pasted_image_20250812221322.png)
+![Pasted_image_20250812221322.png](/Imagenes/Pasted_image_20250812221322.png)
 Aqui lo vemos reflejado
-![Pasted_image_20250812221356.png](Imagenes/Pasted_image_20250812221356.png)
+![Pasted_image_20250812221356.png](/Imagenes/Pasted_image_20250812221356.png)
 copiamos y pegamos en almacenamiento
-![Pasted_image_20250812221507.png](Imagenes/Pasted_image_20250812221507.png)
-![Pasted_image_20250812221531.png](Imagenes/Pasted_image_20250812221531.png)
+![Pasted_image_20250812221507.png](/Imagenes/Pasted_image_20250812221507.png)
+![Pasted_image_20250812221531.png](/Imagenes/Pasted_image_20250812221531.png)

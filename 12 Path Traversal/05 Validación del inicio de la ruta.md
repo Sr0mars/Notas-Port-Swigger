@@ -4,4 +4,4 @@ Esta clase demuestra cómo una validación superficial del inicio del path puede
 
 Solucion
 Interceptamos y aplicamos
-![Pasted_image_20250814223411.png](Imagenes/Pasted_image_20250814223411.png)
+![Pasted_image_20250814223411.png](/Imagenes/Pasted_image_20250814223411.png)

@@ -6,16 +6,16 @@ Esta técnica demuestra cómo los fallos en la gestión del tiempo y la concurre
 
 Solucion
 nos logeamos y subimos el archivo nos sale esto
-![Pasted_image_20250830212622.png](Imagenes/Pasted_image_20250830212622.png)
+![Pasted_image_20250830212622.png](/Imagenes/Pasted_image_20250830212622.png)
 nos vamos al historico y mandamos la peticion post al repeater
 y bueno hay veces que el servidor se tarda un poco en dar la respues pues en ese breve tiempo nosotros podemos aprovecharnos para poder ver el archivo
 de tal manera que generamos un peticion aun que no nos de respuesta
-![Pasted_image_20250830213054.png](Imagenes/Pasted_image_20250830213054.png)
+![Pasted_image_20250830213054.png](/Imagenes/Pasted_image_20250830213054.png)
 lo mandamos al repeater
 agregamos las 2 y lo vamos a modificar con el send group (parallel)
-![Pasted_image_20250830213205.png](Imagenes/Pasted_image_20250830213205.png)y vemos esto
-![Pasted_image_20250830213324.png](Imagenes/Pasted_image_20250830213324.png)
+![Pasted_image_20250830213205.png](/Imagenes/Pasted_image_20250830213205.png)y vemos esto
+![Pasted_image_20250830213324.png](/Imagenes/Pasted_image_20250830213324.png)
 asi que ahora ya solo modificamos la url 
-![Pasted_image_20250830213529.png](Imagenes/Pasted_image_20250830213529.png)
+![Pasted_image_20250830213529.png](/Imagenes/Pasted_image_20250830213529.png)
 Nota: el send se hace desde la pestaña 13
-![Pasted_image_20250830213618.png](Imagenes/Pasted_image_20250830213618.png)
+![Pasted_image_20250830213618.png](/Imagenes/Pasted_image_20250830213618.png)

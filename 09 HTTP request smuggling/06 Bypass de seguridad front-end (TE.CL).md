@@ -6,6 +6,6 @@ Durante la clase, mostramos cómo construir y ajustar la petición smuggled para
 
 Solucion
 hay que quitar algo del BS para que no lo sobreescriba
-![Pasted_image_20250806222912.png](Imagenes/Pasted_image_20250806222912.png)
+![Pasted_image_20250806222912.png](/Imagenes/Pasted_image_20250806222912.png)
 payload
-![Pasted_image_20250806223045.png](Imagenes/Pasted_image_20250806223045.png)
+![Pasted_image_20250806223045.png](/Imagenes/Pasted_image_20250806223045.png)

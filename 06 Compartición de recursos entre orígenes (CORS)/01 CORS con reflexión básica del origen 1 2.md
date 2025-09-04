@@ -6,8 +6,8 @@ Con esta técnica, el atacante puede robar información del administrador sin ne
 
 Solucion
 Lo primero que nos sale es que a la hora de logearnos nos aparece una apy key
-![Pasted_image_20250728201323.png](Imagenes/Pasted_image_20250728201323.png)
+![Pasted_image_20250728201323.png](/Imagenes/Pasted_image_20250728201323.png)
 vamos a interceptarlo
 le damos forward y despues lo mandamos al repeater vemos de primera que tenemos una peticion GET al account details
-![Pasted_image_20250728201626.png](Imagenes/Pasted_image_20250728201626.png)
-![Pasted_image_20250728202254.png](Imagenes/Pasted_image_20250728202254.png)
+![Pasted_image_20250728201626.png](/Imagenes/Pasted_image_20250728201626.png)
+![Pasted_image_20250728202254.png](/Imagenes/Pasted_image_20250728202254.png)

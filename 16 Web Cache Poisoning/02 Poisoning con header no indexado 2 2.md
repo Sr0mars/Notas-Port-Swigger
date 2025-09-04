@@ -7,15 +7,15 @@ Esta clase culmina demostrando cómo una cabecera mal gestionada puede ser la pu
 Solucion
 
 La web:
-![Pasted_image_20250821201044.png](Imagenes/Pasted_image_20250821201044.png)
+![Pasted_image_20250821201044.png](/Imagenes/Pasted_image_20250821201044.png)
 Vamos a interceptar y para envenenar el cache se puede hacer una cabecera previo a eso podemos instalar una extencion la cual nos ayudara a poder adivinar la cabecera la cual se llama (Param miner)
-![Pasted_image_20250821201615.png](Imagenes/Pasted_image_20250821201615.png)
+![Pasted_image_20250821201615.png](/Imagenes/Pasted_image_20250821201615.png)
 el cual se va emplear la cabecera X-Forwarded-Host: en este caso
-![Pasted_image_20250821202035.png](Imagenes/Pasted_image_20250821202035.png)
+![Pasted_image_20250821202035.png](/Imagenes/Pasted_image_20250821202035.png)
 el cual se va emplear en la espuesta una ves le demos a send
 asi que como tenemos un exploit server podemos utilizarlo
-![Pasted_image_20250821202314.png](Imagenes/Pasted_image_20250821202314.png)
+![Pasted_image_20250821202314.png](/Imagenes/Pasted_image_20250821202314.png)
 ahora solo configuramos la cabecera con la url de nuestro exploit server
-![Pasted_image_20250821202458.png](Imagenes/Pasted_image_20250821202458.png)
+![Pasted_image_20250821202458.png](/Imagenes/Pasted_image_20250821202458.png)
 y ya solo recargamos la pagina
-![Pasted_image_20250821202529.png](Imagenes/Pasted_image_20250821202529.png)
+![Pasted_image_20250821202529.png](/Imagenes/Pasted_image_20250821202529.png)

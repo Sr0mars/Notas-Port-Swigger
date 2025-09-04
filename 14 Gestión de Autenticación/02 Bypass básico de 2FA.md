@@ -4,13 +4,13 @@ Sin embargo, al modificar manualmente la URL hacia la sección de perfil, conseg
 
 Solucion
 en este laboratorio nos entregan credencial de un usuario pero cuando terminamos de logearnos nos pide que ingresemos un codigo
-![Pasted_image_20250819190400.png](Imagenes/Pasted_image_20250819190400.png)
+![Pasted_image_20250819190400.png](/Imagenes/Pasted_image_20250819190400.png)
 si nosotro le damos al email client podemos ver que nos llego un correo
-![Pasted_image_20250819190439.png](Imagenes/Pasted_image_20250819190439.png)
+![Pasted_image_20250819190439.png](/Imagenes/Pasted_image_20250819190439.png)
 y bueno podemos ver que nos entrega las credenciales correctas
-![Pasted_image_20250819190638.png](Imagenes/Pasted_image_20250819190638.png)
+![Pasted_image_20250819190638.png](/Imagenes/Pasted_image_20250819190638.png)
 pero podemos ver que se aplica un redirect asi que lo que podemos hacer es logeranos con carlos y aplicar un redirect para ver si nos deja
-![Pasted_image_20250819190740.png](Imagenes/Pasted_image_20250819190740.png)
-![Pasted_image_20250819190820.png](Imagenes/Pasted_image_20250819190820.png)
+![Pasted_image_20250819190740.png](/Imagenes/Pasted_image_20250819190740.png)
+![Pasted_image_20250819190820.png](/Imagenes/Pasted_image_20250819190820.png)
 y bueno no tiene ningun tipo de sanitizacion
-![Pasted_image_20250819190848.png](Imagenes/Pasted_image_20250819190848.png)
+![Pasted_image_20250819190848.png](/Imagenes/Pasted_image_20250819190848.png)

@@ -8,7 +8,7 @@ Esta lección refuerza el concepto de que, incluso sin interacción con el servi
 
 Solucion
 Dentro de la pagina si le damos inspeccionar y buscamos hay un apartado de script
-![Pasted_image_20250705155331.png](Imagenes/Pasted_image_20250705155331.png)
+![Pasted_image_20250705155331.png](/Imagenes/Pasted_image_20250705155331.png)
 Una de las opciones seria cargar una imagen
 <img src=0 onerror=alert(0)>
-![Pasted_image_20250705155912.png](Imagenes/Pasted_image_20250705155912.png)
+![Pasted_image_20250705155912.png](/Imagenes/Pasted_image_20250705155912.png)

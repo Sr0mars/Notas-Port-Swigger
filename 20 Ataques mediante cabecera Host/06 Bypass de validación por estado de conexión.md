@@ -12,18 +12,18 @@ Solucion
 Interceptamos el home
 y en el repeater vamos a crear un grupo
 en el cual el primero vamos a tener
-![Pasted_image_20250829212229.png](Imagenes/Pasted_image_20250829212229.png)
+![Pasted_image_20250829212229.png](/Imagenes/Pasted_image_20250829212229.png)
 y en el segundo vamos atener este 
-![Pasted_image_20250829212249.png](Imagenes/Pasted_image_20250829212249.png)
+![Pasted_image_20250829212249.png](/Imagenes/Pasted_image_20250829212249.png)
 y va quedar asi
-![Pasted_image_20250829212412.png](Imagenes/Pasted_image_20250829212412.png)
+![Pasted_image_20250829212412.png](/Imagenes/Pasted_image_20250829212412.png)
 y podemos ver que en la segunda peticion nos manda una ruta admin
-![Pasted_image_20250829212622.png](Imagenes/Pasted_image_20250829212622.png)
+![Pasted_image_20250829212622.png](/Imagenes/Pasted_image_20250829212622.png)
 entonces le agregamos el admin en el get nos regresamos a la primera y le damos send
 y nos regresamos en la segunda peticion y vemos esto
-![Pasted_image_20250829212755.png](Imagenes/Pasted_image_20250829212755.png)
+![Pasted_image_20250829212755.png](/Imagenes/Pasted_image_20250829212755.png)
 tal que queda asi
-![Pasted_image_20250829212903.png](Imagenes/Pasted_image_20250829212903.png)
+![Pasted_image_20250829212903.png](/Imagenes/Pasted_image_20250829212903.png)
 nos regresamos a la primera y le damos a send
-![Pasted_image_20250829212933.png](Imagenes/Pasted_image_20250829212933.png)
+![Pasted_image_20250829212933.png](/Imagenes/Pasted_image_20250829212933.png)
 y hemos logrado

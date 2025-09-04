@@ -6,28 +6,28 @@ Esta clase demuestra cómo incluso endpoints GraphQL bien ocultos y protegidos p
 
 Solucion
 empezamos navegando pero curiosamente no encontramos ningun graphql en el historico
-![Pasted_image_20250901020442.png](Imagenes/Pasted_image_20250901020442.png)pero existen algunos endpoints
-![Pasted_image_20250901020545.png](Imagenes/Pasted_image_20250901020545.png)
-![Pasted_image_20250901020624.png](Imagenes/Pasted_image_20250901020624.png)
+![Pasted_image_20250901020442.png](/Imagenes/Pasted_image_20250901020442.png)pero existen algunos endpoints
+![Pasted_image_20250901020545.png](/Imagenes/Pasted_image_20250901020545.png)
+![Pasted_image_20250901020624.png](/Imagenes/Pasted_image_20250901020624.png)
 entre ellas esta la de api la ponemos en la url y nos dice que query no presente
-![Pasted_image_20250901020656.png](Imagenes/Pasted_image_20250901020656.png)
+![Pasted_image_20250901020656.png](/Imagenes/Pasted_image_20250901020656.png)
 si tratamos de ver que tipo de query es
-![Pasted_image_20250901020830.png](Imagenes/Pasted_image_20250901020830.png)
+![Pasted_image_20250901020830.png](/Imagenes/Pasted_image_20250901020830.png)
 no nos da mucha info pero de igual forma nos puede servir para ser una itroinspeccion lo mandamos al repeater
-![Pasted_image_20250901020953.png](Imagenes/Pasted_image_20250901020953.png)
+![Pasted_image_20250901020953.png](/Imagenes/Pasted_image_20250901020953.png)
 y bueno nos sale esto si lo seleccionamos podemos ver que se interpretar como una query
-![Pasted_image_20250901021225.png](Imagenes/Pasted_image_20250901021225.png)
+![Pasted_image_20250901021225.png](/Imagenes/Pasted_image_20250901021225.png)
 y lo que podemos hacer justo despues de donde dice __schema podemos darle un salto de linea con %0a
-![Pasted_image_20250901021437.png](Imagenes/Pasted_image_20250901021437.png)
+![Pasted_image_20250901021437.png](/Imagenes/Pasted_image_20250901021437.png)
 y esto sigue siendo valido y si le damos send
 y vemos que es correcto asi que volvemos a mandarlo al site map
-![Pasted_image_20250901021544.png](Imagenes/Pasted_image_20250901021544.png)
+![Pasted_image_20250901021544.png](/Imagenes/Pasted_image_20250901021544.png)
 vemos 2 querys la primera se emplea un delete organization y el de abajo el getUser los 2 los mandamos al repeater
-![Pasted_image_20250901021703.png](Imagenes/Pasted_image_20250901021703.png)
+![Pasted_image_20250901021703.png](/Imagenes/Pasted_image_20250901021703.png)
 entonces que es lo que hace la peticion getUser busca el usuario
-![Pasted_image_20250901021937.png](Imagenes/Pasted_image_20250901021937.png)
+![Pasted_image_20250901021937.png](/Imagenes/Pasted_image_20250901021937.png)
 y el otro lo elimina
-![Pasted_image_20250901022007.png](Imagenes/Pasted_image_20250901022007.png)
+![Pasted_image_20250901022007.png](/Imagenes/Pasted_image_20250901022007.png)
 de esta manera nos regresamos ala pagina y hemos resuelto el lab
-![Pasted_image_20250901022057.png](Imagenes/Pasted_image_20250901022057.png)
+![Pasted_image_20250901022057.png](/Imagenes/Pasted_image_20250901022057.png)
 

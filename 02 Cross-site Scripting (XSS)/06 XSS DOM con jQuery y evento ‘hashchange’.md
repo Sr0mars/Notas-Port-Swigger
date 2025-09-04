@@ -8,21 +8,21 @@ Esta clase muestra cómo incluso fragmentos aparentemente inofensivos de la URL,
 
 Solucion 
 Lo primero visualizar la pagina y ver el codigo fuente 
-![Pasted_image_20250705162445.png](Imagenes/Pasted_image_20250705162445.png)
+![Pasted_image_20250705162445.png](/Imagenes/Pasted_image_20250705162445.png)
 
 Lo segundo identificar la parte del script y ver que hace
   $(window).on('hashchange', function(){
                             var post = $('section.blog-list h2:contains(' + decodeURIComponent(window.location.hash.slice(1)) + ')');
                             if (post) post.get(0).scrollIntoView();
                         });
-![Pasted_image_20250705162708.png](Imagenes/Pasted_image_20250705162708.png)
+![Pasted_image_20250705162708.png](/Imagenes/Pasted_image_20250705162708.png)
 Entonces lo lo que podemos hacer es llamar por medio de # algun titulo por ejemplo despues que termina la url ponemos #scams
-![Pasted_image_20250705163348.png](Imagenes/Pasted_image_20250705163348.png)
+![Pasted_image_20250705163348.png](/Imagenes/Pasted_image_20250705163348.png)
 lo que hace que al volver poner la consulta me salga como resultado scams 
 entones con BS podemos interceptar el codigo esto en el apartado de script
-![Pasted_image_20250705163739.png](Imagenes/Pasted_image_20250705163739.png)
+![Pasted_image_20250705163739.png](/Imagenes/Pasted_image_20250705163739.png)
 y lo podemos probar en la url
-![Pasted_image_20250705163946.png](Imagenes/Pasted_image_20250705163946.png)
+![Pasted_image_20250705163946.png](/Imagenes/Pasted_image_20250705163946.png)
 entonces con esto nos podemos aprobechar de esto pero con la ayuda de un servidor malicioso modificando la url
 
 

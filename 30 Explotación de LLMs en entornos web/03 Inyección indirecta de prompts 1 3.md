@@ -4,7 +4,7 @@ Esto nos permite establecer que el LLM es vulnerable a influencias indirectas.
 
 Solucion
 bueno vemos que tenemos que registarnos tambien nos comparten un email client
-![Pasted_image_20250902120107.png](Imagenes/Pasted_image_20250902120107.png)
-![Pasted_image_20250902120214.png](Imagenes/Pasted_image_20250902120214.png)
+![Pasted_image_20250902120107.png](/Imagenes/Pasted_image_20250902120107.png)
+![Pasted_image_20250902120214.png](/Imagenes/Pasted_image_20250902120214.png)
 una ves registrado vamos al live chat y para comenzar le pedimos que si tiene stock algun producto
-![Pasted_image_20250902120759.png](Imagenes/Pasted_image_20250902120759.png)
+![Pasted_image_20250902120759.png](/Imagenes/Pasted_image_20250902120759.png)
