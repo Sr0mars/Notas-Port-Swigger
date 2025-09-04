@@ -8,6 +8,6 @@ Este laboratorio demuestra cómo las políticas de seguridad mal configuradas, a
 
 Solucion
 Aqui lo que podemos ver es que nos podemos aprovechar de lo errores estipulados dentro del csp 
-![Pasted image 20250718194157.png](imagenes/Pasted image 20250718194157.png)
+![Pasted_image_20250718194157.png](Imagenes/Pasted_image_20250718194157.png)
 aqui tratamos de poner un etiqeuta sencilla pero vemos que podemos tener adquisicion por medio del token
 https://0a5600a1042dfc5ed8ddac0500580081.web-security-academy.net/?search=%3Cscript%3Ealert(0)%3C%2Fscript%3E&token=;script-src-elem%20%27unsafe-inline%27

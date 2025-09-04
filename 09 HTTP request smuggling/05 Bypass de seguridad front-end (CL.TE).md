@@ -6,7 +6,7 @@ La clase muestra cómo ajustar los encabezados y las longitudes para lograr que 
 
 Solucion
 solamente eliminamos el usuario por get siguiendo los pasos de las otras clases recordar darle a send 2 veces
-![Pasted image 20250806215344.png](imagenes/Pasted image 20250806215344.png)
+![Pasted_image_20250806215344.png](Imagenes/Pasted_image_20250806215344.png)
 payload (POST / HTTP/1.1
 
 Host: 0abf002c03807acc80c00892005900ab.web-security-academy.net

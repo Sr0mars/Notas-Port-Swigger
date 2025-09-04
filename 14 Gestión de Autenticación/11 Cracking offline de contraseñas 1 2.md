@@ -10,5 +10,5 @@ Finalmente, conociendo las credenciales, el atacante inicia sesión como Carlos 
 
 Solucion
 asi que por ahora lo que vamos a realizar es una busquedad por BS de la navegacion de la pagina
-![Pasted image 20250820214634.png](imagenes/Pasted image 20250820214634.png)
+![Pasted_image_20250820214634.png](Imagenes/Pasted_image_20250820214634.png)
 probamos todo lo que hicimos en el laboratorio anterior pero no funciona pasamoa a explorar tenemos  un exploit server y tal parace que en la parte de comentarios la seccion es vulnerable a xss asi que vamos a injectar un payload

@@ -4,10 +4,10 @@ Este análisis es crucial para preparar la explotación posterior, donde el obje
 
 Solucion
 nos logeamos checamos el historico vemos el auth y el /me y lo mandamos al repeater
-![Pasted image 20250830193332.png](imagenes/Pasted image 20250830193332.png)
-![Pasted image 20250830193356.png](imagenes/Pasted image 20250830193356.png)
+![Pasted_image_20250830193332.png](Imagenes/Pasted_image_20250830193332.png)
+![Pasted_image_20250830193356.png](Imagenes/Pasted_image_20250830193356.png)
 buscamos un redirect pero no se encuentra
 buscando en los post ponemos un comentario checamos el hisotirico
-![Pasted image 20250830193453.png](imagenes/Pasted image 20250830193453.png)
+![Pasted_image_20250830193453.png](Imagenes/Pasted_image_20250830193453.png)
 vemos que se trata de un iframe lo mandamos al repeater
-![Pasted image 20250830193546.png](imagenes/Pasted image 20250830193546.png)
+![Pasted_image_20250830193546.png](Imagenes/Pasted_image_20250830193546.png)

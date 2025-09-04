@@ -6,14 +6,14 @@ Aprovechamos esto para inyectar un valor malicioso que ejecuta â€˜**alert(1)**â€
 
 Solucion
 no encontramos en la web lo primero seria verificar si es vulnerable
-![Pasted image 20250831193256.png](imagenes/Pasted image 20250831193256.png)
+![Pasted_image_20250831193256.png](Imagenes/Pasted_image_20250831193256.png)
 como lo hacemos de esta manera
-![Pasted image 20250831193429.png](imagenes/Pasted image 20250831193429.png)
+![Pasted_image_20250831193429.png](Imagenes/Pasted_image_20250831193429.png)
 ahora si nos vamos el los recursos y vemos el js que tiene ahi
-![Pasted image 20250831193533.png](imagenes/Pasted image 20250831193533.png)
+![Pasted_image_20250831193533.png](Imagenes/Pasted_image_20250831193533.png)
 pero no podemos aplicar esto por que en esta ocacion ya no estaba redefinida  trasport_url
-![Pasted image 20250831193750.png](imagenes/Pasted image 20250831193750.png)
+![Pasted_image_20250831193750.png](Imagenes/Pasted_image_20250831193750.png)
 pero lo que si podemos hacer es esto /?__proto__[transport_url]=data:,alert(1)
 y esto lo probamos en la url
-![Pasted image 20250831194118.png](imagenes/Pasted image 20250831194118.png)de modo que de esta forma resovemos el lab
-![Pasted image 20250831194157.png](imagenes/Pasted image 20250831194157.png)
+![Pasted_image_20250831194118.png](Imagenes/Pasted_image_20250831194118.png)de modo que de esta forma resovemos el lab
+![Pasted_image_20250831194157.png](Imagenes/Pasted_image_20250831194157.png)

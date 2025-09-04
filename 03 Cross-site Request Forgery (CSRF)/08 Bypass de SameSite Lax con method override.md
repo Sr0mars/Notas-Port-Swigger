@@ -8,15 +8,15 @@ Una clase esencial para entender cómo incluso protecciones modernas como SameSi
 
 Solucion
 empezamos haciendo los mismo pasos pero a diferencia de los otros ningun CSRF
-![Pasted image 20250723212448.png](imagenes/Pasted image 20250723212448.png)
+![Pasted_image_20250723212448.png](Imagenes/Pasted_image_20250723212448.png)
 lo que podemos hacer es que hacer que por medio de get se haga una peticion POST poniendo de intermediario el method
 eso se hace asi
 le damos click derecho y change request method
-![Pasted image 20250723212921.png](imagenes/Pasted image 20250723212921.png)
+![Pasted_image_20250723212921.png](Imagenes/Pasted_image_20250723212921.png)
 y con esto podemos modificar para obtener el cambio de correo
-![Pasted image 20250723213228.png](imagenes/Pasted image 20250723213228.png)
+![Pasted_image_20250723213228.png](Imagenes/Pasted_image_20250723213228.png)
 Aqui vemos como hemos cambiado el correo
-![Pasted image 20250723213151.png](imagenes/Pasted image 20250723213151.png)y viendo que si funciona pasamos a realizar el payload que en esta ocacion solo vamos a redirigirlo
+![Pasted_image_20250723213151.png](Imagenes/Pasted_image_20250723213151.png)y viendo que si funciona pasamos a realizar el payload que en esta ocacion solo vamos a redirigirlo
 <script>
     document.location = "https://0a43003f0426d3ae802a124700ca00c8.web-security-academy.net/my-account/change-email?email=c@a.com&_method=POST";
 </script>

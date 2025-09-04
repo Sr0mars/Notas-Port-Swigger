@@ -10,5 +10,5 @@ Esta técnica resulta extremadamente eficaz en entornos donde no hay errores, ni
 
 Solucion
 igual que los otros toca identificar el ataque dns para ver que BD es en cheet sheet pero esta funcion se ve en el BS collaborator
-![Pasted image 20250704143558.png](imagenes/Pasted image 20250704143558.png)
-![Pasted image 20250704143738.png](imagenes/Pasted image 20250704143738.png)
+![Pasted_image_20250704143558.png](Imagenes/Pasted_image_20250704143558.png)
+![Pasted_image_20250704143738.png](Imagenes/Pasted_image_20250704143738.png)

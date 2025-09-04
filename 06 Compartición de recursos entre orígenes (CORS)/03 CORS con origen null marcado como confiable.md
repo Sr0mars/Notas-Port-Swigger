@@ -4,10 +4,10 @@ Aprovechamos esta vulnerabilidad para extraer la clave API del administrador. Pa
 
 Solucion
 realizamos lo mismo no logeamos u en la respuesta del BS le damos forward y una ves ahi mandamos al repeater nuestra solicitud
-![Pasted image 20250728205329.png](imagenes/Pasted image 20250728205329.png)
+![Pasted_image_20250728205329.png](Imagenes/Pasted_image_20250728205329.png)
 y bueno en la respuesta ene ACAC tenemos un true el cual podemos llegar a pensar que podemos tener un origin pero no sabes a cual asi que nosotros podemos mandar un NULL
 y no lo acepta
-![Pasted image 20250728205717.png](imagenes/Pasted image 20250728205717.png)
+![Pasted_image_20250728205717.png](Imagenes/Pasted_image_20250728205717.png)
 
 esto lo vamos a reflejar en un script de estilo iframe
 (<iframe sandbox="allow-scripts" srcdoc='<script>
@@ -23,9 +23,9 @@ esto lo vamos a reflejar en un script de estilo iframe
 
 Y con esto si revisamos de nuevo los logs obtendremos la apikey
 
-![Pasted image 20250728211153.png](imagenes/Pasted image 20250728211153.png)
+![Pasted_image_20250728211153.png](Imagenes/Pasted_image_20250728211153.png)
 
 
-![Pasted image 20250728211359.png](imagenes/Pasted image 20250728211359.png)
+![Pasted_image_20250728211359.png](Imagenes/Pasted_image_20250728211359.png)
 
 y con esto lo convertimos a null

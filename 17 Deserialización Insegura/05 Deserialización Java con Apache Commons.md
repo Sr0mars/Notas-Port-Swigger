@@ -5,20 +5,20 @@ Con la herramienta ‘**ysoserial**‘, se genera un objeto serializado con un p
 Cuando el servidor deserializa el objeto, se desencadena la ejecución remota del comando. Este escenario representa una amenaza crítica frecuente en aplicaciones Java que confían en objetos serializados sin validación adecuada.
 
 Solucion
-![Pasted image 20250826214508.png](imagenes/Pasted image 20250826214508.png)
+![Pasted_image_20250826214508.png](Imagenes/Pasted_image_20250826214508.png)
 entonces para ello nos vamos a apoyar de este recurso de git hub (https://github.com/frohoff/ysoserial/releases)
 y vamos a seleccionar el archivo .jar
-![Pasted image 20250826214831.png](imagenes/Pasted image 20250826214831.png)
+![Pasted_image_20250826214831.png](Imagenes/Pasted_image_20250826214831.png)
 lo ejecutamos
-![Pasted image 20250826215143.png](imagenes/Pasted image 20250826215143.png)
+![Pasted_image_20250826215143.png](Imagenes/Pasted_image_20250826215143.png)
 y bueno aqui tenemos varios payloads
-![Pasted image 20250826215334.png](imagenes/Pasted image 20250826215334.png)
+![Pasted_image_20250826215334.png](Imagenes/Pasted_image_20250826215334.png)
 para que funcione primero necesitamos actualizar el java
-![Pasted image 20250826215605.png](imagenes/Pasted image 20250826215605.png)
+![Pasted_image_20250826215605.png](Imagenes/Pasted_image_20250826215605.png)
 en este caso vamos a utilizar el 1
 pero no funciona asi que vamos a utilizar java 8 lo descargamos e instalamos
 de tal manera que ya teniendolo vamosa ejecutar este comando (java -jar ysoserial-all.jar CommonsCollections4 'rm /home/carlos/morale.txt' | base64 -w 0; echo)
-![Pasted image 20250826222042.png](imagenes/Pasted image 20250826222042.png)
+![Pasted_image_20250826222042.png](Imagenes/Pasted_image_20250826222042.png)
 entonces ahora si vamos a interceptar despues de logearnos y lo mandamos al repeater  y quitamos la cookie y ponemos todo esta cadena aplicamos los cambios y copiamos el de arriba 
-![Pasted image 20250826223111.png](imagenes/Pasted image 20250826223111.png)
+![Pasted_image_20250826223111.png](Imagenes/Pasted_image_20250826223111.png)
 tal que con esto se soluciona el laboratorio

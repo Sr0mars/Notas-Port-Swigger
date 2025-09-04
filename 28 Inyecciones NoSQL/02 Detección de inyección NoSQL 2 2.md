@@ -5,7 +5,7 @@ Al introducir condiciones como **‘ || 1 || ‘**, logramos que el sistema ign
 Esta técnica nos permite confirmar de forma práctica una inyección NoSQL funcional.
 
 Solucion
-![Pasted image 20250902002106.png](imagenes/Pasted image 20250902002106.png)
-![Pasted image 20250902002604.png](imagenes/Pasted image 20250902002604.png)
-![Pasted image 20250902002826.png](imagenes/Pasted image 20250902002826.png)
+![Pasted_image_20250902002106.png](Imagenes/Pasted_image_20250902002106.png)
+![Pasted_image_20250902002604.png](Imagenes/Pasted_image_20250902002604.png)
+![Pasted_image_20250902002826.png](Imagenes/Pasted_image_20250902002826.png)
 

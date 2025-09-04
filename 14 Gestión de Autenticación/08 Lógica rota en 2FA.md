@@ -4,17 +4,17 @@ Primero, generarás un código 2FA válido para Carlos manipulando el parámetro
 
 Solucion
 Viendo la pagina y pasandola en el BS podemos ver que es posible que no se pueda evadir el 2FA esto en la peticion GET
-![Pasted image 20250820200858.png](imagenes/Pasted image 20250820200858.png)
+![Pasted_image_20250820200858.png](Imagenes/Pasted_image_20250820200858.png)
 en el codigo se puede ver un verify asi que este es posible que se pueda cambiar a carlos
-![Pasted image 20250820200954.png](imagenes/Pasted image 20250820200954.png)
+![Pasted_image_20250820200954.png](Imagenes/Pasted_image_20250820200954.png)
 igual esto se puede aplicar para la peticion POST pero aqui vemos que se aplica un codigo mfa-code que esta en la parte de abajo por lo cual se puede aplicar BF asi que estas 2 las mandamos al repeter y la peticion post al intruder tambien
 asi que lo que sigue es crearnos un diccionario
-![Pasted image 20250820201520.png](imagenes/Pasted image 20250820201520.png)
+![Pasted_image_20250820201520.png](Imagenes/Pasted_image_20250820201520.png)
 cargamos el payload y configuramos el grep
-![Pasted image 20250820201704.png](imagenes/Pasted image 20250820201704.png)
+![Pasted_image_20250820201704.png](Imagenes/Pasted_image_20250820201704.png)
 ya solo mandamos la solicitud y inicimaos el ataque
-![Pasted image 20250820201740.png](imagenes/Pasted image 20250820201740.png)
+![Pasted_image_20250820201740.png](Imagenes/Pasted_image_20250820201740.png)
 y al final nos da un coockie de session la copiamos y pegamos
-![Pasted image 20250820203739.png](imagenes/Pasted image 20250820203739.png)
+![Pasted_image_20250820203739.png](Imagenes/Pasted_image_20250820203739.png)
 
 

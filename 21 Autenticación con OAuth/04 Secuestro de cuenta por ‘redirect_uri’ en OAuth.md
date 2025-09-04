@@ -12,16 +12,16 @@ Esta clase pone en evidencia la importancia de restringir correctamente los valo
 
 Solucion
 nos logeamos como normalmente y nos vamos al historico vemos que se tramita en get una pericion que valida el uri
-![Pasted image 20250830005738.png](imagenes/Pasted image 20250830005738.png)
+![Pasted_image_20250830005738.png](Imagenes/Pasted_image_20250830005738.png)
 este hace un callback asi que vamos a copiar la url de esto
 asi que por medio del exploit server vamos a crear un ifram el cual nos permita obtener la peticion
-![Pasted image 20250830010327.png](imagenes/Pasted image 20250830010327.png)
+![Pasted_image_20250830010327.png](Imagenes/Pasted_image_20250830010327.png)
 asi que ahora eliminamos esto y pegamos en esa misma parte nuestro exploit server url
-![Pasted image 20250830010406.png](imagenes/Pasted image 20250830010406.png)
+![Pasted_image_20250830010406.png](Imagenes/Pasted_image_20250830010406.png)
 y quedaria asi
-![Pasted image 20250830010522.png](imagenes/Pasted image 20250830010522.png)
+![Pasted_image_20250830010522.png](Imagenes/Pasted_image_20250830010522.png)
 en los acces log vemos que se a tramitado
-![Pasted image 20250830010726.png](imagenes/Pasted image 20250830010726.png)
+![Pasted_image_20250830010726.png](Imagenes/Pasted_image_20250830010726.png)
 asi que nos copiamos este codigo 
 y lo pegamos
-![Pasted image 20250830010835.png](imagenes/Pasted image 20250830010835.png)
+![Pasted_image_20250830010835.png](Imagenes/Pasted_image_20250830010835.png)

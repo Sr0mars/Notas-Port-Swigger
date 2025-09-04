@@ -6,13 +6,13 @@ Este escenario pone en evidencia cómo la concatenación de vulnerabilidades apa
 
 Solucion
 antes de interceptar necesitamos obtener el user agent para ello nos vamos  a la pagina princial Ctrl+Shift+C y nos vamos al apartado de red o network y en la primera y hasta abajo copiamos y bajamos (https://0a5f004004d306dc80b60dd600330012.web-security-academy.net/)
-![Pasted image 20250809203435.png](imagenes/Pasted image 20250809203435.png)
+![Pasted_image_20250809203435.png](Imagenes/Pasted_image_20250809203435.png)
 entonces este campo vamos a buscar y bueno lo encontramos en un post 
-![Pasted image 20250809203602.png](imagenes/Pasted image 20250809203602.png)
+![Pasted_image_20250809203602.png](Imagenes/Pasted_image_20250809203602.png)
 entonces aqui podemos ver un tipo de vulnerabilidad que si escapamos las comillas podemos obtener informacion para ello vamos a interceptar la pagina para ver si es vulnerable con este pequeñp script "><script>alert(1)</script>
-![Pasted image 20250809204328.png](imagenes/Pasted image 20250809204328.png)
+![Pasted_image_20250809204328.png](Imagenes/Pasted_image_20250809204328.png)
 Entonces es vulnerable a xxs reflejado
-![Pasted image 20250809204355.png](imagenes/Pasted image 20250809204355.png)
+![Pasted_image_20250809204355.png](Imagenes/Pasted_image_20250809204355.png)
 
 entonces pasamos hacer el payload
  (Content-Type: application/x-www-form-urlencoded
@@ -27,6 +27,6 @@ Content-Type: application/x-www-form-urlencoded
 Content-Length: 5
 
 x=1)
-![Pasted image 20250809204727.png](imagenes/Pasted image 20250809204727.png)
+![Pasted_image_20250809204727.png](Imagenes/Pasted_image_20250809204727.png)
 le damos a send y recargamos la pagina
-![Pasted image 20250809204808.png](imagenes/Pasted image 20250809204808.png)
+![Pasted_image_20250809204808.png](Imagenes/Pasted_image_20250809204808.png)

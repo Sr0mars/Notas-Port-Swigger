@@ -6,12 +6,12 @@ Con la contraseña descubierta, iniciamos sesión como Carlos y procedemos a eli
 
 Solucion
 entonce la idea es le damos a publicar el post despues pasamos hacia los logs y nos an dejado una cadena
-![Pasted image 20250820215804.png](imagenes/Pasted image 20250820215804.png)
+![Pasted_image_20250820215804.png](Imagenes/Pasted_image_20250820215804.png)
 vamos a desglozar para ver que es esto
-![Pasted image 20250820220017.png](imagenes/Pasted image 20250820220017.png)
+![Pasted_image_20250820220017.png](Imagenes/Pasted_image_20250820220017.png)
 ahora para ver que es utilizamos una pagina llamada hashes.com
 copiamos la contraseña
-![Pasted image 20250820220229.png](imagenes/Pasted image 20250820220229.png)
+![Pasted_image_20250820220229.png](Imagenes/Pasted_image_20250820220229.png)
 y ahora nos logeamos con la cuenta de carlos poniendo esta posible contraseña
-![Pasted image 20250820220337.png](imagenes/Pasted image 20250820220337.png)
-![Pasted image 20250820220413.png](imagenes/Pasted image 20250820220413.png)
+![Pasted_image_20250820220337.png](Imagenes/Pasted_image_20250820220337.png)
+![Pasted_image_20250820220413.png](Imagenes/Pasted_image_20250820220413.png)

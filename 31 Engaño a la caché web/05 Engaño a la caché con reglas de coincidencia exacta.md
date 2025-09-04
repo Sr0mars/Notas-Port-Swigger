@@ -4,35 +4,35 @@ Usamos este truco para extraer el token CSRF del administrador, y con él, const
 
 Solucion
 nos logeamos pero ahora no nos dan ningun api key vamos a interceptar el cambio de correo 
-![Pasted image 20250902140218.png](imagenes/Pasted image 20250902140218.png)
+![Pasted_image_20250902140218.png](Imagenes/Pasted_image_20250902140218.png)
 y a esto mismo le hacemos un drop
-![Pasted image 20250902140354.png](imagenes/Pasted image 20250902140354.png)
-![Pasted image 20250902140420.png](imagenes/Pasted image 20250902140420.png)
+![Pasted_image_20250902140354.png](Imagenes/Pasted_image_20250902140354.png)
+![Pasted_image_20250902140420.png](Imagenes/Pasted_image_20250902140420.png)
 y ahora vamos a interceptar una solicitud get en la misma parte
-![Pasted image 20250902140710.png](imagenes/Pasted image 20250902140710.png)
+![Pasted_image_20250902140710.png](Imagenes/Pasted_image_20250902140710.png)
 y la peticion get probamos los delimitadores que antes estabamos probando
-![Pasted image 20250902140817.png](imagenes/Pasted image 20250902140817.png)
+![Pasted_image_20250902140817.png](Imagenes/Pasted_image_20250902140817.png)
 asi que esto lo mandamos al intruder
 obtenemos el ? y el ;
-![Pasted image 20250902140854.png](imagenes/Pasted image 20250902140854.png)
+![Pasted_image_20250902140854.png](Imagenes/Pasted_image_20250902140854.png)
 
 si nos vamos al historico vemos de nuevo que se aplica al directorio resources
-![Pasted image 20250902141200.png](imagenes/Pasted image 20250902141200.png)
+![Pasted_image_20250902141200.png](Imagenes/Pasted_image_20250902141200.png)
 sin embargo no nos da la cache
 algo que podemos hacer es aprovechar de la ruta robots.txt
-![Pasted image 20250902141541.png](imagenes/Pasted image 20250902141541.png)
+![Pasted_image_20250902141541.png](Imagenes/Pasted_image_20250902141541.png)
 y vamos probando con los delimitadores
 hasque no nos de respuesta de cache y alfin encontramos uno
-![Pasted image 20250902141750.png](imagenes/Pasted image 20250902141750.png)
+![Pasted_image_20250902141750.png](Imagenes/Pasted_image_20250902141750.png)
 y en el exploit server quedaria algo asi
-![Pasted image 20250902142033.png](imagenes/Pasted image 20250902142033.png)
+![Pasted_image_20250902142033.png](Imagenes/Pasted_image_20250902142033.png)
 y nos vamos al repeater y nos sale esto
-![Pasted image 20250902142128.png](imagenes/Pasted image 20250902142128.png)
+![Pasted_image_20250902142128.png](Imagenes/Pasted_image_20250902142128.png)
 copiamos el csrf token de aqui
 lo pegamos en el change email click derecho generate CSRF Poc
-![Pasted image 20250902143437.png](imagenes/Pasted image 20250902143437.png)
+![Pasted_image_20250902143437.png](Imagenes/Pasted_image_20250902143437.png)
 lo copiamos en el exploit
-![Pasted image 20250902143524.png](imagenes/Pasted image 20250902143524.png)
+![Pasted_image_20250902143524.png](Imagenes/Pasted_image_20250902143524.png)
 y store
 <!DOCTYPE html>
 <html lang="en">

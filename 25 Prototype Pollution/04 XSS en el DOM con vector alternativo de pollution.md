@@ -6,24 +6,24 @@ Esta clase muestra cómo pequeñas variaciones en los vectores de ataque pueden 
 
 Solucion
 entonces lo primero seria verificar si es vulnerable
-![Pasted image 20250831194509.png](imagenes/Pasted image 20250831194509.png)
+![Pasted_image_20250831194509.png](Imagenes/Pasted_image_20250831194509.png)
 en esta ocacion nos sale undefined
 verificamos si tiene algun objeto bar pero vemos que no
-![Pasted image 20250831194634.png](imagenes/Pasted image 20250831194634.png)
+![Pasted_image_20250831194634.png](Imagenes/Pasted_image_20250831194634.png)
 ahora nosotros lo podemos hacer de otra forma quitando los corchetes y poniendo un .
 y vemos que este si no lo interpreta
-![Pasted image 20250831194807.png](imagenes/Pasted image 20250831194807.png)
+![Pasted_image_20250831194807.png](Imagenes/Pasted_image_20250831194807.png)
 lo corroboramos
-![Pasted image 20250831195112.png](imagenes/Pasted image 20250831195112.png)
+![Pasted_image_20250831195112.png](Imagenes/Pasted_image_20250831195112.png)
 nos vamos a depurador y vemos otra ves ese archivo lo copiamos y vamos a ver de que se trata
-![Pasted image 20250831195216.png](imagenes/Pasted image 20250831195216.png)
+![Pasted_image_20250831195216.png](Imagenes/Pasted_image_20250831195216.png)
 y vemos un eval y vemos que sequence no esta declarado asi que lo que podemos hacer es modificar la consulta
 ?__proto__.sequence=alert(1)
 y ponemos un break point para ver que se tramita
-![Pasted image 20250831195817.png](imagenes/Pasted image 20250831195817.png)
+![Pasted_image_20250831195817.png](Imagenes/Pasted_image_20250831195817.png)
 podemos ver que se esta aplicando otro 1 despues del alert
 asi que ponemos ponerlo un - para que lo elimine
-![Pasted image 20250831195952.png](imagenes/Pasted image 20250831195952.png)
+![Pasted_image_20250831195952.png](Imagenes/Pasted_image_20250831195952.png)
 
 
 

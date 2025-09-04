@@ -5,7 +5,7 @@ El objetivo es manipular la función JavaScript **callback** utilizada en el s
 Solucion
 interceptamos el home
 de igual manera si nosotros vemos el el historico tenemos de nuevo la direccion de geolocate
-![Pasted image 20250821222043.png](imagenes/Pasted image 20250821222043.png)
+![Pasted_image_20250821222043.png](Imagenes/Pasted_image_20250821222043.png)
 esto lo mandmaos al repeter y si usamos la cabecera callback por que el web cache lo ignora por locual nosotros la ponemos y mandamos un alert
-![Pasted image 20250821222243.png](imagenes/Pasted image 20250821222243.png)
-![Pasted image 20250821222254.png](imagenes/Pasted image 20250821222254.png)
+![Pasted_image_20250821222243.png](Imagenes/Pasted_image_20250821222243.png)
+![Pasted_image_20250821222254.png](Imagenes/Pasted_image_20250821222254.png)

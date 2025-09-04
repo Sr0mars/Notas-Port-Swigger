@@ -7,7 +7,7 @@ Este enfoque permite realizar una acción sensible —como modificar informació
 La clase demuestra cómo XSS y CSRF pueden combinarse para romper la lógica de seguridad de muchas aplicaciones, y por qué es crucial implementar defensas adicionales como el uso de encabezados personalizados, políticas de contenido restrictivas (CSP), y el aislamiento del contenido generado por el usuario del contexto de ejecución del frontend.
 
 Solucion seguimos con el codigo
-![Pasted image 20250717181112.png](imagenes/Pasted image 20250717181112.png)
+![Pasted_image_20250717181112.png](Imagenes/Pasted_image_20250717181112.png)
 <script>
   var req = new XMLHttpRequest(); 
   req.open("GET", "/my-account", false); 
@@ -22,4 +22,4 @@ Solucion seguimos con el codigo
 </script>
 
 y lo ideal seria ponerlo en la seccion de comentarios
-![Pasted image 20250717181635.png](imagenes/Pasted image 20250717181635.png)
+![Pasted_image_20250717181635.png](Imagenes/Pasted_image_20250717181635.png)

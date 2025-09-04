@@ -4,18 +4,18 @@ A pesar de que las respuestas del servidor puedan parecer erróneas, el ataque s
 
 Solucion
 Entonces aqui ya seria jugar con el CL en este caso le vamos a aumentar a 160 para que nos de mas informacion
-![Pasted image 20250811172802.png](imagenes/Pasted image 20250811172802.png)
+![Pasted_image_20250811172802.png](Imagenes/Pasted_image_20250811172802.png)
 Entonces estas cabeceras se las podemos colar a la otra consulta
-![Pasted image 20250811172918.png](imagenes/Pasted image 20250811172918.png)
+![Pasted_image_20250811172918.png](Imagenes/Pasted_image_20250811172918.png)
 entonces esto lo copiamos y lo pegamos en el otro payload para poder ejecutar la informacion
-![Pasted image 20250811184658.png](imagenes/Pasted image 20250811184658.png)
+![Pasted_image_20250811184658.png](Imagenes/Pasted_image_20250811184658.png)
 se pone en login por que tiene mas cantidad de bytes
 asi quedaria
-![Pasted image 20250811184731.png](imagenes/Pasted image 20250811184731.png)
+![Pasted_image_20250811184731.png](Imagenes/Pasted_image_20250811184731.png)
 ya solo copiamos la direccion
-![Pasted image 20250811184759.png](imagenes/Pasted image 20250811184759.png)
-![Pasted image 20250811184817.png](imagenes/Pasted image 20250811184817.png)
+![Pasted_image_20250811184759.png](Imagenes/Pasted_image_20250811184759.png)
+![Pasted_image_20250811184817.png](Imagenes/Pasted_image_20250811184817.png)
 pese el mensaje la consulta se consiguio
-![Pasted image 20250811184957.png](imagenes/Pasted image 20250811184957.png)
+![Pasted_image_20250811184957.png](Imagenes/Pasted_image_20250811184957.png)
 
 

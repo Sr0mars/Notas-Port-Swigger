@@ -6,12 +6,12 @@ Este hallazgo confirma la existencia de una condición de carrera en la validaci
 
 Solucion
 entonces que pasa que al momento de darle a send el servidor nos interpreta una respuesta que un token es invalido
-![Pasted image 20250901215202.png](imagenes/Pasted image 20250901215202.png)
+![Pasted_image_20250901215202.png](Imagenes/Pasted_image_20250901215202.png)
 pero que pasa si ponemos un array vacio
-![Pasted image 20250901215236.png](imagenes/Pasted image 20250901215236.png)
+![Pasted_image_20250901215236.png](Imagenes/Pasted_image_20250901215236.png)
 entonces es posible que esto considere un valor vacio
 podemos hacer una prueba haciendo un grupo entre estas 2 pestañas obviamente cambiando el usuario por otro y mandandolos de forma paralela
-![Pasted image 20250901215630.png](imagenes/Pasted image 20250901215630.png)
+![Pasted_image_20250901215630.png](Imagenes/Pasted_image_20250901215630.png)
 lo cual nos da como respues que el confirmation es mas rapido en respuesta que el registration
 asi que lo que podemos hacer es utilizar el turbo intruder
 esto se aplica en el apartado de username asi que lo seleccionamos extencions  turbo intruder

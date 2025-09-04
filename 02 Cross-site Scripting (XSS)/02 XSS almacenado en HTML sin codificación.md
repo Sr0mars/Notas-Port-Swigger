@@ -10,5 +10,5 @@ Solucion
 
 debemos de verificar en la seccion de post o comentarios
 <script>alert("comentario");</script>
-![Pasted image 20250704160341.png](imagenes/Pasted image 20250704160341.png)
-![Pasted image 20250704160526.png](imagenes/Pasted image 20250704160526.png)
+![Pasted_image_20250704160341.png](Imagenes/Pasted_image_20250704160341.png)
+![Pasted_image_20250704160526.png](Imagenes/Pasted_image_20250704160526.png)

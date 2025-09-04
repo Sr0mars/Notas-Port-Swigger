@@ -5,16 +5,16 @@ Una vez cargada, accedemos a ella directamente para ejecutar código en el servi
 Solucion
 nos logeamos y vemos el mismo apartado de avatar si nosotro tratamos de subir el mismo archivo de shell nos saldra esto
 esto es un content-type
-![Pasted image 20250830201234.png](imagenes/Pasted image 20250830201234.png)
-![Pasted image 20250830201334.png](imagenes/Pasted image 20250830201334.png)
+![Pasted_image_20250830201234.png](Imagenes/Pasted_image_20250830201234.png)
+![Pasted_image_20250830201334.png](Imagenes/Pasted_image_20250830201334.png)
 si vemos en el historico vemos la solicitud post
-![Pasted image 20250830201656.png](imagenes/Pasted image 20250830201656.png)
+![Pasted_image_20250830201656.png](Imagenes/Pasted_image_20250830201656.png)
 lo mandamos al repeater y en el repeater podemos modificar el content
-![Pasted image 20250830201918.png](imagenes/Pasted image 20250830201918.png)
+![Pasted_image_20250830201918.png](Imagenes/Pasted_image_20250830201918.png)
 de tal manera que nos permite subir el archivo
 de tal manera que si nosotros nos vamos al pagina y ponemos la direccion y el id podemos ver que se a subido
-![Pasted image 20250830202055.png](imagenes/Pasted image 20250830202055.png)
+![Pasted_image_20250830202055.png](Imagenes/Pasted_image_20250830202055.png)
 asi que ponemos la direccion
-![Pasted image 20250830202135.png](imagenes/Pasted image 20250830202135.png)
+![Pasted_image_20250830202135.png](Imagenes/Pasted_image_20250830202135.png)
 copiamos y pegamos
-![Pasted image 20250830202200.png](imagenes/Pasted image 20250830202200.png)
+![Pasted_image_20250830202200.png](Imagenes/Pasted_image_20250830202200.png)

@@ -17,35 +17,35 @@ Este laboratorio demuestra cómo una simple propiedad como **logo_uri**, combin
 Importante Leer: (https://portswigger.net/web-security/oauth#what-is-oauth)
 
 Solucion
-![Pasted image 20250829235349.png](imagenes/Pasted image 20250829235349.png)
+![Pasted_image_20250829235349.png](Imagenes/Pasted_image_20250829235349.png)
 hacemos el mismo proceso de login y podemos ver que en el historico tenemos una peticion GET de authentification vamos a copiar el link
-![Pasted image 20250829235823.png](imagenes/Pasted image 20250829235823.png)
+![Pasted_image_20250829235823.png](Imagenes/Pasted_image_20250829235823.png)
 nos sale esto 
-![Pasted image 20250829235915.png](imagenes/Pasted image 20250829235915.png)
+![Pasted_image_20250829235915.png](Imagenes/Pasted_image_20250829235915.png)
 pero en la pagina de PS nos comparten una Post en el cual dice que hay rutas que nos pueden dar info
-![Pasted image 20250830000149.png](imagenes/Pasted image 20250830000149.png)
+![Pasted_image_20250830000149.png](Imagenes/Pasted_image_20250830000149.png)
 vamos a copiarlo y pegarlo en la url de hace rato
 y nos da info de varios endpoints
-![Pasted image 20250830000328.png](imagenes/Pasted image 20250830000328.png)
+![Pasted_image_20250830000328.png](Imagenes/Pasted_image_20250830000328.png)
 y bueno vamos a darle click a una de estas que nos lleve a la raiz de es misma direccion
 y esta misma la mandamos al repeater y cambiamos el metodo a post
-![Pasted image 20250830000933.png](imagenes/Pasted image 20250830000933.png)
+![Pasted_image_20250830000933.png](Imagenes/Pasted_image_20250830000933.png)
 una vez cambiamos de metodo modificamos
-![Pasted image 20250830001050.png](imagenes/Pasted image 20250830001050.png)
+![Pasted_image_20250830001050.png](Imagenes/Pasted_image_20250830001050.png)
 en este caso le agregamos el post el reg que tenia y era importante
-![Pasted image 20250830001152.png](imagenes/Pasted image 20250830001152.png)
+![Pasted_image_20250830001152.png](Imagenes/Pasted_image_20250830001152.png)
 y vemos que nos a creado algo y vemos varios campos 
 entonces nos comparten una direccion la cual supuestamente nos da informacion
 tal que se veria asi y en efecto nos da un client id
-![Pasted image 20250830001809.png](imagenes/Pasted image 20250830001809.png)
+![Pasted_image_20250830001809.png](Imagenes/Pasted_image_20250830001809.png)
 ese client id donde lo podemos pegar?
 bueno si vemos en el historico podemos ver que en una de la peticiones get exite una validacion de cliente de un logo
-![Pasted image 20250830001929.png](imagenes/Pasted image 20250830001929.png)
+![Pasted_image_20250830001929.png](Imagenes/Pasted_image_20250830001929.png)
 esto lo mandamos al repeater y modificamos ese client
 ese no era era este
-![Pasted image 20250830002034.png](imagenes/Pasted image 20250830002034.png)
+![Pasted_image_20250830002034.png](Imagenes/Pasted_image_20250830002034.png)
 Le damos a send y vemos que nos entrega un secret key
-![Pasted image 20250830002123.png](imagenes/Pasted image 20250830002123.png)
+![Pasted_image_20250830002123.png](Imagenes/Pasted_image_20250830002123.png)
 ya solo lo copiamos y pegamos en el lab
-![Pasted image 20250830002202.png](imagenes/Pasted image 20250830002202.png)
+![Pasted_image_20250830002202.png](Imagenes/Pasted_image_20250830002202.png)
 

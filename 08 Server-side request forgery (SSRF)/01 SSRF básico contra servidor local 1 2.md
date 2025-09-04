@@ -3,4 +3,4 @@ En esta clase abordamos un ataque SSRF básico aprovechando una funcionalidad de
 Esto nos permite interactuar con la interfaz de administración interna, identificar la URL para eliminar al usuario carlos, y ejecutar dicha acción a través de la misma funcionalidad vulnerable. Con esto conseguimos resolver el laboratorio accediendo a recursos internos sin privilegios directos.
 
 Solucion
-![Pasted image 20250804190640.png](imagenes/Pasted image 20250804190640.png)
+![Pasted_image_20250804190640.png](Imagenes/Pasted_image_20250804190640.png)

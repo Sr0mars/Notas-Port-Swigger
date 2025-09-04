@@ -2,10 +2,10 @@ En esta clase exploramos cómo rutas expuestas en ‘**robots.txt**‘ pueden re
 
 Solucion
 bueno nosotros ocupamos la ruta robots
-![Pasted image 20250827222513.png](imagenes/Pasted image 20250827222513.png)
+![Pasted_image_20250827222513.png](Imagenes/Pasted_image_20250827222513.png)
 y encontramos la ruta
-![Pasted image 20250827222643.png](imagenes/Pasted image 20250827222643.png)
+![Pasted_image_20250827222643.png](Imagenes/Pasted_image_20250827222643.png)
 picamos en el archivo
-![Pasted image 20250827222710.png](imagenes/Pasted image 20250827222710.png)
+![Pasted_image_20250827222710.png](Imagenes/Pasted_image_20250827222710.png)
 copiamos y pegamos la clave secreta
-![Pasted image 20250827222742.png](imagenes/Pasted image 20250827222742.png)
+![Pasted_image_20250827222742.png](Imagenes/Pasted_image_20250827222742.png)

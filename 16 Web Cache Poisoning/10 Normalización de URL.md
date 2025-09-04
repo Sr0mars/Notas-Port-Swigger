@@ -5,9 +5,9 @@ Cuando se realiza una petición con una carga maliciosa en la ruta, la respuesta
 Solucion
 Interceptamos el home en BS
 y en este caso se decofica el payload que tratamos de poner lo que hacemos es mandar el payload mientras esta cacheado accedemos a la url y le agregamos el script
-![Pasted image 20250821223225.png](imagenes/Pasted image 20250821223225.png)
+![Pasted_image_20250821223225.png](Imagenes/Pasted_image_20250821223225.png)
 le damos send 
 copiamos la url mas el payload
-![Pasted image 20250821223310.png](imagenes/Pasted image 20250821223310.png)
+![Pasted_image_20250821223310.png](Imagenes/Pasted_image_20250821223310.png)
 y le damos ok
-![Pasted image 20250821223338.png](imagenes/Pasted image 20250821223338.png)
+![Pasted_image_20250821223338.png](Imagenes/Pasted_image_20250821223338.png)

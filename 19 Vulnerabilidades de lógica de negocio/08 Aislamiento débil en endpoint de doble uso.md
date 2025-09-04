@@ -4,16 +4,16 @@ Esto ocurre porque el sistema no valida adecuadamente que la solicitud provenga 
 
 Solucion
 nos logeamos primero pero despues de que nos logeamos podemos ver que podemos cambiar nuestra contraseña por lo cual esto lo vamos a interceptar y lo vamos a mandar al repeater
-![Pasted image 20250828224837.png](imagenes/Pasted image 20250828224837.png)
+![Pasted_image_20250828224837.png](Imagenes/Pasted_image_20250828224837.png)
 por lo cual si nosotros ponemos otro usuario
-![Pasted image 20250828225112.png](imagenes/Pasted image 20250828225112.png)
+![Pasted_image_20250828225112.png](Imagenes/Pasted_image_20250828225112.png)
 pero que pasa si quitamos el current password
-![Pasted image 20250828225254.png](imagenes/Pasted image 20250828225254.png)
+![Pasted_image_20250828225254.png](Imagenes/Pasted_image_20250828225254.png)
 nos sale que es correcta la contraseña
 y que pasa si ahora cambiamos el usuario a administrator
-![Pasted image 20250828225433.png](imagenes/Pasted image 20250828225433.png)
+![Pasted_image_20250828225433.png](Imagenes/Pasted_image_20250828225433.png)
 lo probamos
-![Pasted image 20250828225523.png](imagenes/Pasted image 20250828225523.png)
-![Pasted image 20250828225603.png](imagenes/Pasted image 20250828225603.png)
+![Pasted_image_20250828225523.png](Imagenes/Pasted_image_20250828225523.png)
+![Pasted_image_20250828225603.png](Imagenes/Pasted_image_20250828225603.png)
 ya solo entramos al admin panel y eliminamos al usuario
-![Pasted image 20250828225631.png](imagenes/Pasted image 20250828225631.png)
+![Pasted_image_20250828225631.png](Imagenes/Pasted_image_20250828225631.png)

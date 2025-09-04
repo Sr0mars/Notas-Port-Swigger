@@ -8,23 +8,23 @@ Este ejemplo pone en evidencia cómo errores al verificar tipos de datos en obje
 
 Solucion
 de igual manera nos logeamos y lo interceptamos y lo mandamos al repeater
-![Pasted image 20250826205031.png](imagenes/Pasted image 20250826205031.png)
+![Pasted_image_20250826205031.png](Imagenes/Pasted_image_20250826205031.png)
 vamos a modificar la cookie en base64 quitando el usuario wiener y poniendo administrator y la cantidad de caracteres que tiene, de igual manera como no tenemos el access token del administrador vamos a quitarlo y poner un boleano que sea verdadero
 tal que quedaria asi aplicamos los cambios
-![Pasted image 20250826205309.png](imagenes/Pasted image 20250826205309.png)
+![Pasted_image_20250826205309.png](Imagenes/Pasted_image_20250826205309.png)
 le damos a send pero tenemos un error
-![Pasted image 20250826205514.png](imagenes/Pasted image 20250826205514.png)
+![Pasted_image_20250826205514.png](Imagenes/Pasted_image_20250826205514.png)
 al parecer fueron por (:)
 lo modificamos y le damos a send
-![Pasted image 20250826205559.png](imagenes/Pasted image 20250826205559.png)
+![Pasted_image_20250826205559.png](Imagenes/Pasted_image_20250826205559.png)
 follow redirect
-![Pasted image 20250826205623.png](imagenes/Pasted image 20250826205623.png)
+![Pasted_image_20250826205623.png](Imagenes/Pasted_image_20250826205623.png)
 pero vamos a regresarnos una anterior
-![Pasted image 20250826205718.png](imagenes/Pasted image 20250826205718.png)
+![Pasted_image_20250826205718.png](Imagenes/Pasted_image_20250826205718.png)
 vamos a quitarle wiener y le damos send tal que ahora si tenemos administrador
-![Pasted image 20250826205818.png](imagenes/Pasted image 20250826205818.png)
+![Pasted_image_20250826205818.png](Imagenes/Pasted_image_20250826205818.png)
 ahora nos vamos a admin y borramos al usuario
-![Pasted image 20250826205951.png](imagenes/Pasted image 20250826205951.png)
-![Pasted image 20250826210029.png](imagenes/Pasted image 20250826210029.png)
+![Pasted_image_20250826205951.png](Imagenes/Pasted_image_20250826205951.png)
+![Pasted_image_20250826210029.png](Imagenes/Pasted_image_20250826210029.png)
 
 

@@ -6,16 +6,16 @@ Para explotar el fallo, construimos una URL que apunta al sitio vulnerable inclu
 
 Solucion
 le damos una revision a la pagina y tambien al codigo fuente
-![Pasted image 20250727174045.png](imagenes/Pasted image 20250727174045.png)
+![Pasted_image_20250727174045.png](Imagenes/Pasted_image_20250727174045.png)
 Codigo fuente
-![Pasted image 20250727174156.png](imagenes/Pasted image 20250727174156.png)
+![Pasted_image_20250727174156.png](Imagenes/Pasted_image_20250727174156.png)
 En este caso no vemos nada el codigo esta limpio vamos a revisar en la pagina aver si encontramos algo
 en la seccion de post hasta abajo en la seccion de comentarios
-![Pasted image 20250727174450.png](imagenes/Pasted image 20250727174450.png)
+![Pasted_image_20250727174450.png](Imagenes/Pasted_image_20250727174450.png)
 encontramos esto
-![Pasted image 20250727174517.png](imagenes/Pasted image 20250727174517.png)
+![Pasted_image_20250727174517.png](Imagenes/Pasted_image_20250727174517.png)
 Este código busca una URL en la barra de direcciones, y si encuentra algo como `?url=https://ejemplo.com`, redirige al usuario allí al hacer clic. Si no encuentra nada, va a la raíz (`/`). **Puede ser inseguro si no se valida esa URL**, y debe manejarse con cuidado para evitar redirecciones abiertas.
 entonces es tan sencillo como poner (&url=) la pagina donde queremos que nos rediriga
-![Pasted image 20250727174903.png](imagenes/Pasted image 20250727174903.png)
+![Pasted_image_20250727174903.png](Imagenes/Pasted_image_20250727174903.png)
 y listo
-![Pasted image 20250727175000.png](imagenes/Pasted image 20250727175000.png)
+![Pasted_image_20250727175000.png](Imagenes/Pasted_image_20250727175000.png)

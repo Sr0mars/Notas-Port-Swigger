@@ -44,4 +44,4 @@ El objetivo de este payload es forzar al parser XML a:
 - **Inyectar su contenido como parte de una URL**, causando un error de carga en `file:///nonexistent/<contenido_de_passwd>`, lo cual puede provocar que el contenido del archivo aparezca en logs o mensajes de error, revelando información sensible.
 
 y este codigo lo injectamos y con esto leemos el archivo etc/passwd
-![Pasted image 20250802192652.png](imagenes/Pasted image 20250802192652.png)
+![Pasted_image_20250802192652.png](Imagenes/Pasted_image_20250802192652.png)

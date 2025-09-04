@@ -35,4 +35,4 @@ Este payload:
     
 - Es una técnica usada comúnmente en **pruebas de seguridad** (pentesting).
 
-![Pasted image 20250730195232.png](imagenes/Pasted image 20250730195232.png)
+![Pasted_image_20250730195232.png](Imagenes/Pasted_image_20250730195232.png)

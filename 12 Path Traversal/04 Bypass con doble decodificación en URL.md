@@ -5,4 +5,4 @@ Con esta técnica, logramos acceder al archivo ‘**/etc/passwd**‘, evidencian
 Solucion
 
 lo mismo de los otros laboratorios interceptamos la imagen
-![Pasted image 20250814222805.png](imagenes/Pasted image 20250814222805.png)
+![Pasted_image_20250814222805.png](Imagenes/Pasted_image_20250814222805.png)

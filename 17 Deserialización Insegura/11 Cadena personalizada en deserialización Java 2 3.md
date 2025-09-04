@@ -6,22 +6,22 @@ Esto nos permite realizar inyecciones tipo UNION para descubrir el número de co
 
 Solucion
 no lo copiamos
-![Pasted image 20250827004452.png](imagenes/Pasted image 20250827004452.png)
+![Pasted_image_20250827004452.png](Imagenes/Pasted_image_20250827004452.png)
 y ahora nos copiamos esto en una nuevo archivo (https://github.com/PortSwigger/serialization-examples/blob/master/java/solution/data/productcatalog/ProductTemplate.java) que sera el template
 y este que sera el product (https://github.com/PortSwigger/serialization-examples/blob/master/java/solution/data/productcatalog/Product.java)
-![Pasted image 20250827005134.png](imagenes/Pasted image 20250827005134.png)
+![Pasted_image_20250827005134.png](Imagenes/Pasted_image_20250827005134.png)
 asi que para que funcione nos cambiamos de version
 a la 17
-![Pasted image 20250827005708.png](imagenes/Pasted image 20250827005708.png)
+![Pasted_image_20250827005708.png](Imagenes/Pasted_image_20250827005708.png)
 entonces pasamos a ejecutarlo
-![Pasted image 20250827005930.png](imagenes/Pasted image 20250827005930.png)
+![Pasted_image_20250827005930.png](Imagenes/Pasted_image_20250827005930.png)
 si esto lo sustituimos
-![Pasted image 20250827005959.png](imagenes/Pasted image 20250827005959.png)
+![Pasted_image_20250827005959.png](Imagenes/Pasted_image_20250827005959.png)
 en base a este error ahora podemos probar consultas de sql
-![Pasted image 20250827010746.png](imagenes/Pasted image 20250827010746.png)
+![Pasted_image_20250827010746.png](Imagenes/Pasted_image_20250827010746.png)
 entonces sustituimos la coockie que nos da en el request
-![Pasted image 20250827011031.png](imagenes/Pasted image 20250827011031.png)
+![Pasted_image_20250827011031.png](Imagenes/Pasted_image_20250827011031.png)
 y obtenemos un error es posible que alla funcionado
-![Pasted image 20250827011011.png](imagenes/Pasted image 20250827011011.png)
+![Pasted_image_20250827011011.png](Imagenes/Pasted_image_20250827011011.png)
 probamos de esta manera
-![Pasted image 20250827011145.png](imagenes/Pasted image 20250827011145.png)
+![Pasted_image_20250827011145.png](Imagenes/Pasted_image_20250827011145.png)

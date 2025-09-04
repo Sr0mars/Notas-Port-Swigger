@@ -6,14 +6,14 @@ El backend deserializa el objeto malicioso y ejecuta el comando, eliminando el a
 
 Solucion
 asi que aqui installamos ruby con docker
-![Pasted image 20250826234557.png](imagenes/Pasted image 20250826234557.png)
+![Pasted_image_20250826234557.png](Imagenes/Pasted_image_20250826234557.png)
 ahora aqui creamos el mismo archivo y lo ejecutamos
 pero como lo queremos en base64 vamos a modificarlo (es encode)
-![Pasted image 20250826235142.png](imagenes/Pasted image 20250826235142.png)
+![Pasted_image_20250826235142.png](Imagenes/Pasted_image_20250826235142.png)
 tal que quedaria asi
-![Pasted image 20250826235248.png](imagenes/Pasted image 20250826235248.png)
+![Pasted_image_20250826235248.png](Imagenes/Pasted_image_20250826235248.png)
 por ultimo sacamos los saltos de linea
-![Pasted image 20250826235421.png](imagenes/Pasted image 20250826235421.png)
+![Pasted_image_20250826235421.png](Imagenes/Pasted_image_20250826235421.png)
 copiamos y pegamos la coockie en el navegador
-![Pasted image 20250826235516.png](imagenes/Pasted image 20250826235516.png)
-![Pasted image 20250826235544.png](imagenes/Pasted image 20250826235544.png)
+![Pasted_image_20250826235516.png](Imagenes/Pasted_image_20250826235516.png)
+![Pasted_image_20250826235544.png](Imagenes/Pasted_image_20250826235544.png)

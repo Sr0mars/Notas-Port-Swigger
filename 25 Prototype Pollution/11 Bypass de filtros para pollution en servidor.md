@@ -6,15 +6,15 @@ Esta clase muestra cómo protecciones mal implementadas pueden ser burladas con 
 
 Solucion
 de igual manera nos logeamos y e interceptamos
-![Pasted image 20250901003333.png](imagenes/Pasted image 20250901003333.png)
+![Pasted_image_20250901003333.png](Imagenes/Pasted_image_20250901003333.png)
 y podemos ver que tenemos que convernirnos en admin
-![Pasted image 20250901003405.png](imagenes/Pasted image 20250901003405.png)
+![Pasted_image_20250901003405.png](Imagenes/Pasted_image_20250901003405.png)
 podemos tratar de cambiar la propiedad admin pero no funciona
-![Pasted image 20250901003622.png](imagenes/Pasted image 20250901003622.png)
+![Pasted_image_20250901003622.png](Imagenes/Pasted_image_20250901003622.png)
 vamos a tratar otra variables para ver si de esta forma podemos
-![Pasted image 20250901003827.png](imagenes/Pasted image 20250901003827.png)
+![Pasted_image_20250901003827.png](Imagenes/Pasted_image_20250901003827.png)
 en este caso vamos a tratar con constructor
 ,"constructor":{"prototype":{"isAdmin":true}}
-![Pasted image 20250901004256.png](imagenes/Pasted image 20250901004256.png)
+![Pasted_image_20250901004256.png](Imagenes/Pasted_image_20250901004256.png)
 ahora nos vamos a la pagina recargamos y eliminamos al usuario carlos
-![Pasted image 20250901004338.png](imagenes/Pasted image 20250901004338.png)
+![Pasted_image_20250901004338.png](Imagenes/Pasted_image_20250901004338.png)

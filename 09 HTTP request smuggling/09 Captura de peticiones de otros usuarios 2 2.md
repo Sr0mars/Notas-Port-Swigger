@@ -6,7 +6,7 @@ Este ejercicio refuerza la gravedad de las vulnerabilidades de tipo request smug
 
 Solucion
 ahora ya una vez configurado todo el payload en vamos a cambiar el coment en el csrf hasta el ultimo de esta manera quedaria el payloda y en la seccion de comentarios deberias de ver algo asi
-![Pasted image 20250807221729.png](imagenes/Pasted image 20250807221729.png)
+![Pasted_image_20250807221729.png](Imagenes/Pasted_image_20250807221729.png)
 payload (POST / HTTP/1.1
 
 Host: 0a3e0063039f125e80211c3d00870036.web-security-academy.net
@@ -36,9 +36,9 @@ Content-Length: 950
 csrf=MQz6eTcTy7X1z7RI83NowKPgY689AC5l&postId=1&name=testing&email=omar%40omar.com&website=https%3A%2F%2Fcallate.com&comment=prueba)
 
 entonces copiamos la cookie de session
-![Pasted image 20250807221842.png](imagenes/Pasted image 20250807221842.png)
+![Pasted_image_20250807221842.png](Imagenes/Pasted_image_20250807221842.png)
 y modificamos la cookie de session en el login
-![Pasted image 20250807221953.png](imagenes/Pasted image 20250807221953.png)
+![Pasted_image_20250807221953.png](Imagenes/Pasted_image_20250807221953.png)
 R9UMrQYOdIskkgFNXMLfJOOIXa0w9S1w 
 esperamos y ya esta
-![Pasted image 20250807225421.png](imagenes/Pasted image 20250807225421.png)
+![Pasted_image_20250807225421.png](Imagenes/Pasted_image_20250807225421.png)

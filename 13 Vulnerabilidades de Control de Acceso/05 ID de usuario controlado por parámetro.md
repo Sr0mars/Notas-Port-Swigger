@@ -4,8 +4,8 @@ Esto nos permite visualizar su información y obtener su API key sin necesidad d
 
 Solucion
 Cuando nosotros nos logeamos vemos nuestra api key
-![Pasted image 20250815181315.png](imagenes/Pasted image 20250815181315.png)
+![Pasted_image_20250815181315.png](Imagenes/Pasted_image_20250815181315.png)
 si nosotros en la url modificamos a carlos
-![Pasted image 20250815181354.png](imagenes/Pasted image 20250815181354.png)
+![Pasted_image_20250815181354.png](Imagenes/Pasted_image_20250815181354.png)
 obtenemos la api key de carlos
-![Pasted image 20250815181430.png](imagenes/Pasted image 20250815181430.png)
+![Pasted_image_20250815181430.png](Imagenes/Pasted_image_20250815181430.png)

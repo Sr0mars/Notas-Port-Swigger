@@ -6,9 +6,9 @@ El resultado es la ejecución directa de la función print en el navegador de la
 
 Solucion
 De nuevo realizamos la busquedad en la pagina fuente para ver que hay
-![Pasted image 20250727171017.png](imagenes/Pasted image 20250727171017.png)
+![Pasted_image_20250727171017.png](Imagenes/Pasted_image_20250727171017.png)
 Codigo fuente
-![Pasted image 20250727171058.png](imagenes/Pasted image 20250727171058.png)
+![Pasted_image_20250727171058.png](Imagenes/Pasted_image_20250727171058.png)
 Este script:
 
 - Escucha mensajes `postMessage` en formato JSON.
@@ -28,7 +28,7 @@ Este script:
 - `"player-height-changed"`: ajusta el tamaño del iframe.
 
 Entonces el campo donde es vulnerable es el de load-channel
-![Pasted image 20250727173127.png](imagenes/Pasted image 20250727173127.png)
+![Pasted_image_20250727173127.png](Imagenes/Pasted_image_20250727173127.png)
 por lo cual esto ahora deberemos pasarlo al payload
 (<iframe src=https://0af80029030fc2d380427b23000e00e1.web-security-academy.net/ onload='this.contentWindow.postMessage("{\"type\":\"load-channel\",\"url\":\"javascript:print()\"}","*")'>)
 Este payload intenta **abusar de un script en el sitio víctima** que:

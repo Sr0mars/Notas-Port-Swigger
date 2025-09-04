@@ -3,7 +3,7 @@ Creamos manualmente un objeto **CustomTemplate** que contiene la cadena de gad
 Codificamos el objeto en Base64 y lo URL-encodeamos, luego lo inyectamos en la cookie de sesión. Al procesarse, se ejecuta el comando, lo que elimina el archivo ‘**morale.txt**‘ del directorio de Carlos y resuelve el laboratorio.
 
 Solucion
-![Pasted image 20250827015606.png](imagenes/Pasted image 20250827015606.png)
+![Pasted_image_20250827015606.png](Imagenes/Pasted_image_20250827015606.png)
 asi que modificamos el codigo
 (<?php
 
@@ -73,7 +73,7 @@ Ambos códigos comparten la misma estructura de clases (`CustomTemplate`, `Produ
 
 🧩 Comparación técnica entre los dos códigos
 
-![Pasted image 20250827021726.png](imagenes/Pasted image 20250827021726.png)
+![Pasted_image_20250827021726.png](Imagenes/Pasted_image_20250827021726.png)
 
 🔥 ¿Por qué el segundo código es peligroso?
 
@@ -104,8 +104,8 @@ call_user_func("exec", "rm /home/carlos/morale.txt");
 - El **primer código** es seguro y bien encapsulado. No permite manipulación externa de propiedades sensibles.
 - El **segundo código** es vulnerable a **deserialización insegura**, lo que puede permitir ejecución de comandos arbitrarios si el objeto es manipulado antes de serializar.
 ejecutamos
-![Pasted image 20250827021815.png](imagenes/Pasted image 20250827021815.png)
+![Pasted_image_20250827021815.png](Imagenes/Pasted_image_20250827021815.png)
 asi que esto hay que representarlo en base64
-![Pasted image 20250827022115.png](imagenes/Pasted image 20250827022115.png)
+![Pasted_image_20250827022115.png](Imagenes/Pasted_image_20250827022115.png)
 copiamos la cookie y pegamos
-![Pasted image 20250827022202.png](imagenes/Pasted image 20250827022202.png)
+![Pasted_image_20250827022202.png](Imagenes/Pasted_image_20250827022202.png)

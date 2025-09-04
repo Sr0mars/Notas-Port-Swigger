@@ -4,14 +4,14 @@ A pesar de carecer de firma, el servidor acepta el token y nos da acceso al pane
 
 Solucion
 vemos que no nos podemos ir a la seccion admin lo interceptamos
-![Pasted image 20250830230942.png](imagenes/Pasted image 20250830230942.png)
+![Pasted_image_20250830230942.png](Imagenes/Pasted_image_20250830230942.png)
 y bueno si miramos la cookie vemos que tenemos un alg y un digito en el digito lo podemos modificar como none
-![Pasted image 20250830231227.png](imagenes/Pasted image 20250830231227.png)
-![Pasted image 20250830231307.png](imagenes/Pasted image 20250830231307.png)
+![Pasted_image_20250830231227.png](Imagenes/Pasted_image_20250830231227.png)
+![Pasted_image_20250830231307.png](Imagenes/Pasted_image_20250830231307.png)
 en la siguiente parte vamos a cambiar wiener por administrator
-![Pasted image 20250830231354.png](imagenes/Pasted image 20250830231354.png)
+![Pasted_image_20250830231354.png](Imagenes/Pasted_image_20250830231354.png)
 y si ahora eliminamos toda la parte de la firma
-![Pasted image 20250830231435.png](imagenes/Pasted image 20250830231435.png)
-y nos copiamos todo ![Pasted image 20250830231525.png](imagenes/Pasted image 20250830231525.png)
+![Pasted_image_20250830231435.png](Imagenes/Pasted_image_20250830231435.png)
+y nos copiamos todo ![Pasted_image_20250830231525.png](Imagenes/Pasted_image_20250830231525.png)
 pegamos en la session nos lleva directamente al admin panel
-![Pasted image 20250830231703.png](imagenes/Pasted image 20250830231703.png)
+![Pasted_image_20250830231703.png](Imagenes/Pasted_image_20250830231703.png)

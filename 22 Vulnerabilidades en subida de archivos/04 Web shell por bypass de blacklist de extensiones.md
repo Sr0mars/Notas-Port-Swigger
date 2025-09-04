@@ -4,21 +4,21 @@ Subimos un **.htaccess** que redefine una extensión arbitraria, como ‘**.s4
 
 Solucion
 asi que nos logeamos subimos la shell pero nos sale esto
-![Pasted image 20250830203741.png](imagenes/Pasted image 20250830203741.png)
+![Pasted_image_20250830203741.png](Imagenes/Pasted_image_20250830203741.png)
 le damos click y nos vamos al historico y la peticion post la mandamos al repeater
-![Pasted image 20250830203840.png](imagenes/Pasted image 20250830203840.png)
+![Pasted_image_20250830203840.png](Imagenes/Pasted_image_20250830203840.png)
 y probando lo de los demas laboratorios vemos que no se podra pero lo que podemos hacer es subir un archivo .htaccess
-![Pasted image 20250830204105.png](imagenes/Pasted image 20250830204105.png)
+![Pasted_image_20250830204105.png](Imagenes/Pasted_image_20250830204105.png)
 y nosotros podemos agregar esto
 (AddType application/x-httpd-php .omar)
 tal que quedaria asi vemos en esta parte que si nos permite subir este tipo de archivos
-![Pasted image 20250830204429.png](imagenes/Pasted image 20250830204429.png)
+![Pasted_image_20250830204429.png](Imagenes/Pasted_image_20250830204429.png)
 ahora retrocedemos y lo probamos cambiandole la extencion a .omar
-![Pasted image 20250830204530.png](imagenes/Pasted image 20250830204530.png)
+![Pasted_image_20250830204530.png](Imagenes/Pasted_image_20250830204530.png)
 y lo a subido
 asi que nos vamos en la web y lo probamos para ver si se subio el archivo
-![Pasted image 20250830204713.png](imagenes/Pasted image 20250830204713.png)
+![Pasted_image_20250830204713.png](Imagenes/Pasted_image_20250830204713.png)
 y ya solo copiamos y pegamos
-![Pasted image 20250830204744.png](imagenes/Pasted image 20250830204744.png)
+![Pasted_image_20250830204744.png](Imagenes/Pasted_image_20250830204744.png)
 
 

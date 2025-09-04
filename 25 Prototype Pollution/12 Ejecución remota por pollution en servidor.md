@@ -6,14 +6,14 @@ Esta clase demuestra cómo una simple entrada JSON puede comprometer por complet
 
 Solucion
 vamos a interceptar esto vemos que ya somos admin
-![Pasted image 20250901004554.png](imagenes/Pasted image 20250901004554.png)
-![Pasted image 20250901004741.png](imagenes/Pasted image 20250901004741.png)
+![Pasted_image_20250901004554.png](Imagenes/Pasted_image_20250901004554.png)
+![Pasted_image_20250901004741.png](Imagenes/Pasted_image_20250901004741.png)
 si nos regresamos a la pagina y le damos click al admin panel nos sale esto y de igual forma vamos a interceptarlo
-![Pasted image 20250901004844.png](imagenes/Pasted image 20250901004844.png)
-![Pasted image 20250901004941.png](imagenes/Pasted image 20250901004941.png)
+![Pasted_image_20250901004844.png](Imagenes/Pasted_image_20250901004844.png)
+![Pasted_image_20250901004941.png](Imagenes/Pasted_image_20250901004941.png)
 vamos a tratar de ver si es vulnerable a prototipe el profile de esta manera (,"__proto__":{"json spaces":10})
 vemos que si
-![Pasted image 20250901005310.png](imagenes/Pasted image 20250901005310.png)
+![Pasted_image_20250901005310.png](Imagenes/Pasted_image_20250901005310.png)
 y podemos meter una nuevo argumento
 "__proto__": {"execArgv":["--eval=require('child_process').execSync('rm /home/carlos/morale.txt')"]}
 ¿Qué está intentando hacer?
@@ -22,7 +22,7 @@ y podemos meter una nuevo argumento
 • 	require('child_process').execSync(''): ejecuta un comando del sistema de forma síncrona.
 • 	rm /home/carlos/morale.txt: intenta borrar el archivo  en la ruta especificada
 
-![Pasted image 20250901010218.png](imagenes/Pasted image 20250901010218.png)
+![Pasted_image_20250901010218.png](Imagenes/Pasted_image_20250901010218.png)
 y su volvemos al admin panel y le damos al boton vemos que se a eliminando
-![Pasted image 20250901010322.png](imagenes/Pasted image 20250901010322.png)
+![Pasted_image_20250901010322.png](Imagenes/Pasted_image_20250901010322.png)
 

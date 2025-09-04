@@ -6,12 +6,12 @@ Gracias a esto, logramos redirigir la petición al endpoint de administración a
 
 Solucion
 Interceptamos con BS y vemos que esta apuntando a un servidor interno
-![Pasted image 20250804204207.png](imagenes/Pasted image 20250804204207.png)
+![Pasted_image_20250804204207.png](Imagenes/Pasted_image_20250804204207.png)
 
 aqui no sirve nada de lo que realizamos anterior mente por que nos obliga que mantega la url que estaba al principio
-![Pasted image 20250804204424.png](imagenes/Pasted image 20250804204424.png)
+![Pasted_image_20250804204424.png](Imagenes/Pasted_image_20250804204424.png)
 asi que lo podemos hacer es autenticarnos desde la url
-![Pasted image 20250804204751.png](imagenes/Pasted image 20250804204751.png)
+![Pasted_image_20250804204751.png](Imagenes/Pasted_image_20250804204751.png)
 asi que el payload quedaria asi (http://localhost:80%2523@stock.weliketoshop.net/admin/delete?username=carlos)
 
 Explicacion

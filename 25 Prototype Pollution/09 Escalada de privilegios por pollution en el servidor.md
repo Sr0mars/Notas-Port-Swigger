@@ -6,19 +6,19 @@ Esta clase demuestra cómo una simple entrada maliciosa en una petición JSON pu
 
 Solucion
 en esta ocacion nos piden que nos logemos vemos que tiene lo interceptamos justo en el boton y mandamos al repeater
-![Pasted image 20250901000540.png](imagenes/Pasted image 20250901000540.png)
+![Pasted_image_20250901000540.png](Imagenes/Pasted_image_20250901000540.png)
 vemos que en uno de los datos tenemos un false lo cual no me permite ser admin
-![Pasted image 20250901000758.png](imagenes/Pasted image 20250901000758.png)
+![Pasted_image_20250901000758.png](Imagenes/Pasted_image_20250901000758.png)
 y mismo aqui podemos crear un prototipo para que se incluya de esta manera
 "__proto__": {
     "foo":"bar"
 }
 Importante agregar la coma
-![Pasted image 20250901001539.png](imagenes/Pasted image 20250901001539.png)
+![Pasted_image_20250901001539.png](Imagenes/Pasted_image_20250901001539.png)
 de esta manera obtenemos una nueva propiedad
 entonces la idea es alterar el orden de las variables locales que contiene por lo cual admin lo convertimos a true de esta manera
 "__proto__":{"isAdmin":"true"}
-![Pasted image 20250901001724.png](imagenes/Pasted image 20250901001724.png)
+![Pasted_image_20250901001724.png](Imagenes/Pasted_image_20250901001724.png)
 y ya solo recargamos la pagina y eliminos al usuario carlos
-![Pasted image 20250901001840.png](imagenes/Pasted image 20250901001840.png)
+![Pasted_image_20250901001840.png](Imagenes/Pasted_image_20250901001840.png)
 

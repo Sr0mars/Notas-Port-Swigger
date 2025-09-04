@@ -26,4 +26,4 @@ X-Ignore: X)
 
 **==Nota: Tenemos que tener cuidado con los espacios==**
 una vez aplicado le damos send y incistimos hasta que nos de el error 404
-![Pasted image 20250806195655.png](imagenes/Pasted image 20250806195655.png)
+![Pasted_image_20250806195655.png](Imagenes/Pasted_image_20250806195655.png)

@@ -2,4 +2,4 @@ En esta clase realizamos un ataque HTTP request smuggling de tipo TE.CL, donde e
 
 Solucion
 Vamos a interceptar cambiamos al metodo y el http1
-![Pasted image 20250809233204.png](imagenes/Pasted image 20250809233204.png)
+![Pasted_image_20250809233204.png](Imagenes/Pasted_image_20250809233204.png)

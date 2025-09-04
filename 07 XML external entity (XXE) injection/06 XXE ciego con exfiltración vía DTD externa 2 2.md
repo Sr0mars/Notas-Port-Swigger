@@ -79,4 +79,4 @@ El otro payload (<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "YOUR-DTD-URL"> %xxe;]>)
         
     - Denegación de servicio, etc.
 
-![Pasted image 20250730200622.png](imagenes/Pasted image 20250730200622.png)
+![Pasted_image_20250730200622.png](Imagenes/Pasted_image_20250730200622.png)

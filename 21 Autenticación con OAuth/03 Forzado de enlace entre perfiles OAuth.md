@@ -10,21 +10,21 @@ Este escenario demuestra cómo un descuido en el manejo de tokens OAuth y la aus
 
 Solucion
 nos logeamos 
-![Pasted image 20250830002509.png](imagenes/Pasted image 20250830002509.png)
+![Pasted_image_20250830002509.png](Imagenes/Pasted_image_20250830002509.png)
 si le damos a attach nos redirige a la red social
-![Pasted image 20250830002617.png](imagenes/Pasted image 20250830002617.png)
+![Pasted_image_20250830002617.png](Imagenes/Pasted_image_20250830002617.png)
 algo que vemos en la peticiones del historico es una validacion de codigo
-![Pasted image 20250830002936.png](imagenes/Pasted image 20250830002936.png)
+![Pasted_image_20250830002936.png](Imagenes/Pasted_image_20250830002936.png)
 asi que vamos a interceptar el attach y vamos a ver donde se manda la solicitud
-![Pasted image 20250830003254.png](imagenes/Pasted image 20250830003254.png)
+![Pasted_image_20250830003254.png](Imagenes/Pasted_image_20250830003254.png)
 vamos a darle forward hasta que ve amos la solicitud
 y a este
-![Pasted image 20250830003358.png](imagenes/Pasted image 20250830003358.png)
+![Pasted_image_20250830003358.png](Imagenes/Pasted_image_20250830003358.png)
 vamos a darle click derecho copiamos la url y vamos a dropearla
 y esa url la vamos a copiar en nuestro exploit server por medio de iframe (<"iframe src="https://0aaf00e1030da514806462870027000c.web-security-academy.net/oauth-linking?code=Heux4Jx3j3kiFMqeaUvJF7cC-Ij8j7AOvpdrZivI6Wl"></iframe">)
-![Pasted image 20250830003657.png](imagenes/Pasted image 20250830003657.png)
+![Pasted_image_20250830003657.png](Imagenes/Pasted_image_20250830003657.png)
 tal que le damos deliver exploit y nos vamos al home desde otra ventana
 y nos deslogeamos y si nos authenticamos desde el boton de social media
-![Pasted image 20250830003829.png](imagenes/Pasted image 20250830003829.png)
+![Pasted_image_20250830003829.png](Imagenes/Pasted_image_20250830003829.png)
 y nos sale el admin panel
-![Pasted image 20250830005034.png](imagenes/Pasted image 20250830005034.png)
+![Pasted_image_20250830005034.png](Imagenes/Pasted_image_20250830005034.png)

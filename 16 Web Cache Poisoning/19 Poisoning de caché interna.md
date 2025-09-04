@@ -10,18 +10,18 @@ Esta técnica demuestra cómo una configuración aparentemente segura puede ser 
 
 Solucion
 bueno interceptamos la raiz y podemos ver que en script vemos 2 localizaciones
-![Pasted image 20250822205503.png](imagenes/Pasted image 20250822205503.png)
+![Pasted_image_20250822205503.png](Imagenes/Pasted_image_20250822205503.png)
 esta es la de analitics
-![Pasted image 20250822205534.png](imagenes/Pasted image 20250822205534.png)
+![Pasted_image_20250822205534.png](Imagenes/Pasted_image_20250822205534.png)
 esta es la de geolocate
-![Pasted image 20250822205606.png](imagenes/Pasted image 20250822205606.png)
+![Pasted_image_20250822205606.png](Imagenes/Pasted_image_20250822205606.png)
 entonces podemos utilizar la cabecera X-Forwarded-Host:
 y como nos comparte el exploit server podemos probar con uno de los src
 en este caso empleamos el de js/geolocate.js
-![Pasted image 20250822211126.png](imagenes/Pasted image 20250822211126.png)
+![Pasted_image_20250822211126.png](Imagenes/Pasted_image_20250822211126.png)
 y bueno la siguiente parte es spamear hasta que en los 2 salga exploit server 
 esto seria el antes
-![Pasted image 20250822211053.png](imagenes/Pasted image 20250822211053.png)
+![Pasted_image_20250822211053.png](Imagenes/Pasted_image_20250822211053.png)
 y esto tendria que salir despues de spamear bastante
-![Pasted image 20250822210941.png](imagenes/Pasted image 20250822210941.png)y ya solo recargamos la pagina
-![Pasted image 20250822211225.png](imagenes/Pasted image 20250822211225.png)
+![Pasted_image_20250822210941.png](Imagenes/Pasted_image_20250822210941.png)y ya solo recargamos la pagina
+![Pasted_image_20250822211225.png](Imagenes/Pasted_image_20250822211225.png)

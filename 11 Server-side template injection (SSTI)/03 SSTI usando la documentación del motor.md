@@ -4,13 +4,13 @@ Usamos este mecanismo para borrar un archivo dentro del servidor, demostrando c√
 
 Solucion
 entonces en esta parte nos pide que hagamos login una ves dentro miramos algun post y vemos que en la parte de abajo nos sale un tipo de codigo que tal parece ser que algo se esta cargando
-![Pasted image 20250814195445.png](imagenes/Pasted image 20250814195445.png)
+![Pasted_image_20250814195445.png](Imagenes/Pasted_image_20250814195445.png)
 asi que vamos a forzar un error para ver a que nos estamos enfrentando
-![Pasted image 20250814195647.png](imagenes/Pasted image 20250814195647.png)
+![Pasted_image_20250814195647.png](Imagenes/Pasted_image_20250814195647.png)
 asi que vamos a investigar
-![Pasted image 20250814195822.png](imagenes/Pasted image 20250814195822.png)
+![Pasted_image_20250814195822.png](Imagenes/Pasted_image_20250814195822.png)
 aplicamos la de 3*3
-![Pasted image 20250814195911.png](imagenes/Pasted image 20250814195911.png)
+![Pasted_image_20250814195911.png](Imagenes/Pasted_image_20250814195911.png)
 entonces ahora podemos aplicar codigo de ejecucion
-![Pasted image 20250814200139.png](imagenes/Pasted image 20250814200139.png)
-![Pasted image 20250814200224.png](imagenes/Pasted image 20250814200224.png)
+![Pasted_image_20250814200139.png](Imagenes/Pasted_image_20250814200139.png)
+![Pasted_image_20250814200224.png](Imagenes/Pasted_image_20250814200224.png)

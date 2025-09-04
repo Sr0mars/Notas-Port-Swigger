@@ -7,20 +7,20 @@ Esta clase ilustra el impacto real de este tipo de vulnerabilidad, al permitir u
 Solucion
 entonces vamos a emplear un ataque
 lo primero es cambia el correo y lo interceptamos
-![Pasted image 20250901202722.png](imagenes/Pasted image 20250901202722.png)
+![Pasted_image_20250901202722.png](Imagenes/Pasted_image_20250901202722.png)
 lo vamos a mandar al repeater pero esa misma solicitud la vamos a dropear
 estando en el repeater vamos a volverlo a mandar al repeater pero en la segunda tab vamos a poner el correo de carlos
 carlos@ginandjuice.shop
-![Pasted image 20250901203138.png](imagenes/Pasted image 20250901203138.png)
+![Pasted_image_20250901203138.png](Imagenes/Pasted_image_20250901203138.png)
 y vamos a crear un grupo de tal manera que lo vamos a mandar de forma paralela
-![Pasted image 20250901203233.png](imagenes/Pasted image 20250901203233.png)
+![Pasted_image_20250901203233.png](Imagenes/Pasted_image_20250901203233.png)
 y esto es aprueba error mandamos la solicitud y vemos en el correo si existe algun carlos
-![Pasted image 20250901203416.png](imagenes/Pasted image 20250901203416.png)
+![Pasted_image_20250901203416.png](Imagenes/Pasted_image_20250901203416.png)
 le damos aceptar
 asi se veria
-![Pasted image 20250901203610.png](imagenes/Pasted image 20250901203610.png)
+![Pasted_image_20250901203610.png](Imagenes/Pasted_image_20250901203610.png)
 ahora si recargamos el login vemos que somos carlos ya seria cuestion de eliminar el usuario
-![Pasted image 20250901203643.png](imagenes/Pasted image 20250901203643.png)
+![Pasted_image_20250901203643.png](Imagenes/Pasted_image_20250901203643.png)
 y logramos avanzar
-![Pasted image 20250901203703.png](imagenes/Pasted image 20250901203703.png)
+![Pasted_image_20250901203703.png](Imagenes/Pasted_image_20250901203703.png)
 

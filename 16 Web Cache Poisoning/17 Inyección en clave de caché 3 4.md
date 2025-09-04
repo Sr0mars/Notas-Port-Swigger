@@ -4,7 +4,7 @@ Este tipo de ataque permite alterar el cuerpo de la respuesta y convertir el arc
 
 Solucion
 tal que el x-cache key lo necesitamos poner pero en la parte del login donde va la ruta asi que hay que URL-codearlo por que si no da problema
- ![Pasted image 20250822202413.png](imagenes/Pasted image 20250822202413.png)
+ ![Pasted_image_20250822202413.png](Imagenes/Pasted_image_20250822202413.png)
  y cuando le damos send podemos ver en el login en el codigo fuente de la pagina que ya se nos aplica el src
- ![Pasted image 20250822202605.png](imagenes/Pasted image 20250822202605.png)
+ ![Pasted_image_20250822202605.png](Imagenes/Pasted_image_20250822202605.png)
  

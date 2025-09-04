@@ -10,4 +10,4 @@ Solucion
 
 nos aprovechamos de esto en la url con la mala programacion del boton que nos va a dirigir por medio del path 
 javascript:alert(document.cookie)
-![Pasted image 20250705161833.png](imagenes/Pasted image 20250705161833.png)
+![Pasted_image_20250705161833.png](Imagenes/Pasted_image_20250705161833.png)

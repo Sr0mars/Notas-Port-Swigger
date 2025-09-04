@@ -7,8 +7,8 @@ La clase remarca cómo estos ataques funcionan especialmente bien en entornos do
 En resumen, se enseña cómo un atacante puede inyectar HTML válido, manipular propiedades internas del DOM mediante colisiones de identificadores y forzar eventos que desencadenen ejecución de código, todo ello sin necesidad de bypasses tradicionales como etiquetas rotas o JavaScript codificado, lo que convierte esta técnica en una de las más limpias y difíciles de detectar en entornos reales.
 
 Solucion
-![Pasted image 20250727215807.png](imagenes/Pasted image 20250727215807.png)
+![Pasted_image_20250727215807.png](Imagenes/Pasted_image_20250727215807.png)
 explicacion de los payloads
-![Pasted image 20250727220417.png](imagenes/Pasted image 20250727220417.png)
+![Pasted_image_20250727220417.png](Imagenes/Pasted_image_20250727220417.png)
 1.- <iframe src=https://0a7100f003063792804403d9004800eb.web-security-academy.net/post?postId=9 onload="setTimeout(()=>this.src=this.src+'#x',500)">
 2.- <form id=x tabindex=0 onfocus=print()><input id=attributes>

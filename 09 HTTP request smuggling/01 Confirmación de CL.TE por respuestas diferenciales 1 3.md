@@ -6,6 +6,6 @@ Esta técnica se basa en una diferencia en la interpretación de los encabezados
 
 Solucion
 Que es
-![Pasted image 20250805204357.png](imagenes/Pasted image 20250805204357.png)
-![Pasted image 20250805204445.png](imagenes/Pasted image 20250805204445.png)
-![Pasted image 20250805204616.png](imagenes/Pasted image 20250805204616.png)
+![Pasted_image_20250805204357.png](Imagenes/Pasted_image_20250805204357.png)
+![Pasted_image_20250805204445.png](Imagenes/Pasted_image_20250805204445.png)
+![Pasted_image_20250805204616.png](Imagenes/Pasted_image_20250805204616.png)

@@ -8,11 +8,11 @@ Este tipo de XSS es especialmente común en aplicaciones ricas en JavaScript y d
 
 Solucion 
 si nosotros ponemos la injeccion normal no va pasar nada
-![Pasted image 20250704162247.png](imagenes/Pasted image 20250704162247.png)
+![Pasted_image_20250704162247.png](Imagenes/Pasted_image_20250704162247.png)
 en cambio si le damos inspeccionar podemos verificar que en el codigo fuente claramente podemos cerrar la comilla que falta para que me le interprete como comentario y lo demas sea la injeccion 
-![Pasted image 20250704162542.png](imagenes/Pasted image 20250704162542.png)
-![Pasted image 20250704162656.png](imagenes/Pasted image 20250704162656.png)
-![Pasted image 20250704162717.png](imagenes/Pasted image 20250704162717.png)
+![Pasted_image_20250704162542.png](Imagenes/Pasted_image_20250704162542.png)
+![Pasted_image_20250704162656.png](Imagenes/Pasted_image_20250704162656.png)
+![Pasted_image_20250704162717.png](Imagenes/Pasted_image_20250704162717.png)
 Entonces ya emos descubierto la vulnerabilidad por lo que podemos aplicar hacer pruebas
 "><script>alert(0);</script>
-![Pasted image 20250704163111.png](imagenes/Pasted image 20250704163111.png)
+![Pasted_image_20250704163111.png](Imagenes/Pasted_image_20250704163111.png)

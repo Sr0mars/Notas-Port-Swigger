@@ -4,9 +4,9 @@ Mediante iteraciones en la URL de la entidad externa, accedemos progresivamente 
 
 Solucion
 Que es EC2
-![Pasted image 20250730192315.png](imagenes/Pasted image 20250730192315.png)
+![Pasted_image_20250730192315.png](Imagenes/Pasted_image_20250730192315.png)
 para ello vamos a interceptar en el mismo lado y vamos  a vulnerar la pagina pero esta vez poniendo la ip que nos estan asignando
-![Pasted image 20250730193449.png](imagenes/Pasted image 20250730193449.png)
+![Pasted_image_20250730193449.png](Imagenes/Pasted_image_20250730193449.png)
 Entonces que pasa en este punto que nos esta enumerando carpetas o archivos que contiene la web asi que vamos a probar hasta encontrar el archivo que nos piden
-![Pasted image 20250730193644.png](imagenes/Pasted image 20250730193644.png)
+![Pasted_image_20250730193644.png](Imagenes/Pasted_image_20250730193644.png)
 de esta manera nos aseguramos que encontramos el archivo

@@ -6,7 +6,7 @@ La clave está en enviar la petición en el momento justo en que el administrado
 
 Solucion
 asi que vamos hacer la configuracion de la intercepcion de la pagina principal y vamos a meter un paylaod para que nos muestre el error 404 y asi saber si es vulnerable a smuggling
-![Pasted image 20250809212331.png](imagenes/Pasted image 20250809212331.png)
+![Pasted_image_20250809212331.png](Imagenes/Pasted_image_20250809212331.png)
 payload (POST / HTTP/2
 
 Host: 0acf009104a4a3a580be0371005c0095.web-security-academy.net
@@ -28,16 +28,16 @@ Content-Length: 5
 x=1)
 entonces en este caso a un request smugling
 entonces que sigue por que en este caso nosotros no podemos copiar asi la cookie entonces lo que hacemos es investigar un poco y si miramos en el BS en el http history vemos que se esta haciendo alucion a /resources cada poco tiempo
-![Pasted image 20250809212628.png](imagenes/Pasted image 20250809212628.png)
+![Pasted_image_20250809212628.png](Imagenes/Pasted_image_20250809212628.png)
 de modo que nostros no podemos hacer la peticion por medio de esta vulnerabilidad lo que podemos hacer es redireccionar nuestro payload hacia resources para ver si nos arroja el mismo error
-![Pasted image 20250809213017.png](imagenes/Pasted image 20250809213017.png)
+![Pasted_image_20250809213017.png](Imagenes/Pasted_image_20250809213017.png)
 y en este caso nos arroja el 302 (entonces lo que podemos hacer es redirigir a nuestro exploit server)
 pasamos a configurarlo
-![Pasted image 20250809213648.png](imagenes/Pasted image 20250809213648.png)
+![Pasted_image_20250809213648.png](Imagenes/Pasted_image_20250809213648.png)
 entonces cambiamos el host hacia nuestro exploit server y le damos send
-![Pasted image 20250809213730.png](imagenes/Pasted image 20250809213730.png)
+![Pasted_image_20250809213730.png](Imagenes/Pasted_image_20250809213730.png)
 ahora si le damos follow redirection
-![Pasted image 20250809214244.png](imagenes/Pasted image 20250809214244.png)
+![Pasted_image_20250809214244.png](Imagenes/Pasted_image_20250809214244.png)
 payload (POST / HTTP/2
 
 Host: 0acf009104a4a3a580be0371005c0095.web-security-academy.net
@@ -58,4 +58,4 @@ Content-Length: 5
 
 x=1)
 entonces es solo cuestion de esperar para poder tener respuesta de la cookie
-![Pasted image 20250809214528.png](imagenes/Pasted image 20250809214528.png)
+![Pasted_image_20250809214528.png](Imagenes/Pasted_image_20250809214528.png)

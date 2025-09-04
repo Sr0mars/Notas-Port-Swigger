@@ -8,11 +8,11 @@ Este laboratorio demuestra cómo un XSS puede romper las defensas de tipo CSRF y
 
 Solucion
 Lo primero seria interceptar el cambio de correr por medio de BS esto cosiderando que tenemos un correo y queremos cambiarlo
-![Pasted image 20250717173453.png](imagenes/Pasted image 20250717173453.png)
+![Pasted_image_20250717173453.png](Imagenes/Pasted_image_20250717173453.png)
 dentro del BS lo mandamos al repeater y es una peticion post por lo cual vamos a URLuncodear y en la peticcion podemos ver el csrf que unico para cada cuenta
-![Pasted image 20250717173807.png](imagenes/Pasted image 20250717173807.png)
+![Pasted_image_20250717173807.png](Imagenes/Pasted_image_20250717173807.png)
 
 esto es algo que podemos ver en el codigo fuente
-![Pasted image 20250717174233.png](imagenes/Pasted image 20250717174233.png)
+![Pasted_image_20250717174233.png](Imagenes/Pasted_image_20250717174233.png)
 ahora lo que podemos hacer es un script el cual me retorne esta csrf con la ayuda de BS collaborator
 

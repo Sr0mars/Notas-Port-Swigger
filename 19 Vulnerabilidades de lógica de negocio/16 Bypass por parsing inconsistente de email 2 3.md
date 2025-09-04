@@ -5,14 +5,14 @@ Como resultado, recibimos el correo de activación, validamos la cuenta y obtene
 Solucion
 entonces en este punto tenemos que probar varios RCEs para ver cual es el que acepta el servidor
 primera prueba
-![Pasted image 20250829021752.png](imagenes/Pasted image 20250829021752.png)
+![Pasted_image_20250829021752.png](Imagenes/Pasted_image_20250829021752.png)
 nope
-![Pasted image 20250829021809.png](imagenes/Pasted image 20250829021809.png)
+![Pasted_image_20250829021809.png](Imagenes/Pasted_image_20250829021809.png)
 segunda prueba
-![Pasted image 20250829021910.png](imagenes/Pasted image 20250829021910.png)
+![Pasted_image_20250829021910.png](Imagenes/Pasted_image_20250829021910.png)
 nope
-![Pasted image 20250829021926.png](imagenes/Pasted image 20250829021926.png)
+![Pasted_image_20250829021926.png](Imagenes/Pasted_image_20250829021926.png)
 tercera prueba
-![Pasted image 20250829022004.png](imagenes/Pasted image 20250829022004.png)
+![Pasted_image_20250829022004.png](Imagenes/Pasted_image_20250829022004.png)
 en este si nos dejo :D
-![Pasted image 20250829022026.png](imagenes/Pasted image 20250829022026.png)
+![Pasted_image_20250829022026.png](Imagenes/Pasted_image_20250829022026.png)

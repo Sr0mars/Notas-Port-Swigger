@@ -9,15 +9,15 @@ Este laboratorio muestra cómo cabeceras múltiples, mal gestionadas, pueden com
 Solucion
 de igual manera interceptamos en la pagina princiapal y mandamos al repeter
 en este caso vamos a implementar esta cabecera (X-Forwarded-Scheme)
-![Pasted image 20250821204405.png](imagenes/Pasted image 20250821204405.png)
+![Pasted_image_20250821204405.png](Imagenes/Pasted_image_20250821204405.png)
 y tambien esta cabecera (X-Forwarded-host)
-![Pasted image 20250821204507.png](imagenes/Pasted image 20250821204507.png)
+![Pasted_image_20250821204507.png](Imagenes/Pasted_image_20250821204507.png)
 pero si nosotros nos fijamos en la historico vemos que exite un redirect
-![Pasted image 20250821204814.png](imagenes/Pasted image 20250821204814.png)
+![Pasted_image_20250821204814.png](Imagenes/Pasted_image_20250821204814.png)
 el cual esto lo podemos usar para nuestro exploit server asi que esto lo mandamos al repeater
 entonces este nuevo repeater lo configuramos
-![Pasted image 20250821205904.png](imagenes/Pasted image 20250821205904.png)
+![Pasted_image_20250821205904.png](Imagenes/Pasted_image_20250821205904.png)
 configuramos nuestro exploit
-![Pasted image 20250821205931.png](imagenes/Pasted image 20250821205931.png)
+![Pasted_image_20250821205931.png](Imagenes/Pasted_image_20250821205931.png)
 y ya solo le damos send y recargamos la pagina
-![Pasted image 20250821210038.png](imagenes/Pasted image 20250821210038.png)
+![Pasted_image_20250821210038.png](Imagenes/Pasted_image_20250821210038.png)

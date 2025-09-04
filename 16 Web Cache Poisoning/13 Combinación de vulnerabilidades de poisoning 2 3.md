@@ -4,12 +4,12 @@ El objetivo de esta clase es explotar esta normalización para almacenar en la c
 
 Solucion
 asi que para empezar a vulnerar podemos probar las cabeceras que anteriormente hemos utilizado
-![Pasted image 20250822185618.png](imagenes/Pasted image 20250822185618.png)
+![Pasted_image_20250822185618.png](Imagenes/Pasted_image_20250822185618.png)
 por lo cual sabemos que si funciona podemos poner la url de nuestro exploit server por lo cual pasamos a modificar haciendo referencia al url json que se va emplear
 y en el exploit hacer el formato de igual forma json para que tengamos problema recordar poner el CORS(Access-Control-Allow-Origin: *)
-![Pasted image 20250822190045.png](imagenes/Pasted image 20250822190045.png)
+![Pasted_image_20250822190045.png](Imagenes/Pasted_image_20250822190045.png)
 de tal manera que tenemos que configurar ahora el BS hacien referencia hacia localized que es donde hace el redirect
-![Pasted image 20250822190512.png](imagenes/Pasted image 20250822190512.png)
+![Pasted_image_20250822190512.png](Imagenes/Pasted_image_20250822190512.png)
 asi que con esto recargamos la pagina le damos en spanish y vemos el mensaje
-![Pasted image 20250822190711.png](imagenes/Pasted image 20250822190711.png)
+![Pasted_image_20250822190711.png](Imagenes/Pasted_image_20250822190711.png)
 pero ahora nosotros necesitamos redirigir al usuario al localized =1 cuando el este en el home para esto vamos a utilizar otra cabecera (X-Original-URL: /setlang\es) que justamente hace que se cache el localized

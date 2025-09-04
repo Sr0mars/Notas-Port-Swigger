@@ -4,9 +4,9 @@ Luego accedemos a ese archivo a través del sistema de carga de imágenes, logra
 
 Solucion
 Al igual que el anterior laboratorio el campo vulnerable vuelve a hacer email
-![Pasted image 20250813232245.png](imagenes/Pasted image 20250813232245.png)
+![Pasted_image_20250813232245.png](Imagenes/Pasted_image_20250813232245.png)
 injectamos el comando y ahora quedaria ir a buscar el archivo le picamos en caulquier imagen par aver la ruta
-![Pasted image 20250813232332.png](imagenes/Pasted image 20250813232332.png)
+![Pasted_image_20250813232332.png](Imagenes/Pasted_image_20250813232332.png)
 y solamente ponemos la direccion
-![Pasted image 20250813232506.png](imagenes/Pasted image 20250813232506.png)
+![Pasted_image_20250813232506.png](Imagenes/Pasted_image_20250813232506.png)
 
